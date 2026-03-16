@@ -1,0 +1,566 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) Professional' Language: 'ru' Physical Memory: 32680 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-maksg" at "2026-03-16T21:54:15.4175481Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-03-16T21:54:15Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Unity_projects/GolfWHill
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49165
+-licensingIpc
+LicenseClient-maksg
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity_projects/GolfWHill
+D:/Unity_projects/GolfWHill
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [19344]  Target information:
+
+Player connection [19344]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 258506924 [EditorId] 258506924 [Version] 1048832 [Id] WindowsEditor(7,DesktopSopirm) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19344]  * "[IP] 26.54.104.98 [Port] 0 [Flags] 2 [Guid] 258506924 [EditorId] 258506924 [Version] 1048832 [Id] WindowsEditor(7,DesktopSopirm) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19344]  * "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 258506924 [EditorId] 258506924 [Version] 1048832 [Id] WindowsEditor(7,DesktopSopirm) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19344]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 258506924 [EditorId] 258506924 [Version] 1048832 [Id] WindowsEditor(7,DesktopSopirm) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19344] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_projects/GolfWHill/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 9060 XT (ID=0x7590)
+    Vendor:   ATI
+    VRAM:     16253 MB
+    Driver:   32.0.23017.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003137 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              31e6fc73eccf4cf684914a17b6f4b764
+  Correlation Id:          4c272a513a7c6910d307a6519447c6c4
+  External correlation Id: 3089583093347864004
+  Machine Id:              YO/17/ye+/F5EPWlvlK1nSWkLrw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-maksg" (connect: 0.00s, validation: 0.00s, handshake: 0.83s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-maksg-notifications" at "2026-03-16T21:54:16.2489777Z"
+[Licensing::Module] Licensing Background thread has ended after 0.83s
+- Loaded All Assemblies, in  0.455 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.395 seconds
+Domain Reload Profiling: 847ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (172ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (396ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10170591166266-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.674 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1304ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (50ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6182 unused Assets / (5.0 MB). Loaded Objects now: 6980.
+Memory consumption went from 147.9 MB to 142.9 MB.
+Total: 7.837800 ms (FindLiveObjects: 0.574900 ms CreateObjectMapping: 0.365600 ms MarkObjects: 4.715800 ms  DeleteObjects: 2.180800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 129745.690243 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Flow
+  artifactKey: Guid(a03205d0d99c25548a19064c990bb9d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Flow using Guid(a03205d0d99c25548a19064c990bb9d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd631ac5db8811a8911823314489d6ad') in 0.0472331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.002 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.630 seconds
+Domain Reload Profiling: 1633ms
+	BeginReloadAssembly (526ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (88ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (491ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6311 unused Assets / (9.9 MB). Loaded Objects now: 7092.
+Memory consumption went from 165.2 MB to 155.3 MB.
+Total: 10.757600 ms (FindLiveObjects: 0.626600 ms CreateObjectMapping: 0.764600 ms MarkObjects: 5.606400 ms  DeleteObjects: 3.759200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1178ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6311 unused Assets / (10.4 MB). Loaded Objects now: 7095.
+Memory consumption went from 165.1 MB to 154.7 MB.
+Total: 11.573500 ms (FindLiveObjects: 0.728600 ms CreateObjectMapping: 0.905400 ms MarkObjects: 5.423800 ms  DeleteObjects: 4.514800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1386.599746 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Football_N.png
+  artifactKey: Guid(27a8de7a24947f24db4106dfeb76fffc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Football_N.png using Guid(27a8de7a24947f24db4106dfeb76fffc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f944b081e1a6d21b4e32530b3b4d9479') in 0.1248039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(743bc10f958c6b34ca8e7d2cc98f313a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/Lightmap-0_comp_light.exr using Guid(743bc10f958c6b34ca8e7d2cc98f313a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '005ffe5e6815e5a87483f0cb8a5d2c74') in 0.0132769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball_MAOS.png
+  artifactKey: Guid(35a580d1bbef7f4479236d2f12bdbb1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball_MAOS.png using Guid(35a580d1bbef7f4479236d2f12bdbb1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a11041068047417b4fb8eb6f3ebc9050') in 0.0152513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Soccer_A.png
+  artifactKey: Guid(35ad1334086b77b46b08f1fc65916a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Soccer_A.png using Guid(35ad1334086b77b46b08f1fc65916a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11826865e437e4cd58d131890dc39b14') in 0.0140299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Baseball.fbx
+  artifactKey: Guid(58221b671a0c3af4c86677e9fb49b604) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Baseball.fbx using Guid(58221b671a0c3af4c86677e9fb49b604) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1459e9d46e45927bf830ca43ca811463') in 0.0562191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Tennis_MAOS.png
+  artifactKey: Guid(581f7d48a8e647b4780aff055a9b9be7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Tennis_MAOS.png using Guid(581f7d48a8e647b4780aff055a9b9be7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd692d97007ba94bac0aea37a86c1724b') in 0.0159768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saritasa/Scenes/Demo/Post Processing.asset
+  artifactKey: Guid(84351e6e543861244a1aaa801f19dc70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/Post Processing.asset using Guid(84351e6e543861244a1aaa801f19dc70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4356855cb9b93ca2dee9e13b6016d360') in 0.0182152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Soccer.fbx
+  artifactKey: Guid(c19c4d581da21544d8650aa084ac1bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Soccer.fbx using Guid(c19c4d581da21544d8650aa084ac1bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e495a63cbc2c9f42f40494ce38dbacb4') in 0.0133331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Baseball_N.png
+  artifactKey: Guid(b19b8778d6262ff458d41fe984e87910) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Baseball_N.png using Guid(b19b8778d6262ff458d41fe984e87910) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a372dd91bdaa74f658d098b83a7be4e') in 0.0162127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Football.prefab
+  artifactKey: Guid(a8b1655a90145094bbbfdb3ddd350367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Football.prefab using Guid(a8b1655a90145094bbbfdb3ddd350367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36a09a427f4918649105c943e369997a') in 0.0152123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball_A.png
+  artifactKey: Guid(d7526ee04e7dc644aa2c1f3582028c70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball_A.png using Guid(d7526ee04e7dc644aa2c1f3582028c70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db79081031251f513679f55005865d79') in 0.0121137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Saritasa/Scenes
+  artifactKey: Guid(7f2f95da904b3be4e984e5f6005eb092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes using Guid(7f2f95da904b3be4e984e5f6005eb092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16236e44aa116c723e9fef643d76b8de') in 0.0091795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saritasa/Scenes/Demo.unity
+  artifactKey: Guid(f04dfe68c0fafac43bfa298d4ee62e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo.unity using Guid(f04dfe68c0fafac43bfa298d4ee62e5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ab5fc487a4586a91b638c70fbae4beb') in 0.0090646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Football.mat
+  artifactKey: Guid(7be776598c3314c4d9339f5e1519e32a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Football.mat using Guid(7be776598c3314c4d9339f5e1519e32a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '744657293ab881be503d7fb3527632fa') in 0.0567324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Golf_MAOS.png
+  artifactKey: Guid(9be71b96d417f5a409a354c52021b06a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Golf_MAOS.png using Guid(9be71b96d417f5a409a354c52021b06a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cc7e06f6a37d97b40cc9f0b972581cc') in 0.0142171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Football.fbx
+  artifactKey: Guid(db2f4a5c0acbc43459e37d37a776413f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Football.fbx using Guid(db2f4a5c0acbc43459e37d37a776413f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4e832aae9bfe88f1520bf3af4ed1bef') in 0.0128877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Baseball.prefab
+  artifactKey: Guid(9b087ad3ee72dbd408584ba96bc2cc57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Baseball.prefab using Guid(9b087ad3ee72dbd408584ba96bc2cc57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e39374dfc91dab53c9967ac63e550dda') in 0.0132915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Baseball_A.png
+  artifactKey: Guid(92dadcf1eb5d7a34588be6cbbe56195f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Baseball_A.png using Guid(92dadcf1eb5d7a34588be6cbbe56195f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52870b07a63e8b9abb7b91a5985d5806') in 0.0139078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball_N.png
+  artifactKey: Guid(8c701754b9aa40947bcc02abf14c0748) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball_N.png using Guid(8c701754b9aa40947bcc02abf14c0748) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20cab7fb0527e2e7a136e62562f0b6fd') in 0.0144152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball.mat
+  artifactKey: Guid(be31224625b60e548947d91b1b12444f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Volleyball.mat using Guid(be31224625b60e548947d91b1b12444f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c1f0abd27f6cc5a3ce5d651ec37b3f4') in 0.0135459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Golf.fbx
+  artifactKey: Guid(73e7feea75218f842975c1e4a7b81bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Golf.fbx using Guid(73e7feea75218f842975c1e4a7b81bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87e32db89261e35806303f427d5dc22f') in 0.0109824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Baseball_MAOS.png
+  artifactKey: Guid(c147e8620f258bb48a5bec9b4dc1b160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Baseball_MAOS.png using Guid(c147e8620f258bb48a5bec9b4dc1b160) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '325e9c7b9319867b72dfdfcc6c447b5b') in 0.0120488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Football_MAOS.png
+  artifactKey: Guid(9b02309951b5eb949939d356727c1a24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Football_MAOS.png using Guid(9b02309951b5eb949939d356727c1a24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ba024738e8420400b8237fc4e4ca8b4') in 0.0126247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Basketball.fbx
+  artifactKey: Guid(2b3788a0f64f23449a9c118bcd1db04d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Basketball.fbx using Guid(2b3788a0f64f23449a9c118bcd1db04d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aef6e67b136d90e9ae2b37e37755ddb7') in 0.0154459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Materials/Soccer.mat
+  artifactKey: Guid(15e7b918d93131b4f96541cfea771636) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Materials/Soccer.mat using Guid(15e7b918d93131b4f96541cfea771636) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4905dc963f22cd800b1226429ee00f3') in 0.0173248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls
+  artifactKey: Guid(46dc4127c40eae143b76b00b8919b11c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls using Guid(46dc4127c40eae143b76b00b8919b11c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0b41df69a2e723da8f60ed89265e59f') in 0.0073991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saritasa/Models/Sport_Balls/Tennis.prefab
+  artifactKey: Guid(db6cb79803d99de41ae15f15a875d281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Models/Sport_Balls/Tennis.prefab using Guid(db6cb79803d99de41ae15f15a875d281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca8fd3956f92e335d71d17c8d133e2e1') in 0.0119041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saritasa/Scenes/Demo/LightingData.asset
+  artifactKey: Guid(54df1eb4738aee048a43d33fc7a37e96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Saritasa/Scenes/Demo/LightingData.asset using Guid(54df1eb4738aee048a43d33fc7a37e96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b139137674b11087f77c0528d97230d') in 0.0144663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
