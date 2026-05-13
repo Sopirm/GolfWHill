@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-11T23:08:12Z
+Date:                    2026-05-13T20:12:38Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-11T23:08:12.132104Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-13T20:12:38.75932Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker4
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-53644
+57688
 -licensingIpc
 LicenseClient-sopirm
 -job-worker-count
@@ -72,9 +72,7 @@ Successfully changed project path to: /Users/sopirm/ProgramProjects/GolfWHill
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8343974016]  Target information:
 
-Player connection [8343974016]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3936907978 [EditorId] 3936907978 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
-
-Player connection [8343974016]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 3936907978 [EditorId] 3936907978 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8343974016]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1568272616 [EditorId] 1568272616 [Version] 1048832 [Id] OSXEditor(0,192.168.1.6) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8343974016] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8343974016] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -89,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4.92 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -110,53 +108,53 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56026
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56058
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001003 seconds.
-- Loaded All Assemblies, in  0.236 seconds
-Native extension for OSXStandalone target not found
+Registered in 0.001450 seconds.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              2026cfe27cf04541858f8880fed63800
-  Correlation Id:          14041dee666d12ed1fcd95a9fca4c45c
-  External correlation Id: 7449776718530471787
+  Session Id:              6eb9b54276574848b669ad1ae63b6e6a
+  Correlation Id:          3558e896f5c6468ab962acb9faf1c5e4
+  External correlation Id: 1264265441258059416
   Machine Id:              ddpRgiPHpQ1VYkTtLACzcj+6MRk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.01s, handshake: 0.78s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-11T23:08:12.914394Z"
-[Licensing::Module] Licensing Background thread has ended after 0.78s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.00s, handshake: 0.79s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-13T20:12:39.55758Z"
+[Licensing::Module] Licensing Background thread has ended after 0.80s
+- Loaded All Assemblies, in  0.298 seconds
+Native extension for OSXStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.297 seconds
-Domain Reload Profiling: 533ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.306 seconds
+Domain Reload Profiling: 604ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (94ms)
-		LoadAssemblies (95ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (91ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (76ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (86ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (298ms)
+	FinalizeReload (306ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (272ms)
+		SetupLoadedEditorAssemblies (277ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (101ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,8 +170,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.433 seconds
-Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.446 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -202,39 +200,39 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.553 seconds
-Domain Reload Profiling: 986ms
-	BeginReloadAssembly (74ms)
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1015ms
+	BeginReloadAssembly (78ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (317ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
 		LoadAssemblies (220ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (94ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (85ms)
 			BuildScriptInfoCaches (26ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (553ms)
+	FinalizeReload (574ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (473ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (2ms)
 			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (375ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (1ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -243,198 +241,13 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6289 unused Assets / (4.4 MB). Loaded Objects now: 7105.
-Memory consumption went from 156.5 MB to 152.1 MB.
-Total: 12.644500 ms (FindLiveObjects: 0.526458 ms CreateObjectMapping: 0.127042 ms MarkObjects: 10.564875 ms  DeleteObjects: 1.426083 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 284156.890063 seconds.
-  path: Assets/Scenes/Pract4_part3.unity
-  artifactKey: Guid(8f701660bc77865468a11d7d18112729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pract4_part3.unity using Guid(8f701660bc77865468a11d7d18112729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19aeaeeadcd321ed20c56e598124f34b') in 0.002012583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.226707 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab
-  artifactKey: Guid(9119d62267702a54da4f49908f8a22ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab using Guid(9119d62267702a54da4f49908f8a22ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd51ad20dd3c7ad678aebfbadb8ce433f') in 0.000266125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.903458 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model
-  artifactKey: Guid(b8c08472c61ff4f458cf4a66b92fae46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model using Guid(b8c08472c61ff4f458cf4a66b92fae46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf920633db5cb7b7c7d227f51efc89c5') in 0.000222917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.971007 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set
-  artifactKey: Guid(ea144a3d4afc88440a6e534de6cf4168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set using Guid(ea144a3d4afc88440a6e534de6cf4168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96150ba74a5681818714fcffee8c6d83') in 0.000219458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.106319 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set/Chair_05.fbx
-  artifactKey: Guid(23f95f90adef2364c8b05f392cef8dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set/Chair_05.fbx using Guid(23f95f90adef2364c8b05f392cef8dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eafba8d40bc40ece276c8bffd035cdcf') in 0.48257175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.367719 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set/Chair_04.fbx
-  artifactKey: Guid(cd4b7dc951cd2f846a7b5e674de96f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Model/Chair_sofa_set/Chair_04.fbx using Guid(cd4b7dc951cd2f846a7b5e674de96f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '490d36312a8caf74c4daba6239450bca') in 0.0327195 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.232592 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set
-  artifactKey: Guid(9b5102009e410b942bad1bb7b6fc5945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set using Guid(9b5102009e410b942bad1bb7b6fc5945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7c58e444a231da341485a3bb0e16f3c') in 0.000246334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.625024 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Chair_06.prefab
-  artifactKey: Guid(03060c963d5f4a0468ef63111edd0660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Chair_06.prefab using Guid(03060c963d5f4a0468ef63111edd0660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d3d61eb653966646dfef3e5fc46f70') in 0.019845542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.636357 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/pillow.prefab
-  artifactKey: Guid(6766eaa7d6f0f134a8df42490b31c3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/pillow.prefab using Guid(6766eaa7d6f0f134a8df42490b31c3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0999a263964bf4ad0c0266566395cd9c') in 0.045919166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.016175 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_01.prefab
-  artifactKey: Guid(453dea3be05027340a70d08efe709479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_01.prefab using Guid(453dea3be05027340a70d08efe709479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '772e41f7ee87b192eeb7e8400a203e16') in 0.016003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.557929 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_03.prefab
-  artifactKey: Guid(6746a45ee5760ce4d81395a7cbfb21b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_03.prefab using Guid(6746a45ee5760ce4d81395a7cbfb21b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8470289d7e3bc11b23a539d8fac98c4f') in 0.009602459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.401614 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_04.prefab
-  artifactKey: Guid(65b4ddc272d470249a696b830290f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_04.prefab using Guid(65b4ddc272d470249a696b830290f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2f9c1066287bd4a1e05ee121ad8250f') in 0.009736667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.469928 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Round_sofa.prefab
-  artifactKey: Guid(d8541b2ba95c6874099f1d2f8d6d9f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Round_sofa.prefab using Guid(d8541b2ba95c6874099f1d2f8d6d9f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfbc9fd2ce89bf12c5354653d6beb6ff') in 0.016165208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.224762 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Hall_shofa.prefab
-  artifactKey: Guid(137039a1b58815944bf63745b005bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Hall_shofa.prefab using Guid(137039a1b58815944bf63745b005bc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25be8a1206cb142d367cf3ae47545ae2') in 0.020228292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.482847 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Chair_05.prefab
-  artifactKey: Guid(fbaefb587e391cc4ca9aac52f6d52c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Chair_05.prefab using Guid(fbaefb587e391cc4ca9aac52f6d52c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fc6ed0d10aca9d70ce7a54963f8bbb7') in 0.008827958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.505840 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Chair_04.prefab
-  artifactKey: Guid(6c7ee3ed3a0038f4ab7afbe1cfa95c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Chair_04.prefab using Guid(6c7ee3ed3a0038f4ab7afbe1cfa95c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ea205fdd1457eaa034261ae71443a5e') in 0.007637041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.432577 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_02.prefab
-  artifactKey: Guid(4b20fe1d49a417547a6838ab4e34ec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_02.prefab using Guid(4b20fe1d49a417547a6838ab4e34ec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5018ddda182b1c69ffb90416a611fb9') in 0.011290833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.690397 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_05.prefab
-  artifactKey: Guid(c612e3337c0dc104cad3a7273353aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/Sofa_05.prefab using Guid(c612e3337c0dc104cad3a7273353aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fad6fdda30f5db2a578276f0a205a29') in 0.008759708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 239.208660 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/New Lighting Settings.lighting
-  artifactKey: Guid(550f632787b2049db9f5bc5a38eeef65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/New Lighting Settings.lighting using Guid(550f632787b2049db9f5bc5a38eeef65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c616307a7df0227292ebd1dc7816bd14') in 0.0007025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.978817 seconds.
-  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/New Lighting Settings.lighting
-  artifactKey: Guid(550f632787b2049db9f5bc5a38eeef65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior)/Prefab/Chair_sofa_set/New Lighting Settings.lighting using Guid(550f632787b2049db9f5bc5a38eeef65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31665e949467bed95696011520dc3e3b') in 0.025348333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 134.591267 seconds.
-  path: Assets/Scenes/Pract4_part3/Lightmap-0_comp_light.exr
-  artifactKey: Guid(448205783b9244ba3afd45dd1d3141dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Pract4_part3/Lightmap-0_comp_light.exr using Guid(448205783b9244ba3afd45dd1d3141dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c65f2e621d8988f668c9bff3e32d945') in 0.026652625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Scenes/Pract4_part3/ReflectionProbe-0.exr
-  artifactKey: Guid(459bbae8291cf44e591682f7dd83d926) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Pract4_part3/ReflectionProbe-0.exr using Guid(459bbae8291cf44e591682f7dd83d926) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e506b2639ef37e92ae553f0a5103f313') in 0.003716208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Scenes/Pract4_part3/LightingData.asset
-  artifactKey: Guid(754dc9eff94cc4516af71fc373dc3d2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Pract4_part3/LightingData.asset using Guid(754dc9eff94cc4516af71fc373dc3d2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8b21d59618fddedbf894b83501db973') in 0.002390584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 6325 unused Assets / (5.7 MB). Loaded Objects now: 7158.
+Memory consumption went from 158.6 MB to 152.9 MB.
+Total: 10.546167 ms (FindLiveObjects: 0.389209 ms CreateObjectMapping: 0.127042 ms MarkObjects: 9.088458 ms  DeleteObjects: 0.941167 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
