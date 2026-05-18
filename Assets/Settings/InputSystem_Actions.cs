@@ -109,6 +109,33 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""24a6e221-1bd0-4906-bcd3-61b876d6fb1f"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SpawnObject"",
+                    ""type"": ""Button"",
+                    ""id"": ""49d1c8c4-80a8-44e0-9982-1af31b84f66c"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""RaycastInteract"",
+                    ""type"": ""Button"",
+                    ""id"": ""df350fd0-d75e-48c6-90cf-371bfd67ec4b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -133,6 +160,83 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""Impulse"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""1f312f1a-54a4-425b-aeb3-56302ecf5720"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""9a14aac7-19ca-42f1-8344-0e97ab7de21e"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""13551581-7a1d-4bb5-ba8b-75799e9d8715"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""accdef0b-3ffd-48aa-83ad-1c783817041d"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""35a1342c-ac80-4eac-ad85-1654b664adc1"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a490cbca-811c-4360-b356-63229c7359d6"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SpawnObject"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3372dd86-aba1-428e-b4b4-f0f484725916"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""RaycastInteract"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -143,6 +247,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_LogMessage = m_Player.FindAction("LogMessage", throwIfNotFound: true);
         m_Player_Impulse = m_Player.FindAction("Impulse", throwIfNotFound: true);
+        m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
+        m_Player_SpawnObject = m_Player.FindAction("SpawnObject", throwIfNotFound: true);
+        m_Player_RaycastInteract = m_Player.FindAction("RaycastInteract", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -225,6 +332,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_LogMessage;
     private readonly InputAction m_Player_Impulse;
+    private readonly InputAction m_Player_Move;
+    private readonly InputAction m_Player_SpawnObject;
+    private readonly InputAction m_Player_RaycastInteract;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -244,6 +354,18 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Impulse".
         /// </summary>
         public InputAction @Impulse => m_Wrapper.m_Player_Impulse;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Move".
+        /// </summary>
+        public InputAction @Move => m_Wrapper.m_Player_Move;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/SpawnObject".
+        /// </summary>
+        public InputAction @SpawnObject => m_Wrapper.m_Player_SpawnObject;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/RaycastInteract".
+        /// </summary>
+        public InputAction @RaycastInteract => m_Wrapper.m_Player_RaycastInteract;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -276,6 +398,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Impulse.started += instance.OnImpulse;
             @Impulse.performed += instance.OnImpulse;
             @Impulse.canceled += instance.OnImpulse;
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+            @SpawnObject.started += instance.OnSpawnObject;
+            @SpawnObject.performed += instance.OnSpawnObject;
+            @SpawnObject.canceled += instance.OnSpawnObject;
+            @RaycastInteract.started += instance.OnRaycastInteract;
+            @RaycastInteract.performed += instance.OnRaycastInteract;
+            @RaycastInteract.canceled += instance.OnRaycastInteract;
         }
 
         /// <summary>
@@ -293,6 +424,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Impulse.started -= instance.OnImpulse;
             @Impulse.performed -= instance.OnImpulse;
             @Impulse.canceled -= instance.OnImpulse;
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
+            @SpawnObject.started -= instance.OnSpawnObject;
+            @SpawnObject.performed -= instance.OnSpawnObject;
+            @SpawnObject.canceled -= instance.OnSpawnObject;
+            @RaycastInteract.started -= instance.OnRaycastInteract;
+            @RaycastInteract.performed -= instance.OnRaycastInteract;
+            @RaycastInteract.canceled -= instance.OnRaycastInteract;
         }
 
         /// <summary>
@@ -347,5 +487,26 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnImpulse(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnMove(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "SpawnObject" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSpawnObject(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "RaycastInteract" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnRaycastInteract(InputAction.CallbackContext context);
     }
 }

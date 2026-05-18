@@ -3,46 +3,49 @@ using UnityEngine.InputSystem;
 
 public class ObjectSpawner : MonoBehaviour
 {
-    public GameObject[] objectPrefabs; // Массив префабов объектов для спавна
-    public float spawnInterval = 1f; // Интервал между спавном объектов
-    public float spawnHeight = 10f; // Высота, на которой будут появляться объекты
-    public float spawnRadius = 5f; // Радиус вокруг спавнера, в котором будут появляться объекты
+    public GameObject prefabToSpawn;
+    public Transform spawnPoint;
+    public float spawnForce = 5f;
 
-    private void Start()
+    private InputSystem_Actions inputActions;
+    private bool spawnRequested;
+
+    void Awake()
     {
-        // Запускаем повторяющийся вызов функции SpawnObject
-        // InvokeRepeating("SpawnObject", 0f, spawnInterval);
+        inputActions = new InputSystem_Actions();
+        inputActions.Player.SpawnObject.performed += ctx => spawnRequested = true;
     }
 
-    private void Update()
+    void OnEnable()
     {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            SpawnObject();
-        }
+        inputActions.Enable();
     }
 
-    void SpawnObject()
+    void OnDisable()
     {
-        Debug.Log("Spawning an object..."); // Добавлено для отладки
-        if (objectPrefabs.Length == 0)
+        inputActions.Disable();
+    }
+
+    void Update()
+    {
+        if (spawnRequested)
         {
-            Debug.LogWarning("ObjectPrefabs array is empty. Please assign prefabs in the Inspector.");
-            return;
+            spawnRequested = false;
+
+            if (prefabToSpawn == null || spawnPoint == null)
+                return;
+
+            GameObject spawnedObject = Instantiate(
+                prefabToSpawn,
+                spawnPoint.position,
+                spawnPoint.rotation
+            );
+
+            Rigidbody rb = spawnedObject.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.AddForce(spawnPoint.forward * spawnForce, ForceMode.Impulse);
+            }
         }
-
-        // Выбираем случайный префаб из массива
-        int randomIndex = Random.Range(0, objectPrefabs.Length);
-        GameObject objectToSpawn = objectPrefabs[randomIndex];
-
-        // Генерируем случайную позицию в пределах spawnRadius вокруг спавнера
-        Vector3 randomSpawnPosition = transform.position + new Vector3(
-            Random.Range(-spawnRadius, spawnRadius),
-            spawnHeight,
-            Random.Range(-spawnRadius, spawnRadius)
-        );
-
-        // Создаем объект
-        Instantiate(objectToSpawn, randomSpawnPosition, Quaternion.identity);
     }
 }
