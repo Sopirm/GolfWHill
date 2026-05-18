@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-13T19:33:58Z
+Date:                    2026-05-18T16:35:12Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-13T19:33:58.844163Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-18T16:35:12.256617Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57688
+59205
 -licensingIpc
 LicenseClient-sopirm
 -job-worker-count
@@ -70,12 +70,14 @@ Successfully changed project path to: /Users/sopirm/ProgramProjects/GolfWHill
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8343974016]  Target information:
+Player connection [8467361920]  Target information:
 
-Player connection [8343974016]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1130863062 [EditorId] 1130863062 [Version] 1048832 [Id] OSXEditor(0,192.168.1.6) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8467361920]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1778257828 [EditorId] 1778257828 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8343974016] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8343974016] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8467361920]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 1778257828 [EditorId] 1778257828 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8467361920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8467361920] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.01 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,53 +110,53 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56891
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000355 seconds.
-- Loaded All Assemblies, in  0.202 seconds
-Native extension for OSXStandalone target not found
+Registered in 0.000657 seconds.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              9b80e9a3294f4b30b77e2ff73359a3b6
-  Correlation Id:          3558e896f5c6468ab962acb9faf1c5e4
-  External correlation Id: 1426676062971799699
+  Session Id:              b64ab8149b6c4c07bf6d8896183acb96
+  Correlation Id:          b0506ee797e3a6ab708d69588ae039f7
+  External correlation Id: 9105128634539521439
   Machine Id:              ddpRgiPHpQ1VYkTtLACzcj+6MRk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.00s, handshake: 0.70s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-13T19:33:59.54457Z"
-[Licensing::Module] Licensing Background thread has ended after 0.70s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.00s, handshake: 0.46s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-18T16:35:12.714334Z"
+[Licensing::Module] Licensing Background thread has ended after 0.46s
+- Loaded All Assemblies, in  0.179 seconds
+Native extension for OSXStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.237 seconds
-Domain Reload Profiling: 439ms
-	BeginReloadAssembly (80ms)
+- Finished resetting the current domain, in  0.197 seconds
+Domain Reload Profiling: 376ms
+	BeginReloadAssembly (61ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (17ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (16ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (79ms)
-		LoadAssemblies (79ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (78ms)
+		LoadAssemblies (60ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (78ms)
-			TypeCache.Refresh (77ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (75ms)
 				TypeCache.ScanAssembly (68ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (237ms)
+	FinalizeReload (197ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (215ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,7 +172,7 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.358 seconds
+- Loaded All Assemblies, in  0.352 seconds
 Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -200,36 +202,36 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.542 seconds
-Domain Reload Profiling: 900ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  0.523 seconds
+Domain Reload Profiling: 875ms
+	BeginReloadAssembly (64ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (12ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (258ms)
-		LoadAssemblies (177ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (170ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (110ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (72ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (70ms)
 			BuildScriptInfoCaches (22ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (543ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (523ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
+		SetupLoadedEditorAssemblies (435ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (353ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (1ms)
@@ -241,13 +243,18 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6291 unused Assets / (6.6 MB). Loaded Objects now: 7110.
-Memory consumption went from 153.2 MB to 146.5 MB.
-Total: 12.878625 ms (FindLiveObjects: 1.085750 ms CreateObjectMapping: 0.105417 ms MarkObjects: 10.206166 ms  DeleteObjects: 1.481000 ms)
+Unloading 6329 unused Assets / (5.5 MB). Loaded Objects now: 7162.
+Memory consumption went from 157.5 MB to 151.9 MB.
+Total: 10.564000 ms (FindLiveObjects: 0.239167 ms CreateObjectMapping: 0.101583 ms MarkObjects: 8.993625 ms  DeleteObjects: 1.229417 ms)
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
+========================================================================
+Received Import Request.
+  Time since last request: 27117.469118 seconds.
+  path: Assets/Scripts/ColliderTest/CollisionReporter.cs
+  artifactKey: Guid(77f3878e9f7f442b09daaf0d3ba1020c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ColliderTest/CollisionReporter.cs using Guid(77f3878e9f7f442b09daaf0d3ba1020c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7971c521120d8db5d57bc988ab70c598') in 0.026031084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

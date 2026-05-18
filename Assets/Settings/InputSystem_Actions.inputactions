@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "InputSystem_Actions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "41e002d9-48f0-48bb-a2b6-714248bad064",
+            "actions": [
+                {
+                    "name": "LogMessage",
+                    "type": "Button",
+                    "id": "84466342-7ea7-452b-a195-ebc643b0fe92",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Impulse",
+                    "type": "Button",
+                    "id": "29e3ba32-7a18-43e2-8b88-da5b3f3ba029",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3de17566-019e-4926-983c-056bd365f9b4",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LogMessage",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca08f84a-76ed-4c99-879d-c2b75bfc6ba0",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Impulse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
