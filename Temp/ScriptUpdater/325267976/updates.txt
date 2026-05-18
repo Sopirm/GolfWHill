@@ -1,1 +1,1 @@
-Temp/ScriptUpdater/325267976/203921041_CarController.cs => Assets/Scripts/MainCharacter/CarController.cs
+Temp/ScriptUpdater/325267976/753407127_PickupAnimatorController.cs => Assets/Scripts/MainCharacter/PickupAnimatorController.cs

@@ -145,6 +145,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ToggleDoor"",
+                    ""type"": ""Button"",
+                    ""id"": ""83ae51be-c2a2-40d4-9fb1-b5864aeacd21"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -257,6 +266,17 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""SwitchCamera"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9f885444-29eb-4817-a10c-49240d5c386b"",
+                    ""path"": ""<Keyboard>/g"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ToggleDoor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -271,6 +291,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player_SpawnObject = m_Player.FindAction("SpawnObject", throwIfNotFound: true);
         m_Player_RaycastInteract = m_Player.FindAction("RaycastInteract", throwIfNotFound: true);
         m_Player_SwitchCamera = m_Player.FindAction("SwitchCamera", throwIfNotFound: true);
+        m_Player_ToggleDoor = m_Player.FindAction("ToggleDoor", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -357,6 +378,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_SpawnObject;
     private readonly InputAction m_Player_RaycastInteract;
     private readonly InputAction m_Player_SwitchCamera;
+    private readonly InputAction m_Player_ToggleDoor;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -392,6 +414,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/SwitchCamera".
         /// </summary>
         public InputAction @SwitchCamera => m_Wrapper.m_Player_SwitchCamera;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/ToggleDoor".
+        /// </summary>
+        public InputAction @ToggleDoor => m_Wrapper.m_Player_ToggleDoor;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -436,6 +462,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @SwitchCamera.started += instance.OnSwitchCamera;
             @SwitchCamera.performed += instance.OnSwitchCamera;
             @SwitchCamera.canceled += instance.OnSwitchCamera;
+            @ToggleDoor.started += instance.OnToggleDoor;
+            @ToggleDoor.performed += instance.OnToggleDoor;
+            @ToggleDoor.canceled += instance.OnToggleDoor;
         }
 
         /// <summary>
@@ -465,6 +494,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @SwitchCamera.started -= instance.OnSwitchCamera;
             @SwitchCamera.performed -= instance.OnSwitchCamera;
             @SwitchCamera.canceled -= instance.OnSwitchCamera;
+            @ToggleDoor.started -= instance.OnToggleDoor;
+            @ToggleDoor.performed -= instance.OnToggleDoor;
+            @ToggleDoor.canceled -= instance.OnToggleDoor;
         }
 
         /// <summary>
@@ -547,5 +579,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSwitchCamera(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "ToggleDoor" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnToggleDoor(InputAction.CallbackContext context);
     }
 }
