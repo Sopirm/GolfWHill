@@ -1,0 +1,919 @@
+Unity Editor version:    6000.3.8f1 (1c7db571dde0)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.3 (Build 25D125)
+Darwin version:          25.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2026-05-18T20:58:01Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-18T20:58:01.9521Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+/Users/sopirm/ProgramProjects/GolfWHill
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+59205
+-licensingIpc
+LicenseClient-sopirm
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/sopirm/ProgramProjects/GolfWHill
+/Users/sopirm/ProgramProjects/GolfWHill
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8467361920]  Target information:
+
+Player connection [8467361920]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3157647347 [EditorId] 3157647347 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8467361920]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 3157647347 [EditorId] 3157647347 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8467361920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8467361920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sopirm/ProgramProjects/GolfWHill/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M5 (high power)
+Metal devices available: 1
+0: Apple M5 (high power)
+Using device Apple M5 (high power)
+Initializing Metal device caps: Apple M5
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56951
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001102 seconds.
+- Loaded All Assemblies, in  0.298 seconds
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              368db6110c7b4075bda958bd30ae52df
+  Correlation Id:          b0506ee797e3a6ab708d69588ae039f7
+  External correlation Id: 7657404054884718068
+  Machine Id:              ddpRgiPHpQ1VYkTtLACzcj+6MRk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.00s, handshake: 0.82s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-18T20:58:02.779387Z"
+[Licensing::Module] Licensing Background thread has ended after 0.83s
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.314 seconds
+Domain Reload Profiling: 613ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (105ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (315ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10170591166266-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:132)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 132)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 906ms
+	BeginReloadAssembly (73ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (72ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (527ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6336 unused Assets / (6.4 MB). Loaded Objects now: 7180.
+Memory consumption went from 160.1 MB to 153.8 MB.
+Total: 11.588125 ms (FindLiveObjects: 0.722292 ms CreateObjectMapping: 0.122208 ms MarkObjects: 9.398834 ms  DeleteObjects: 1.344666 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42896.816682 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes
+  artifactKey: Guid(4234ccc1c53bd07408f291a86ec21760) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes using Guid(4234ccc1c53bd07408f291a86ec21760) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3ee6b7f33fed98a1ce20349cc1f54cc') in 0.023093166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Props/Trash_Can_08.fbx
+  artifactKey: Guid(fd109af0210e1b34cb4d5dc81d6e1442) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Props/Trash_Can_08.fbx using Guid(fd109af0210e1b34cb4d5dc81d6e1442) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb1beedbfd59818854044482a825c26f') in 0.049080667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Materials/Car_Headlights.mat
+  artifactKey: Guid(85d80380ae8dcce478fe026880b2e4d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Materials/Car_Headlights.mat using Guid(85d80380ae8dcce478fe026880b2e4d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2a054efe0f7c54e7338c81644c42eff') in 0.01113625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Roads/road_022.prefab
+  artifactKey: Guid(708919d27baaac3448fd6bd6678fe7ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Roads/road_022.prefab using Guid(708919d27baaac3448fd6bd6678fe7ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6bfeb92dfeb1e0cbb801092a3622b9c5') in 0.00596825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Buildings/Eco_Building_Grid.prefab
+  artifactKey: Guid(6d3bd000f9d3e3c479ee0339e54f1247) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Buildings/Eco_Building_Grid.prefab using Guid(6d3bd000f9d3e3c479ee0339e54f1247) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47bda70de1fdefd19a5b872e50d6c4a3') in 0.004145084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/URP_Scenes/Demonstration.unity
+  artifactKey: Guid(28671ed3ede3d714093b98f6d3216827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/URP_Scenes/Demonstration.unity using Guid(28671ed3ede3d714093b98f6d3216827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '917509cce9ea3b2173e6d5376418518c') in 0.009589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/URP_Scenes
+  artifactKey: Guid(e9acc6c0665d8a54e8485f45af9de4b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/URP_Scenes using Guid(e9acc6c0665d8a54e8485f45af9de4b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90ebe94b682a9b81a806471a0c0f1436') in 0.001574625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/HDRP_Scenes/Demonstration_HDRP_Profiles/HDRP_Profile.asset
+  artifactKey: Guid(80c77e52d3ff8164ba737b15f3654da5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/HDRP_Scenes/Demonstration_HDRP_Profiles/HDRP_Profile.asset using Guid(80c77e52d3ff8164ba737b15f3654da5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73d31eaca058de4083ea8c8cf0d6f25b') in 0.003295125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Billboards/Billboard_4x1_04_Line.fbx
+  artifactKey: Guid(f5bc16c36ea2017499c854e3466d1a7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Billboards/Billboard_4x1_04_Line.fbx using Guid(f5bc16c36ea2017499c854e3466d1a7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f113107617218f7babc6dc643f3c75c') in 0.003400042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Props/Trash_04.prefab
+  artifactKey: Guid(480f39d1342ac8b4d97b7ee06b16427b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Props/Trash_04.prefab using Guid(480f39d1342ac8b4d97b7ee06b16427b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed4fba7690333b14b20e8affef6dc4d8') in 0.003055708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Roads/road_003.prefab
+  artifactKey: Guid(008228716434e64449b15a1cdf43b8f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Roads/road_003.prefab using Guid(008228716434e64449b15a1cdf43b8f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65b86799ec7f9e00fba339990361263b') in 0.003271625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Sidewalks/Set_B_Tiles_06.prefab
+  artifactKey: Guid(1fc6c0201fd222f49a93e754fcfb3208) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Sidewalks/Set_B_Tiles_06.prefab using Guid(1fc6c0201fd222f49a93e754fcfb3208) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9964940e6df0c589437c787368118aad') in 0.002977833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Materials
+  artifactKey: Guid(5378ef75f3821c04c9fdc57d1bfb38fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Materials using Guid(5378ef75f3821c04c9fdc57d1bfb38fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4eeb8b87b442102044cb2f870259dde3') in 0.001104875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Billboards/Billboard_4x1_03.fbx
+  artifactKey: Guid(2bd73710541d5af40809b2fd2d51198c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Billboards/Billboard_4x1_03.fbx using Guid(2bd73710541d5af40809b2fd2d51198c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77cae30d470a1e3081b313577493fd1d') in 0.002998375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Billboards/Billboard_2x1_05.prefab
+  artifactKey: Guid(5e4321d23278ef641adb070ebaae3fe8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Billboards/Billboard_2x1_05.prefab using Guid(5e4321d23278ef641adb070ebaae3fe8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5666b7deaf4cc88c1c804c32b72bc36') in 0.003171542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars
+  artifactKey: Guid(5ddb47f1416896547881202e41cb8ab8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars using Guid(5ddb47f1416896547881202e41cb8ab8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6088d7879dfb93f0319d90cd3b6a711f') in 0.001150458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/HDRP_Scenes/Demonstration_HDRP_Profiles
+  artifactKey: Guid(13dbd5fc3a2b714419a0b8da6b86fa37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/HDRP_Scenes/Demonstration_HDRP_Profiles using Guid(13dbd5fc3a2b714419a0b8da6b86fa37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03f120ebe252ee1068140ce2016241e3') in 0.001281042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Props/Spotlight_02.prefab
+  artifactKey: Guid(33a40a849fa39164bacfbdf904f6766a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Props/Spotlight_02.prefab using Guid(33a40a849fa39164bacfbdf904f6766a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62735c7b31386913438cf92d760c48c6') in 0.0036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Skyboxes
+  artifactKey: Guid(549941d72c000214f8067916b4d16049) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Skyboxes using Guid(549941d72c000214f8067916b4d16049) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '406c38c7fc09621935681a9ee2403263') in 0.001149042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Van.fbx
+  artifactKey: Guid(2d6e29233ffecb44393b0689e86d8cee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Van.fbx using Guid(2d6e29233ffecb44393b0689e86d8cee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83f540e20263b43999f4f50d5f2386b2') in 0.004706958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_19_Wheel_Front_Right.prefab
+  artifactKey: Guid(4a69c044175a59e4b8a6cb4f9642f670) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_19_Wheel_Front_Right.prefab using Guid(4a69c044175a59e4b8a6cb4f9642f670) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04115cdcd649e5d970b1007cec92ee6e') in 0.002689958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Roads/road_022.fbx
+  artifactKey: Guid(d69ce882199b1da4481033aaee96a16e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Roads/road_022.fbx using Guid(d69ce882199b1da4481033aaee96a16e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b374601efebe5377cebc388b32fced37') in 0.003475333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_16.prefab
+  artifactKey: Guid(0f2505a3f5e77fa44a6703470cc30543) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_16.prefab using Guid(0f2505a3f5e77fa44a6703470cc30543) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd7cd25379f7e69782515eebef842bc3') in 0.004273583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_16_Wheel_Rear_Left.prefab
+  artifactKey: Guid(38d108126702e514abcf96e86830454e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_16_Wheel_Rear_Left.prefab using Guid(38d108126702e514abcf96e86830454e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7816a7aa74b553248ad377734e58e3d4') in 0.003604958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Palm_03.prefab
+  artifactKey: Guid(d77f3988a559cee4f85af6b47c0539a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Palm_03.prefab using Guid(d77f3988a559cee4f85af6b47c0539a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e08876ba6f91b899b0915c01c879c836') in 0.003036958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_19.prefab
+  artifactKey: Guid(4be47a48b47d6224ebb6430561872389) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_19.prefab using Guid(4be47a48b47d6224ebb6430561872389) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87e58954a7e6ec2e410b3547a5db0184') in 0.004090291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Skyboxes/Skybox_5.mat
+  artifactKey: Guid(6a9a29d807a43624b8d8758de7c530d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Skyboxes/Skybox_5.mat using Guid(6a9a29d807a43624b8d8758de7c530d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ca6230d515633ea255fc9a3758bbd8e') in 0.012699125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Car_19_Wheel_Front_Left.fbx
+  artifactKey: Guid(7f98859b963aff84ea937c15597d80b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Car_19_Wheel_Front_Left.fbx using Guid(7f98859b963aff84ea937c15597d80b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbf3e2e4f3bc4055b57fdd4568793543') in 0.002957084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Buildings/Eco_Building_Grid.fbx
+  artifactKey: Guid(5b21ed48fda4eee4eb66e846136bd98e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Buildings/Eco_Building_Grid.fbx using Guid(5b21ed48fda4eee4eb66e846136bd98e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6503c68a824061a00a51ad7b2c18077') in 0.004796541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/HDRP_Scenes/Overview.unity
+  artifactKey: Guid(4ad30ad545fcae841b31421ed04022f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/HDRP_Scenes/Overview.unity using Guid(4ad30ad545fcae841b31421ed04022f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '469793ddaff3ddf579a528139510b879') in 0.005343084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_06_Wheel_Front_Right.prefab
+  artifactKey: Guid(501cd8ab70a88714c8670cec8fb7f09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_06_Wheel_Front_Right.prefab using Guid(501cd8ab70a88714c8670cec8fb7f09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '349cd1ff457c709a064f23f53fdb29ab') in 0.00249525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Props/Trash_Can_05.fbx
+  artifactKey: Guid(2e05f2d90842aa04db1e0b180b247df9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Props/Trash_Can_05.fbx using Guid(2e05f2d90842aa04db1e0b180b247df9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25ceda7710020c559914393e83832b85') in 0.002835584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Props/traffic_light_002.fbx
+  artifactKey: Guid(b61b0d7aca7aec4458ae5fd413e83a7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Props/traffic_light_002.fbx using Guid(b61b0d7aca7aec4458ae5fd413e83a7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed7bbbca1ac3731e17b56e5d20cd9dbf') in 0.003168375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Render_Pipeline_Convert/Unity_6_URP_source.unitypackage
+  artifactKey: Guid(eab2139b27f411648a9cecd1e252ee96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Render_Pipeline_Convert/Unity_6_URP_source.unitypackage using Guid(eab2139b27f411648a9cecd1e252ee96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '685e1703ea957f303779b55ebe33c036') in 0.001139875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Props/traffic_light_001.fbx
+  artifactKey: Guid(1478b4aabb527604db1d2914e3d05279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Props/traffic_light_001.fbx using Guid(1478b4aabb527604db1d2914e3d05279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4982f56b40b27f8e1ec7f1cba5f1410') in 0.003943541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Materials/Graffiti.mat
+  artifactKey: Guid(0145dff804be5a247a26f9bae70923b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Materials/Graffiti.mat using Guid(0145dff804be5a247a26f9bae70923b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0e0fd400f6b3fe19711a1610408e265') in 0.004752416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Van_Wheel_Rear_Left.prefab
+  artifactKey: Guid(27ab06abca0d00848bd67852d6a0c3f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Van_Wheel_Rear_Left.prefab using Guid(27ab06abca0d00848bd67852d6a0c3f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '416bc64ec64af2d3fe4a47e1ad732678') in 0.002739375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/URP_Scenes/Demonstration_URP_Profiles/URP_Profile.asset
+  artifactKey: Guid(39125d786fddce34d85d8378220de9bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/URP_Scenes/Demonstration_URP_Profiles/URP_Profile.asset using Guid(39125d786fddce34d85d8378220de9bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f633fcde25227079e8f7fb766479531a') in 0.002504667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/Built-In_Scenes/Demonstration_Profiles/PostProcessVolume Profile.asset
+  artifactKey: Guid(e7495c6be2be9ae4eb21af4c36c3b648) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Scenes/Built-In_Scenes/Demonstration_Profiles/PostProcessVolume Profile.asset using Guid(e7495c6be2be9ae4eb21af4c36c3b648) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2d26a7efefdbd613ee047d26e3883e6') in 0.00329975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Props/traffic_light_001.prefab
+  artifactKey: Guid(259f49cbcfd39ed4eb70f61fd89b598e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Props/traffic_light_001.prefab using Guid(259f49cbcfd39ed4eb70f61fd89b598e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '001f894b3876de2b3c17e2c03683eda5') in 0.002648875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Car_13.fbx
+  artifactKey: Guid(1acf2dd728ccb024994995dba45668db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Car_13.fbx using Guid(1acf2dd728ccb024994995dba45668db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23fc90d4c25afa733e752733a399e1db') in 0.008289083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Props/Fountain_03.prefab
+  artifactKey: Guid(d2d360664b1d55c4584ee3bc8ec31be8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Props/Fountain_03.prefab using Guid(d2d360664b1d55c4584ee3bc8ec31be8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '173defe94b05212967f9bf46212eed1a') in 0.002761833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Futuristic_Car_1_Wheel_Rear_Left.prefab
+  artifactKey: Guid(94a18146dabb4dc4ba2d06ced34b9db8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Futuristic_Car_1_Wheel_Rear_Left.prefab using Guid(94a18146dabb4dc4ba2d06ced34b9db8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8f65ed6c6da86b5b9ce9901dbc9db23') in 0.004827792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Textures/Graffiti.png
+  artifactKey: Guid(8ada562783207d34e9c6f8d32c6762a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Textures/Graffiti.png using Guid(8ada562783207d34e9c6f8d32c6762a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c087da3c5788404e6fb577f05fef8dc9') in 0.018131958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Materials/Metal.mat
+  artifactKey: Guid(b208c2ca747a0df418899e5556216935) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Materials/Metal.mat using Guid(b208c2ca747a0df418899e5556216935) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13cc3f36022cdfded0b3ccf8ff6346f2') in 0.001757917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_06_Wheel_Rear_Right.prefab
+  artifactKey: Guid(220ceddc72e5e86449f4b8159010e2c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_06_Wheel_Rear_Right.prefab using Guid(220ceddc72e5e86449f4b8159010e2c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aedc034a7eb21245b42b2c3facd70a35') in 0.002720542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Billboards/Billboard_2x1_05.fbx
+  artifactKey: Guid(52d02c58361697f408d3c8213a85807f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Billboards/Billboard_2x1_05.fbx using Guid(52d02c58361697f408d3c8213a85807f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c5e57fce666a4b7987220c71c4ec60f') in 0.003321167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032633 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Car_13_Spoiler.fbx
+  artifactKey: Guid(1733699d388480b4eac0a50e105dbe4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Car_13_Spoiler.fbx using Guid(1733699d388480b4eac0a50e105dbe4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'efebf94b9dd53d5f73b0248851f5278e') in 0.0029095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Futuristic_Car_1_Wheel_Rear_Left.fbx
+  artifactKey: Guid(63110b5f8dda4a143a0072b25559832c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Futuristic_Car_1_Wheel_Rear_Left.fbx using Guid(63110b5f8dda4a143a0072b25559832c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4cbc16bb3e73876fc389f424a885c7f') in 0.002894458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_13_Wheel_Front_Left.prefab
+  artifactKey: Guid(96a8a78f39c44ee4397814cb7167b87e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_13_Wheel_Front_Left.prefab using Guid(96a8a78f39c44ee4397814cb7167b87e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b14cc306e19d981f645720e88167658e') in 0.003185209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Buildings/Eco_Building_Grid_NightLight.fbx
+  artifactKey: Guid(af5a62aee1fd9e8428ae834ee3b0feb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Buildings/Eco_Building_Grid_NightLight.fbx using Guid(af5a62aee1fd9e8428ae834ee3b0feb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f365d92e8127430743cb20f96d86d815') in 0.003027333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Billboards/Billboard_4x1_03.prefab
+  artifactKey: Guid(ccfe0baf0137c8f4a92d8f08c09c2a8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Billboards/Billboard_4x1_03.prefab using Guid(ccfe0baf0137c8f4a92d8f08c09c2a8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '961fb8407d809bf82f7871f19ae1313e') in 0.003471042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Futuristic_Car_1_Wheel_Rear_Right.fbx
+  artifactKey: Guid(15e16a6f492618b499da9e06befbf6c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Futuristic_Car_1_Wheel_Rear_Right.fbx using Guid(15e16a6f492618b499da9e06befbf6c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '980e1ea46c42b5c58ff8bc7c0f9e7de0') in 0.004443583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_16_Wheel_Front_Right.prefab
+  artifactKey: Guid(1c79623e8e743f74d8df9f4d74eee85e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Prefabs/Cars/Car_16_Wheel_Front_Right.prefab using Guid(1c79623e8e743f74d8df9f4d74eee85e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8df6406279785498e4555979b87f1ee') in 0.002765334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Futuristic_Car_1_Wheel_Front_Left.fbx
+  artifactKey: Guid(0e52fc6f2c993da438c1adfa7e97ff6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/ithappy/Cartoon_City_Free/Meshes/Cars/Futuristic_Car_1_Wheel_Front_Left.fbx using Guid(0e52fc6f2c993da438c1adfa7e97ff6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3c5ba00ef14ff65390678e3c90ce41d') in 0.002857791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6329 unused Assets / (3.8 MB). Loaded Objects now: 7182.
+Memory consumption went from 159.0 MB to 155.1 MB.
+Total: 15.325958 ms (FindLiveObjects: 0.428792 ms CreateObjectMapping: 0.113750 ms MarkObjects: 13.765250 ms  DeleteObjects: 1.018000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.367952 seconds.
+  path: Assets/UNSORTED/Pack_Pickup/Materials
+  artifactKey: Guid(d2a2c3885cfb64848b5d94891bb53a26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/Pack_Pickup/Materials using Guid(d2a2c3885cfb64848b5d94891bb53a26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8bb8d9e6e66bf09a5aa54cb7e7b44e6') in 0.001598292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005666 seconds.
+  path: Assets/UNSORTED/Pack_Pickup/Materials/Texture/ColorPalette.png
+  artifactKey: Guid(574d38901be644d4689d959502443a2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/Pack_Pickup/Materials/Texture/ColorPalette.png using Guid(574d38901be644d4689d959502443a2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3ece6e8e337d4a733ad29eb9907bb3d') in 0.003243916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UNSORTED/Pack_Pickup/Models/Pickup.fbx
+  artifactKey: Guid(0a669cbc772829b42acaae37e3ffa109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/Pack_Pickup/Models/Pickup.fbx using Guid(0a669cbc772829b42acaae37e3ffa109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4947fe956af746424069fa554dcdace') in 0.014271833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UNSORTED/Pack_Pickup/Models
+  artifactKey: Guid(754ffc09b98d644458418e1199a540d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UNSORTED/Pack_Pickup/Models using Guid(754ffc09b98d644458418e1199a540d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e140319577d7c6ca1dc6bdb372ec304') in 0.000976291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x1717b7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.545 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:132)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 132)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (680ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6335 unused Assets / (4.3 MB). Loaded Objects now: 7198.
+Memory consumption went from 172.1 MB to 167.8 MB.
+Total: 10.667042 ms (FindLiveObjects: 0.311917 ms CreateObjectMapping: 0.242166 ms MarkObjects: 9.210167 ms  DeleteObjects: 0.902667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6328 unused Assets / (5.1 MB). Loaded Objects now: 7198.
+Memory consumption went from 159.7 MB to 154.6 MB.
+Total: 11.712667 ms (FindLiveObjects: 0.262209 ms CreateObjectMapping: 0.105208 ms MarkObjects: 10.066417 ms  DeleteObjects: 1.278375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.411 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:132)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 132)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.714 seconds
+Domain Reload Profiling: 1128ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (715ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6334 unused Assets / (4.5 MB). Loaded Objects now: 7202.
+Memory consumption went from 167.0 MB to 162.5 MB.
+Total: 13.772875 ms (FindLiveObjects: 0.291333 ms CreateObjectMapping: 0.120167 ms MarkObjects: 12.199125 ms  DeleteObjects: 1.161875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

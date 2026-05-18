@@ -2955,3 +2955,1847 @@ Memory consumption went from 173.1 MB to 168.9 MB.
 Total: 10.676083 ms (FindLiveObjects: 0.254083 ms CreateObjectMapping: 0.108750 ms MarkObjects: 9.403625 ms  DeleteObjects: 0.909416 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3547.474657 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials
+  artifactKey: Guid(eea004d905d8a5b44a969f7df9240289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials using Guid(eea004d905d8a5b44a969f7df9240289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95bcdf9613f78190e96270216c014545') in 0.006155625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.353058 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials
+  artifactKey: Guid(13fb998c01f0a38448d80740293cf71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials using Guid(13fb998c01f0a38448d80740293cf71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '146ab80755e23e58b76b0b17fbae52a3') in 0.000388875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.794601 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtAlbedo.png
+  artifactKey: Guid(c608a6f3f4e673c409f2436b5172576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtAlbedo.png using Guid(c608a6f3f4e673c409f2436b5172576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4052876e28c8bbcad5fa1857c5724bf') in 0.052927292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.550178 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneAlbedo.png
+  artifactKey: Guid(b2666d5a89d85314ca2c984e999c83cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneAlbedo.png using Guid(b2666d5a89d85314ca2c984e999c83cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd50dfbfd0b7ae21e9cce6c24ada29967') in 0.013586917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.484537 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassAlbedo.png
+  artifactKey: Guid(9c37f19ba3a1a9044a1cf025fabd6884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassAlbedo.png using Guid(9c37f19ba3a1a9044a1cf025fabd6884) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '867b2ed8537cd0a52127d2d806af0bd4') in 0.009495292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.634610 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtAlbedo.png
+  artifactKey: Guid(a7c02bab705904a4c861d9dc7ef01968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtAlbedo.png using Guid(a7c02bab705904a4c861d9dc7ef01968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a2ea8c65882948c7dbf97cda3035cc2') in 0.011185958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.731353 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassAlbedo.png
+  artifactKey: Guid(5dc6d075b21b95449ace215a6cf2f787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassAlbedo.png using Guid(5dc6d075b21b95449ace215a6cf2f787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '258b317a9abad34661132beecf3ceb41') in 0.009688959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.009212 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkAlbedo.png
+  artifactKey: Guid(1c63373a6aad19148a31c353b426708c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkAlbedo.png using Guid(1c63373a6aad19148a31c353b426708c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd35b1d505529f48b74ac16d1ac2e6a30') in 0.046857708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.672512 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksAlbedo.png
+  artifactKey: Guid(dbee807792796824cb08e25874613a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksAlbedo.png using Guid(dbee807792796824cb08e25874613a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b491fab25f415e1057d245b4b900d29c') in 0.012796833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 599.834023 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass
+  artifactKey: Guid(540d7fbc775f22147ac8478f945ac0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass using Guid(540d7fbc775f22147ac8478f945ac0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0343c05a9a6cdc23c7720d52872f3c6b') in 0.001362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.221708 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt
+  artifactKey: Guid(9054964a53b86b94b8bfec7d299d12f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt using Guid(9054964a53b86b94b8bfec7d299d12f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79549db0dca7aa7deb75a5da477a0509') in 0.000444708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.020103 seconds.
+  path: Assets/PolyOne/Rocks Stylized
+  artifactKey: Guid(2ec3d80d6b28fc14c970c1db9958377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyOne/Rocks Stylized using Guid(2ec3d80d6b28fc14c970c1db9958377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23652a4213cf285cba0682059ea3a8a7') in 0.000448958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967331 seconds.
+  path: Assets/PolyOne/Rocks Stylized/Model
+  artifactKey: Guid(2c775b651d495e548a898b43a66c9c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyOne/Rocks Stylized/Model using Guid(2c775b651d495e548a898b43a66c9c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f05dec3a3216e2c18de1d20801be8a46') in 0.000283792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.567510 seconds.
+  path: Assets/PolyOne/Rocks Stylized/Prefabs/SM_Rocks_03.prefab
+  artifactKey: Guid(c65625e040ac42e46ba4222b69c41558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyOne/Rocks Stylized/Prefabs/SM_Rocks_03.prefab using Guid(c65625e040ac42e46ba4222b69c41558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854e4e81b6beee5b128e8c775793d7fb') in 0.237072417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145739 seconds.
+  path: Assets/PolyOne/Rocks Stylized/Prefabs/SM_Rocks_02.prefab
+  artifactKey: Guid(8b2f7789077f69f458e3919626d6ea22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyOne/Rocks Stylized/Prefabs/SM_Rocks_02.prefab using Guid(8b2f7789077f69f458e3919626d6ea22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c8f39a6baea9210b51558a05913c511') in 0.007392375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.733022 seconds.
+  path: Assets/PolyOne/Rocks Stylized/Prefabs/SM_Rocks_07.prefab
+  artifactKey: Guid(6b03fd5ce97ca2449b3b9a92cfce1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyOne/Rocks Stylized/Prefabs/SM_Rocks_07.prefab using Guid(6b03fd5ce97ca2449b3b9a92cfce1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deb35a4122833ee10aaaf5a6f7a5ae06') in 0.011979667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.062304 seconds.
+  path: Assets/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Bush_07.prefab
+  artifactKey: Guid(98b984cd8eaf1ef4d8625a892ba0830b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Bush_07.prefab using Guid(98b984cd8eaf1ef4d8625a892ba0830b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0a0e9c9d8f3398c63a8faca9b407212') in 0.018756166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.813060 seconds.
+  path: Assets/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Bush_10.prefab
+  artifactKey: Guid(211ee66cf2cc2f444b0ad19bae4e999a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Bush_10.prefab using Guid(211ee66cf2cc2f444b0ad19bae4e999a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c1b25ede05c41a70499206305fb3198') in 0.004659417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.069609 seconds.
+  path: Assets/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Palm_03.prefab
+  artifactKey: Guid(d77f3988a559cee4f85af6b47c0539a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Palm_03.prefab using Guid(d77f3988a559cee4f85af6b47c0539a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d7c0b04d28d09a14a8d13287e602a1b') in 0.006569125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.126672 seconds.
+  path: Assets/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Bush_06.prefab
+  artifactKey: Guid(c5d47d656169f264a8c470c164175281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ithappy/Cartoon_City_Free/Prefabs/Vegetation/Bush_06.prefab using Guid(c5d47d656169f264a8c470c164175281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f9f1ca9e31909d196572f17632e3934') in 0.005213333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.363674 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/NewLayer 1.terrainlayer
+  artifactKey: Guid(2b36bc21fed90449bb83e9e72c61134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/NewLayer 1.terrainlayer using Guid(2b36bc21fed90449bb83e9e72c61134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67999835694249b410eb51cafa1519e2') in 0.03152525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16b92b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.381 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:132)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 132)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 921ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6331 unused Assets / (5.0 MB). Loaded Objects now: 7359.
+Memory consumption went from 179.2 MB to 174.2 MB.
+Total: 10.229291 ms (FindLiveObjects: 0.250833 ms CreateObjectMapping: 0.108250 ms MarkObjects: 8.792667 ms  DeleteObjects: 1.077000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b92b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.301 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Plugins/PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in ./Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Utilities/VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:132)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 132)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 864ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (8ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (67ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (561ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6330 unused Assets / (4.7 MB). Loaded Objects now: 7363.
+Memory consumption went from 179.8 MB to 175.2 MB.
+Total: 10.885250 ms (FindLiveObjects: 0.254459 ms CreateObjectMapping: 0.132417 ms MarkObjects: 9.238083 ms  DeleteObjects: 1.260000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 122.520949 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs
+  artifactKey: Guid(2365d38fec1724d4199604c670e1f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs using Guid(2365d38fec1724d4199604c670e1f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9a4dce4fa086ced0a16e817e12db6d5') in 0.001751417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.734682 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab
+  artifactKey: Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab using Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe8876fa0a58e4ddc8c7e0760f00ed89') in 0.227510958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.696033 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx
+  artifactKey: Guid(6d58037af810b4021ac921a71033e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx using Guid(6d58037af810b4021ac921a71033e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1394952ce8d740957d25c9ebabf6184') in 0.038690125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.767815 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx
+  artifactKey: Guid(1e50ef3048667495d90210b70c070c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx using Guid(1e50ef3048667495d90210b70c070c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c867dcda07b9624aa1ab98c52c526922') in 0.01194325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928174 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Poplar_Tree.fbx
+  artifactKey: Guid(186ad8f063dbf430da4d56ebc0cb14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Poplar_Tree.fbx using Guid(186ad8f063dbf430da4d56ebc0cb14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ccda313e6ad9ab606d829a20f920885') in 0.015719125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.136906 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png
+  artifactKey: Guid(255283d354122406ebf8159c5ea35b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png using Guid(255283d354122406ebf8159c5ea35b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb1dc95d062915a028a55be304d6f841') in 0.010410584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.074529 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Scenes/Demo.unity
+  artifactKey: Guid(b4025dc8942fc4ed5bc67ff2252091da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Scenes/Demo.unity using Guid(b4025dc8942fc4ed5bc67ff2252091da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d48e764ad14947f4ab730a3bf0c025c') in 0.000284625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.355767 seconds.
+  path: Assets/Scenes/Pract3
+  artifactKey: Guid(c4d47eb2c867bf845975b7ca8606d5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pract3 using Guid(c4d47eb2c867bf845975b7ca8606d5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11183e27767a6b1e431b71e7a9f69441') in 0.000322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.700430 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(b0ff29e87000344ceb3aa87001e2cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(b0ff29e87000344ceb3aa87001e2cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb11aac6e61f213a737dba6014eea45') in 0.000340875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1102.163415 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab
+  artifactKey: Guid(19682540d8a014522a319b1cf788aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab using Guid(19682540d8a014522a319b1cf788aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0d5835d5ab749beb736da41e6b08adc') in 0.016571917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814281 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs/Palm_Tree.prefab
+  artifactKey: Guid(c6b7fb383a3534b039692b5485b6e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs/Palm_Tree.prefab using Guid(c6b7fb383a3534b039692b5485b6e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c6f71a7bde6f9e85cafa0422c1ab45c') in 0.0037715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.485947 seconds.
+  path: Assets/Prefabs/Poplar_Tree.prefab
+  artifactKey: Guid(826b6a0b570e8460990010fa615b5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Poplar_Tree.prefab using Guid(826b6a0b570e8460990010fa615b5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d57d73c99287c701f3bb5e9da31e8bb') in 0.008817791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.170338 seconds.
+  path: Assets/Darth_Artisan/Free_Trees
+  artifactKey: Guid(b7aee0f11d1aa466daa952466d59cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees using Guid(b7aee0f11d1aa466daa952466d59cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0335c2d210ab24ef1259394cac23a93b') in 0.000354625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.837264 seconds.
+  path: Assets/Scripts/MainCharacter/CarController.cs
+  artifactKey: Guid(71900e06cf76f439ebfb38c89e621855) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/MainCharacter/CarController.cs using Guid(71900e06cf76f439ebfb38c89e621855) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0418cbb776165addd162b267096218f0') in 0.05391475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkSpecularMap.png
+  artifactKey: Guid(5e48367800cc40b4e953eb126c22f9df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkSpecularMap.png using Guid(5e48367800cc40b4e953eb126c22f9df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afac90eb386dbce87361d2cb8472b931') in 0.026158084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Fir_Tree.prefab
+  artifactKey: Guid(19682540d8a014522a319b1cf788aee2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Fir_Tree.prefab using Guid(19682540d8a014522a319b1cf788aee2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec583d2eeda696a36d313fab0d8fcb7f') in 0.011877625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(b0ff29e87000344ceb3aa87001e2cf42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Main.unity using Guid(b0ff29e87000344ceb3aa87001e2cf42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4d4622aaa140b613813cdefc8246d1e') in 0.009349959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt
+  artifactKey: Guid(a1d283c83dac75640908adaf0ccbf265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt using Guid(a1d283c83dac75640908adaf0ccbf265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e42d507968780ce515fbfc655a767b2d') in 0.001161833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/NewLayer 2.terrainlayer
+  artifactKey: Guid(dc309fde7e92f4a1c876d55ee7e27612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/NewLayer 2.terrainlayer using Guid(dc309fde7e92f4a1c876d55ee7e27612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5f7cc5c2f1b0ccc4c4914dfec5592bb') in 0.008763166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/Poplar_Tree.prefab
+  artifactKey: Guid(826b6a0b570e8460990010fa615b5a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Poplar_Tree.prefab using Guid(826b6a0b570e8460990010fa615b5a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56b0bb4efcfd012e265ba34e4d1190bf') in 0.002799708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksAmbientOcclusionMap.png
+  artifactKey: Guid(c1585020883357f4caaeda440ce80569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksAmbientOcclusionMap.png using Guid(c1585020883357f4caaeda440ce80569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '168858685a025a5345ad85a544d11760') in 0.009021292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt
+  artifactKey: Guid(9054964a53b86b94b8bfec7d299d12f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt using Guid(9054964a53b86b94b8bfec7d299d12f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '809b8e3d106847d4b9ee71f2247ad3e3') in 0.0012695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtSpecularMap.png
+  artifactKey: Guid(0b6a359ebe978c64b96e7cf6bff7168c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtSpecularMap.png using Guid(0b6a359ebe978c64b96e7cf6bff7168c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f96a9112986ee34fb9cd9cedea016ba') in 0.028470625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/NewLayer.terrainlayer
+  artifactKey: Guid(2e015a1476ce44d59a59e905e96b914f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/NewLayer.terrainlayer using Guid(2e015a1476ce44d59a59e905e96b914f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbe43311b7533bd2004a7262847ae880') in 0.00954275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WoodBark.mat
+  artifactKey: Guid(a15f7bd6488c5fa4aa55f3b10534f84c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WoodBark.mat using Guid(a15f7bd6488c5fa4aa55f3b10534f84c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af55cbbb18013a5350a4fc41d0290f08') in 0.007271333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/SmoothStone.mat
+  artifactKey: Guid(dc4343123c4206f4ca8a2211faa89522) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/SmoothStone.mat using Guid(dc4343123c4206f4ca8a2211faa89522) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47730b5472ec1031fa5d204fe92e8a95') in 0.009437916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassSpecularMap.png
+  artifactKey: Guid(3288225a3b9e86d449d1e19a3f9bbb64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassSpecularMap.png using Guid(3288225a3b9e86d449d1e19a3f9bbb64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32e82c835a2a01de3bdd05301fa381de') in 0.010434209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneDisplacementMap.png
+  artifactKey: Guid(7d7bff3f92af8f34f90231a9e58bc087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneDisplacementMap.png using Guid(7d7bff3f92af8f34f90231a9e58bc087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '301bc70f9cb659c9806a5656d902afa4') in 0.007513917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneNormalMap.png
+  artifactKey: Guid(e4e76fc58f42d8a40aab84582ba5030b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneNormalMap.png using Guid(e4e76fc58f42d8a40aab84582ba5030b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ef75a00b13051f157a9306dd5d101b6') in 0.015687125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassAlbedo.png
+  artifactKey: Guid(5dc6d075b21b95449ace215a6cf2f787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassAlbedo.png using Guid(5dc6d075b21b95449ace215a6cf2f787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '717b7b89421d1a7592deec79dba1fbc0') in 0.010794125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtAmbientOcclusionMap.png
+  artifactKey: Guid(101c5f156fb4c184da9b18eb450418c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtAmbientOcclusionMap.png using Guid(101c5f156fb4c184da9b18eb450418c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b328686ad0b6f887e90a19fead09eb0') in 0.009905625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneAmbientOcclusionMap.png
+  artifactKey: Guid(81ada956c53cc3647946828dcdf7dac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneAmbientOcclusionMap.png using Guid(81ada956c53cc3647946828dcdf7dac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eafe7aec3f45b321df8ebfaeee32669e') in 0.011269958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials
+  artifactKey: Guid(eea004d905d8a5b44a969f7df9240289) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials using Guid(eea004d905d8a5b44a969f7df9240289) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9b39d136f6cdc84e8ecb84eede74e1f') in 0.001569459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtAlbedo.png
+  artifactKey: Guid(c608a6f3f4e673c409f2436b5172576a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtAlbedo.png using Guid(c608a6f3f4e673c409f2436b5172576a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac5b9bbac91f1e63a9a6e77f4e8d56cd') in 0.009200917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/README.pdf
+  artifactKey: Guid(7387af6baf67fb94a85e60a113c3aa6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/README.pdf using Guid(7387af6baf67fb94a85e60a113c3aa6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64cf202231e3341db7b88169f6f773d7') in 0.00147475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Settings/InputSystem_Actions.cs
+  artifactKey: Guid(9b4dde5a8dad8462ba27caa0ac27a9d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/InputSystem_Actions.cs using Guid(9b4dde5a8dad8462ba27caa0ac27a9d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ffd9e08efcb2df746dea16437c2c2a7') in 0.001417291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkDisplacementMap.png
+  artifactKey: Guid(6d4da26f93ca1574bbd47558366f99ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkDisplacementMap.png using Guid(6d4da26f93ca1574bbd47558366f99ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ff07b07e472169e707cda5c4557efc8') in 0.010068833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WoodPlanks.mat
+  artifactKey: Guid(a0cea2e6c1c5bb24f9b3566064937a8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WoodPlanks.mat using Guid(a0cea2e6c1c5bb24f9b3566064937a8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15515d0b935454760068bbb77eb07f3e') in 0.008611125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Meshes/Materials
+  artifactKey: Guid(d40899a84663b4ed1885d99c68c31518) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Meshes/Materials using Guid(d40899a84663b4ed1885d99c68c31518) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f18d47327964ab6eb504ca09925353a') in 0.001481084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Prefabs/Palm_Tree.prefab
+  artifactKey: Guid(c6b7fb383a3534b039692b5485b6e739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Palm_Tree.prefab using Guid(c6b7fb383a3534b039692b5485b6e739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b6ff8bfb5c6a9779f4743742ba357d8') in 0.003507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtNormalMap.png
+  artifactKey: Guid(9a11c93040713cd4bbf65d6094d12ebe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtNormalMap.png using Guid(9a11c93040713cd4bbf65d6094d12ebe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fedbd1658637d58ded4d53f14749d5aa') in 0.015299459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksAlbedo.png
+  artifactKey: Guid(dbee807792796824cb08e25874613a50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksAlbedo.png using Guid(dbee807792796824cb08e25874613a50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d6fdaf3616b2a864c17b5f65a9ba544') in 0.014263458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtAlbedo.png
+  artifactKey: Guid(a7c02bab705904a4c861d9dc7ef01968) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtAlbedo.png using Guid(a7c02bab705904a4c861d9dc7ef01968) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38514a88715b6edeb728db30dc48ee61') in 0.009764291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Meshes
+  artifactKey: Guid(a6ef2755a6b574604ade3c2a47d9d0c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Meshes using Guid(a6ef2755a6b574604ade3c2a47d9d0c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '367e95e02433de62acec0bc4425429d8') in 0.001948208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WildGrass.mat
+  artifactKey: Guid(a34848fa6d080734780eda6574931999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WildGrass.mat using Guid(a34848fa6d080734780eda6574931999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dec0afc019be3f44c9136d7771a3adf6') in 0.00833525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures
+  artifactKey: Guid(9aa8d06b517cab0449a7211a3abd2e94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures using Guid(9aa8d06b517cab0449a7211a3abd2e94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69fb6432ba285d2444709598da53306a') in 0.001366917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(4d1b829be2e734d85bef78f3052a957d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/New Material.mat using Guid(4d1b829be2e734d85bef78f3052a957d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3152ea5da0fe822a8ca948347dd6244') in 0.006370167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneDisplacementMap.png
+  artifactKey: Guid(8ae1682fb301df2489302f8046f2822b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneDisplacementMap.png using Guid(8ae1682fb301df2489302f8046f2822b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbce2d764e881cc143494aba4c1cfdb3') in 0.012989875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassSpecularMap.png
+  artifactKey: Guid(fdb70e206ff250243a834a11ba4c267a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassSpecularMap.png using Guid(fdb70e206ff250243a834a11ba4c267a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10662defda960af93dd300d21563b3b5') in 0.009176625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneSpecularMap.png
+  artifactKey: Guid(b960f4a581ddc874fadc053c27f13731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneSpecularMap.png using Guid(b960f4a581ddc874fadc053c27f13731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fece1fa6df71615db365339e1db1fccc') in 0.008246458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Shaded Spectrum
+  artifactKey: Guid(cec86e2b707c8456cb768de294c16f50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum using Guid(cec86e2b707c8456cb768de294c16f50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5911f418d40b638016f0fce600886a0') in 0.001123083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Prefabs/Oak_Tree.prefab
+  artifactKey: Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Oak_Tree.prefab using Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7280ae1b164c4294d9a1ab1f935778bd') in 0.004782791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneNormalMap.png
+  artifactKey: Guid(84627a4b488604d48a2a97ebb52e48bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneNormalMap.png using Guid(84627a4b488604d48a2a97ebb52e48bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29ed37262119f9cd52c342b7da686972') in 0.014826291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scripts/ColliderTest/ObjectSpawner.cs
+  artifactKey: Guid(ad837a77048814ff18c380324e309969) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ColliderTest/ObjectSpawner.cs using Guid(ad837a77048814ff18c380324e309969) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '838982918a9501a0603bd5cafbfe6529') in 0.001339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassAmbientOcclusionMap.png
+  artifactKey: Guid(59046b4c6de3b004e916df1ca8a922b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassAmbientOcclusionMap.png using Guid(59046b4c6de3b004e916df1ca8a922b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9a978803f736fa177996ec623559ce1') in 0.008475792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(2d481ceb87aa0402b8c387e4ad8c4909) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/New Terrain.asset using Guid(2d481ceb87aa0402b8c387e4ad8c4909) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b8d3d6c451f81e216950c92fdeed75e') in 0.010246833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtDisplacementMap.png
+  artifactKey: Guid(ab34496e1927c4a4baae84c57ce7831a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtDisplacementMap.png using Guid(ab34496e1927c4a4baae84c57ce7831a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4576da457d9c6427561c761ec7ef3bb8') in 0.008837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/RoughStone.mat
+  artifactKey: Guid(f34d13499366a0743ac4bcc0fc0b3162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/RoughStone.mat using Guid(f34d13499366a0743ac4bcc0fc0b3162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47741e6cb73b506006c5f3764516ef0f') in 0.264725542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.344236 seconds.
+  path: Assets/GeniusCrate_Games/Chair_sofa_set(interior)
+  artifactKey: Guid(89191ebc3230ea544bade485d8ef15a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GeniusCrate_Games/Chair_sofa_set(interior) using Guid(89191ebc3230ea544bade485d8ef15a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '403d7b4985e4a9c2379e384d7da40cdb') in 0.000271708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.870365 seconds.
+  path: Assets/Scenes 1
+  artifactKey: Guid(43fc7feaa0c7910498e255aefd834d8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes 1 using Guid(43fc7feaa0c7910498e255aefd834d8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6a07261905204538ba2a5413ab486a2') in 0.002795375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_01/Pillows_Height.png
+  artifactKey: Guid(690ad275b8b9e79449875609cf401b84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_01/Pillows_Height.png using Guid(690ad275b8b9e79449875609cf401b84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0f249070656f8ee2fbb2d12f35b23ef') in 0.00443875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_BaseColor.png
+  artifactKey: Guid(5db47765076debe4f98b76aea922e402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_BaseColor.png using Guid(5db47765076debe4f98b76aea922e402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc11b9a2a9110b2af11e0e6270dbea94') in 0.0049845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_01/Pillows_BaseColor.png
+  artifactKey: Guid(dea6e4f7b815e284ca68043c646c35be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_01/Pillows_BaseColor.png using Guid(dea6e4f7b815e284ca68043c646c35be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cd6677374114ff399a85b9a260cbd48') in 0.00889775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_03/Pillows_Metallic.png
+  artifactKey: Guid(2229359188d8d044293bf84bece3e66a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_03/Pillows_Metallic.png using Guid(2229359188d8d044293bf84bece3e66a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e55bb1e32f0536256b884f9788b075c') in 0.003418625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefab/Chair_sofa_set/Sofa_05.prefab
+  artifactKey: Guid(c612e3337c0dc104cad3a7273353aa22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set/Sofa_05.prefab using Guid(c612e3337c0dc104cad3a7273353aa22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d25662e22add4abe277c93d90f864b4') in 0.005194833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_05/Chair_05_rh.png
+  artifactKey: Guid(178c8422215bded4383e02db191e6364) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_05/Chair_05_rh.png using Guid(178c8422215bded4383e02db191e6364) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b48d89fd95bd568bc474d2e30b9ec395') in 0.005793417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Model/Chair_sofa_set/Sofa_05.fbx
+  artifactKey: Guid(9abfb326d9133bb4eb6fc0925680a1ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Model/Chair_sofa_set/Sofa_05.fbx using Guid(9abfb326d9133bb4eb6fc0925680a1ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '755820cc6836330db7b4b45545034ec8') in 0.023586333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefab/Chair_sofa_set/Sofa_04.prefab
+  artifactKey: Guid(65b4ddc272d470249a696b830290f535) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set/Sofa_04.prefab using Guid(65b4ddc272d470249a696b830290f535) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2df8529572b81532ffc16f93abd8c1ce') in 0.003660958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Material/Chair_sofa_set/Sofa_02_mat.mat
+  artifactKey: Guid(02a2cce300966f24fa344a51c6d7b76d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/Sofa_02_mat.mat using Guid(02a2cce300966f24fa344a51c6d7b76d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80515e369a709faf6f1bf2a4c49a869b') in 0.012959458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Round_sofa/Round_sofa_Height.png
+  artifactKey: Guid(d10c73c4825839742b0ea69264cf7c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Round_sofa/Round_sofa_Height.png using Guid(d10c73c4825839742b0ea69264cf7c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f37f72496ea38911a8eb1727b191e97d') in 0.006849375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_04/Pillows_Metallic.png
+  artifactKey: Guid(ee1ad900ffe5da1468e79f98117eb905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_04/Pillows_Metallic.png using Guid(ee1ad900ffe5da1468e79f98117eb905) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6efac2800ca9b72163288c95df41ef17') in 0.006297875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Material/Chair_sofa_set/sofa_01_mat.mat
+  artifactKey: Guid(3ed5e9730142cd94e9693a7b577c0c73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/sofa_01_mat.mat using Guid(3ed5e9730142cd94e9693a7b577c0c73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0400caabb270c7ed1cd0ba8805f9ea64') in 0.012413291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Model/Chair_sofa_set/Chair_01.fbx
+  artifactKey: Guid(2ece0fc6f30fcc54f88bf39cc7a54209) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Model/Chair_sofa_set/Chair_01.fbx using Guid(2ece0fc6f30fcc54f88bf39cc7a54209) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06e81c03e36957f547c3061d0e3b1f86') in 0.005107584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_04/Chair_04_Normal.png
+  artifactKey: Guid(0b17aba35c4963d43bdfd8a1a80b3ef8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_04/Chair_04_Normal.png using Guid(0b17aba35c4963d43bdfd8a1a80b3ef8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af37a70266093f1b2b647ae8aaf8ad07') in 0.005042459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Material/Chair_sofa_set/Chair_04_mat.mat
+  artifactKey: Guid(97c1ea75e183a514b85db04d867c4b04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/Chair_04_mat.mat using Guid(97c1ea75e183a514b85db04d867c4b04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7dd4c2af4082c2a22ee3a97a9dfe8c0') in 0.0121035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Prefab/Chair_sofa_set/Chair_01.prefab
+  artifactKey: Guid(ffef9f01aae789444bca9ea9c417f933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set/Chair_01.prefab using Guid(ffef9f01aae789444bca9ea9c417f933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5933899601cea9b324c45c454fec38f0') in 0.003161125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_03
+  artifactKey: Guid(012d50b1dc2446c44aca7b0c1a6d3508) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_03 using Guid(012d50b1dc2446c44aca7b0c1a6d3508) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '550084f0d63aa99ccf19c0c99600ca46') in 0.001524084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_06
+  artifactKey: Guid(b12ac458baaa5464682fe2b2111a8260) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_06 using Guid(b12ac458baaa5464682fe2b2111a8260) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a80e9136b7e381ff9902b8510efde7cf') in 0.001221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_04/chair_04_Height.png
+  artifactKey: Guid(f3c9a85549fdfbe44b8cf34ef52649ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_04/chair_04_Height.png using Guid(f3c9a85549fdfbe44b8cf34ef52649ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1ac6fd1be71f27e4e55106dfa5ac049') in 0.003113792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Prefab/Chair_sofa_set
+  artifactKey: Guid(9b5102009e410b942bad1bb7b6fc5945) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set using Guid(9b5102009e410b942bad1bb7b6fc5945) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '621ac710981072ee9280cfc3b9ca7ae3') in 0.000937792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_06/Chair_06_rh.png
+  artifactKey: Guid(8739d3e58860b734e84ffffa84ad9e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_06/Chair_06_rh.png using Guid(8739d3e58860b734e84ffffa84ad9e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c815ae4c29ef623a19a0205a8ab75ccf') in 0.003955583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_01/Chair_Height.png
+  artifactKey: Guid(16877cd0db259694495a4a7e5537b74c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_01/Chair_Height.png using Guid(16877cd0db259694495a4a7e5537b74c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a343dcce6eab5543087221fd085e68f9') in 0.00506875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_05/Chair_05_n.png
+  artifactKey: Guid(c61b9444a810482489707f8a14b4a205) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_05/Chair_05_n.png using Guid(c61b9444a810482489707f8a14b4a205) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9d5183ff886b238e8f0ef77d4a52a2a') in 0.0058615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_02/Pillows_Metallic.png
+  artifactKey: Guid(a7dd607c0c7f54d45a6e01b52eccb40d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_02/Pillows_Metallic.png using Guid(a7dd607c0c7f54d45a6e01b52eccb40d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4817c9e360cf10a14b114200c86831d4') in 0.00464775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_01/Chair_Metallic.png
+  artifactKey: Guid(a657a5cc53e921a489cdc700155579e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_01/Chair_Metallic.png using Guid(a657a5cc53e921a489cdc700155579e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd9107068e2cb7696fa5a8fad3b75ab9') in 0.004165292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_02/Pillows_Normal.png
+  artifactKey: Guid(4a12ea4cc4d4e2340923c8d76f6ed0cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_02/Pillows_Normal.png using Guid(4a12ea4cc4d4e2340923c8d76f6ed0cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8228ac3dd2eb4d335c9789e6b2d625ba') in 0.005332334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_01/Chair_Roughness.png
+  artifactKey: Guid(f4ab51989f392fb4a9c54bd8b3766408) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_01/Chair_Roughness.png using Guid(f4ab51989f392fb4a9c54bd8b3766408) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b247eebb152bbbaec9b1f54c4d17ae7d') in 0.003721292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_03/Pillows_Height.png
+  artifactKey: Guid(1924c44d8ba29f24d941e7b07bc76591) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_03/Pillows_Height.png using Guid(1924c44d8ba29f24d941e7b07bc76591) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3070d69d26d04bc1af1040877ee56ca3') in 0.006107875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_02/Pillows_Roughness.png
+  artifactKey: Guid(cac2991a5a07f994487d8dac98148b2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_02/Pillows_Roughness.png using Guid(cac2991a5a07f994487d8dac98148b2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc61a176202e84cb2ffb42a7f35042ae') in 0.00475325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_02/Sofa_02_Height.png
+  artifactKey: Guid(aad3d2b848376d648b0bf2df4bec6374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_02/Sofa_02_Height.png using Guid(aad3d2b848376d648b0bf2df4bec6374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c721f6aab9428edd437ea69942ab2b1d') in 0.003570542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Hall_sofa/Hall_shofa_Metallic.png
+  artifactKey: Guid(fe3031d997d1734479941fd64c9da6ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Hall_sofa/Hall_shofa_Metallic.png using Guid(fe3031d997d1734479941fd64c9da6ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80bbf27ab767a33279432a87c2e79cfa') in 0.006256458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_05/Sofa_05_BaseColor.png
+  artifactKey: Guid(0e05109cbaf3ce044a02d57f07131f0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_05/Sofa_05_BaseColor.png using Guid(0e05109cbaf3ce044a02d57f07131f0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be9940141190ebd37af02461eb897354') in 0.006952208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_02/Pillows_Height.png
+  artifactKey: Guid(66076d11c9fdcf04bbad5835bd8468de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_02/Pillows_Height.png using Guid(66076d11c9fdcf04bbad5835bd8468de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd278c1ecbd7f0ac3562e941ee886e24f') in 0.003596167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Prefab/Chair_sofa_set/Sofa_01.prefab
+  artifactKey: Guid(453dea3be05027340a70d08efe709479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set/Sofa_01.prefab using Guid(453dea3be05027340a70d08efe709479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27756e50d250f57edcbf5420d3c388df') in 0.003293333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Prefab/Chair_sofa_set/Sofa_02.prefab
+  artifactKey: Guid(4b20fe1d49a417547a6838ab4e34ec16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set/Sofa_02.prefab using Guid(4b20fe1d49a417547a6838ab4e34ec16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbbe13cc099608c1f6e1c0d7edbc61ca') in 0.00213975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_Metallic.png
+  artifactKey: Guid(ef3e0fcc3d78dfa40b56baa45688ef62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_Metallic.png using Guid(ef3e0fcc3d78dfa40b56baa45688ef62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7454fb552afbff6c032e8899fd36ccbe') in 0.004125084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Material/Chair_sofa_set/Pillow_04.mat
+  artifactKey: Guid(7f51b7b693057704593a4cc20e9e9abd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/Pillow_04.mat using Guid(7f51b7b693057704593a4cc20e9e9abd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c656b83d733c2aeeb8c8f6b23c9cd63b') in 0.0171355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_04
+  artifactKey: Guid(03831b1f6ec88b54f96c299fe8b5b606) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_04 using Guid(03831b1f6ec88b54f96c299fe8b5b606) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fbd6765c8cecc5edb7b08c91eff11a6') in 0.001123709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_03/sofa_03_Height.png
+  artifactKey: Guid(2aa01a7b06630c9458996aab421a8f22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_03/sofa_03_Height.png using Guid(2aa01a7b06630c9458996aab421a8f22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5f01baec62eeb87e48b9fb03e292812') in 0.004122917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_02/Chair_02_AO.png
+  artifactKey: Guid(641ba74cc349462429298330e448e766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_02/Chair_02_AO.png using Guid(641ba74cc349462429298330e448e766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33ba6e9a35d0a5a410301670fc2db254') in 0.004679625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Material/Chair_sofa_set/Pillow_01.mat
+  artifactKey: Guid(e4a7e0c76b0f5b54ab9a31add969428f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/Pillow_01.mat using Guid(e4a7e0c76b0f5b54ab9a31add969428f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62d65f47d0d4de34d9968bda3ec35538') in 0.010126584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_05/Sofa_05_Metallic.png
+  artifactKey: Guid(f83f55b0f77e76646be523afb2a9121b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_05/Sofa_05_Metallic.png using Guid(f83f55b0f77e76646be523afb2a9121b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b47dba13c13adac6a9ddebe6956b3fae') in 0.004414125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_03/Pillows_BaseColor.png
+  artifactKey: Guid(1a711838466041d449f74b3b542caa47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_03/Pillows_BaseColor.png using Guid(1a711838466041d449f74b3b542caa47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35943284c800f36151de5ab153035827') in 0.010130625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_01/Chair_BaseColor.png
+  artifactKey: Guid(93a4a79045a6dea4fb00898d14d767de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_01/Chair_BaseColor.png using Guid(93a4a79045a6dea4fb00898d14d767de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '777f71e352599e4a5de4e21dee425dae') in 0.003053625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Round_sofa/Round_sofa_Roughness.png
+  artifactKey: Guid(718183818867d6a42986e8eb93c1a921) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Round_sofa/Round_sofa_Roughness.png using Guid(718183818867d6a42986e8eb93c1a921) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '168f2adf194cbf72978ad4fd42c09690') in 0.005557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_04/Pillows_Roughness.png
+  artifactKey: Guid(149034aebf47f864ca8874ab84752585) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_04/Pillows_Roughness.png using Guid(149034aebf47f864ca8874ab84752585) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30e5e4e4841a9c28c2021f4bb188c965') in 0.003853834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefab/Chair_sofa_set/Chair_04.prefab
+  artifactKey: Guid(6c7ee3ed3a0038f4ab7afbe1cfa95c82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set/Chair_04.prefab using Guid(6c7ee3ed3a0038f4ab7afbe1cfa95c82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '661c4985a0ff8066eb4a75c1697f8646') in 0.004771167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Round_sofa/Round_sofa_Normal.png
+  artifactKey: Guid(0fc8f7fd584e11747b5be4f6dad427d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Round_sofa/Round_sofa_Normal.png using Guid(0fc8f7fd584e11747b5be4f6dad427d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4e6953073c023006f52da4a4c2d36e8') in 0.005911292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Model/Chair_sofa_set/Round_sofa.fbx
+  artifactKey: Guid(6f30f56e30347ee4f8e42bd119900c96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Model/Chair_sofa_set/Round_sofa.fbx using Guid(6f30f56e30347ee4f8e42bd119900c96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d4c9735afcbcac001c855242d2dbe5d') in 0.002844041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Material/Chair_sofa_set/Chair_05_mat.mat
+  artifactKey: Guid(85f09e9f1ad2a924785fce476b28c1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/Chair_05_mat.mat using Guid(85f09e9f1ad2a924785fce476b28c1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31e0b9170f7a17b790763cd1eb8a39b2') in 0.010093334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Hall_sofa/Hall_shofa_ambient_occlusion.png
+  artifactKey: Guid(5d860bc0e31c740438bbcff81b5ada02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Hall_sofa/Hall_shofa_ambient_occlusion.png using Guid(5d860bc0e31c740438bbcff81b5ada02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb0bcd4ee32fd4ab33f3430622388ee0') in 0.004155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Hall_sofa/Hall_shofa_Height.png
+  artifactKey: Guid(54f6c7ae4e68a0f4c8a0c19dd4743e07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Hall_sofa/Hall_shofa_Height.png using Guid(54f6c7ae4e68a0f4c8a0c19dd4743e07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '376163003c8bbd5f0f9878997f9d2297') in 0.005287791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_04/sofa_04_low_Height.png
+  artifactKey: Guid(87617844349d6ce4d925099e1c659b51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_04/sofa_04_low_Height.png using Guid(87617844349d6ce4d925099e1c659b51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '838e63db90e9c379d496c6739b8cd283') in 0.004014917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_04/Sofa_04_n.png
+  artifactKey: Guid(8db7e1ebb0567244e8c4e5f24bc1653f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_04/Sofa_04_n.png using Guid(8db7e1ebb0567244e8c4e5f24bc1653f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b568d669700b695945713026e78c1b14') in 0.005439541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Hall_sofa/Hall_shofa_BaseColor.png
+  artifactKey: Guid(ad8f7536a6b5ad449aa3e6f0a978fb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Hall_sofa/Hall_shofa_BaseColor.png using Guid(ad8f7536a6b5ad449aa3e6f0a978fb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea93a15f3b558c68204240628b00d6da') in 0.005615292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_03
+  artifactKey: Guid(4c6a6d8abf258c8468ccbb014a9b95fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_03 using Guid(4c6a6d8abf258c8468ccbb014a9b95fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63ccb5c4b3196f72687b7c5b62965b36') in 0.001157459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_04/Pillows_Normal.png
+  artifactKey: Guid(5dd794d1813fe974d9d21ba1c1d26dde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_04/Pillows_Normal.png using Guid(5dd794d1813fe974d9d21ba1c1d26dde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f627de22b94ec0f240eea858bcee16f0') in 0.007134834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Material/Chair_sofa_set/Chair_06_mat.mat
+  artifactKey: Guid(440f2ed5c77b59640a988808d91ad8dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/Chair_06_mat.mat using Guid(440f2ed5c77b59640a988808d91ad8dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98cdad886ecef51816708521e9ec798b') in 0.011185875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_02/Chair_02_Height.png
+  artifactKey: Guid(5a08a4cd279b0d8438cda410d0123309) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_02/Chair_02_Height.png using Guid(5a08a4cd279b0d8438cda410d0123309) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70e67e74aa2a3dce0d9c24188a8ed37c') in 0.003673875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_Roughness.png
+  artifactKey: Guid(673a152e67eac5e4b83f1a04c1f4d7d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_Roughness.png using Guid(673a152e67eac5e4b83f1a04c1f4d7d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b973bffacdc473ede3d3324af6ea1c87') in 0.003536125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_06/Chair_06_n.png
+  artifactKey: Guid(458feef94859eb9428c363d62b537c32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_06/Chair_06_n.png using Guid(458feef94859eb9428c363d62b537c32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3b2090641e1e53e36bab674b906de26') in 0.004312709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefab/Chair_sofa_set/Hall_shofa.prefab
+  artifactKey: Guid(137039a1b58815944bf63745b005bc37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set/Hall_shofa.prefab using Guid(137039a1b58815944bf63745b005bc37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98c4d5f42aa305522f3c9ef273cc3391') in 0.003617917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes 1/Chair_sofa_set(interior).unity
+  artifactKey: Guid(20052c797fcd6f14f92eb64140bd8dac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes 1/Chair_sofa_set(interior).unity using Guid(20052c797fcd6f14f92eb64140bd8dac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0415ba0e49d51b5c862c3be25f59a79f') in 0.002456166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_02
+  artifactKey: Guid(867db953616330d439ba80dc2668ec0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_02 using Guid(867db953616330d439ba80dc2668ec0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a960292deb0976aff89c2ad6cfdf9ceb') in 0.000990916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Model/Chair_sofa_set/Chair_05.fbx
+  artifactKey: Guid(23f95f90adef2364c8b05f392cef8dc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Model/Chair_sofa_set/Chair_05.fbx using Guid(23f95f90adef2364c8b05f392cef8dc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '183933156454d715c2c8335312ae1875') in 0.005231041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_06/Chair_06_h.png
+  artifactKey: Guid(5f070be07ff0d414f803ec2ed6eb63f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_06/Chair_06_h.png using Guid(5f070be07ff0d414f803ec2ed6eb63f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0bbefd7de879bc502eb6cc2a93a4e01') in 0.004434791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_02/Chair_02_BaseColor.png
+  artifactKey: Guid(52334ce7b78fca44da93c1ac321e7bdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_02/Chair_02_BaseColor.png using Guid(52334ce7b78fca44da93c1ac321e7bdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80101244a1467719a8327b106bd80f27') in 0.00372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_01/Pillows_Metallic.png
+  artifactKey: Guid(65f152e466494114caa8492cf285bf0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_01/Pillows_Metallic.png using Guid(65f152e466494114caa8492cf285bf0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1db7905c55d9017673d303670de9d8c') in 0.003844208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Chair_06/Chair_06_m.png
+  artifactKey: Guid(77153dfaca7e1c946b2afcb2585b0bd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Chair_06/Chair_06_m.png using Guid(77153dfaca7e1c946b2afcb2585b0bd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '259309153d749dc1a164fede6748c626') in 0.003104084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Material/Chair_sofa_set/Hall_Shofa_mat.mat
+  artifactKey: Guid(aeeb6973e21dfd6479766c0e9ceeed72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/Hall_Shofa_mat.mat using Guid(aeeb6973e21dfd6479766c0e9ceeed72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0d6219713b1c0232d07520601697a08') in 0.014039709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_Normal.png
+  artifactKey: Guid(40e50517045954d43870d3b0f76a3171) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_Normal.png using Guid(40e50517045954d43870d3b0f76a3171) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4eeb90fa1e5e363277738136671a6281') in 0.003827417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_ambient_occlusion.png
+  artifactKey: Guid(92b4116ddec42f649b64b3881c5d8cda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_01/Sofa_ambient_occlusion.png using Guid(92b4116ddec42f649b64b3881c5d8cda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f932d188f4dabf478baeb377996eea44') in 0.003504792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Sofa_04/sofa_04_low_Metallic.png
+  artifactKey: Guid(106d3b6a144e99543ac563d24e1fcf1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Sofa_04/sofa_04_low_Metallic.png using Guid(106d3b6a144e99543ac563d24e1fcf1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28a375d989e46732f94a0f85d009cc18') in 0.003316375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Model/Chair_sofa_set/Hall_shofa.fbx
+  artifactKey: Guid(95cdbedb1cbf9864da6347bd48347d03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Model/Chair_sofa_set/Hall_shofa.fbx using Guid(95cdbedb1cbf9864da6347bd48347d03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21d6d576e20840205160c22e3ab5c663') in 0.003303958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Prefab/Chair_sofa_set/Round_sofa.prefab
+  artifactKey: Guid(d8541b2ba95c6874099f1d2f8d6d9f11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefab/Chair_sofa_set/Round_sofa.prefab using Guid(d8541b2ba95c6874099f1d2f8d6d9f11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4f15c9b2059c30d2e1038459d982bc7') in 0.002623542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Material/Chair_sofa_set/Round_sofa_mat.mat
+  artifactKey: Guid(2af7527a1d452cd41b60e82f51c2d240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Chair_sofa_set/Round_sofa_mat.mat using Guid(2af7527a1d452cd41b60e82f51c2d240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53d2fff2d1fe7fb7459e76957625b6c0') in 0.009823291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Texture Maps/Chair_sofa_set/Pillow_01/Pillows_Roughness.png
+  artifactKey: Guid(133bcb25f0472254bb6f7b6ce327df6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture Maps/Chair_sofa_set/Pillow_01/Pillows_Roughness.png using Guid(133bcb25f0472254bb6f7b6ce327df6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0698f3461baf3b5a1be797c35e7e37f') in 0.004209041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.052517 seconds.
+  path: Assets/Materials/Chair_sofa_set/Sofa_04_mat.mat
+  artifactKey: Guid(13ca2c721b78cb2499b17d234aa75606) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Chair_sofa_set/Sofa_04_mat.mat using Guid(13ca2c721b78cb2499b17d234aa75606) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '854c8f7b994be2eb3348e8eca1d61c90') in 0.006449625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Materials/Chair_sofa_set/Sofa_02_mat.mat
+  artifactKey: Guid(02a2cce300966f24fa344a51c6d7b76d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Chair_sofa_set/Sofa_02_mat.mat using Guid(02a2cce300966f24fa344a51c6d7b76d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68aac7a0b70d1ad9b332bae94f831c74') in 0.006600125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/Chair_sofa_set/Pillow_02.mat
+  artifactKey: Guid(6a9b8decf490dc84e8d176c64991bd0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Chair_sofa_set/Pillow_02.mat using Guid(6a9b8decf490dc84e8d176c64991bd0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89518a4cf11d2c7c8fefcf6c0b8711b8') in 0.012504084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Materials/Chair_sofa_set/Chair_05_mat.mat
+  artifactKey: Guid(85f09e9f1ad2a924785fce476b28c1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Chair_sofa_set/Chair_05_mat.mat using Guid(85f09e9f1ad2a924785fce476b28c1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30748ab9befe60aafaf886677f77eade') in 0.008105708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Materials/Chair_sofa_set/Round_sofa_mat.mat
+  artifactKey: Guid(2af7527a1d452cd41b60e82f51c2d240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Chair_sofa_set/Round_sofa_mat.mat using Guid(2af7527a1d452cd41b60e82f51c2d240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '178aa84022143149d1378b6bacf388c4') in 0.00759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.625440 seconds.
+  path: Assets/Textures 1/WoodBark
+  artifactKey: Guid(0451b18fbf2e07d40b920602ade33f36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WoodBark using Guid(0451b18fbf2e07d40b920602ade33f36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffd48588d880748a6241e4bc2c26a377') in 0.002736542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Materials 1/DryDirt.mat
+  artifactKey: Guid(1511ad56e11bc754d8017a5b560f8043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials 1/DryDirt.mat using Guid(1511ad56e11bc754d8017a5b560f8043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40f61e226c4ccd332d7f29f662d59e69') in 0.01393575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures 1/DryDirt
+  artifactKey: Guid(a1d283c83dac75640908adaf0ccbf265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/DryDirt using Guid(a1d283c83dac75640908adaf0ccbf265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9fe42ccfd48de5ab5f0d62d248cb74a') in 0.001602417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Textures 1/WoodPlanks/WoodPlanksAmbientOcclusionMap.png
+  artifactKey: Guid(c1585020883357f4caaeda440ce80569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WoodPlanks/WoodPlanksAmbientOcclusionMap.png using Guid(c1585020883357f4caaeda440ce80569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f4101c301dfa502695e7a41362b98a4') in 0.008366375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures 1/WetDirt
+  artifactKey: Guid(9054964a53b86b94b8bfec7d299d12f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WetDirt using Guid(9054964a53b86b94b8bfec7d299d12f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8edf7d7323427b5d120769c8f3c5f928') in 0.001375625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures 1/WetDirt/WetDirtSpecularMap.png
+  artifactKey: Guid(0b6a359ebe978c64b96e7cf6bff7168c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WetDirt/WetDirtSpecularMap.png using Guid(0b6a359ebe978c64b96e7cf6bff7168c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12f613ba62e1432fd41491f56801a9b0') in 0.009064875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures 1/WetDirt/WetDirtNormalMap.png
+  artifactKey: Guid(4a6e5bb32d9fd78469138a018f6dab87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WetDirt/WetDirtNormalMap.png using Guid(4a6e5bb32d9fd78469138a018f6dab87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc28941f12f350c0fc0079d2d38d5eb3') in 0.01127275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Textures 1/WoodBark/WoodBarkNormalMap.png
+  artifactKey: Guid(42cdccbe82df40d4eb231f92f70aa069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WoodBark/WoodBarkNormalMap.png using Guid(42cdccbe82df40d4eb231f92f70aa069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '330144024f3c2da190ba5d385ea05bfd') in 0.014113916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures 1/WildGrass/WildGrassSpecularMap.png
+  artifactKey: Guid(3288225a3b9e86d449d1e19a3f9bbb64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WildGrass/WildGrassSpecularMap.png using Guid(3288225a3b9e86d449d1e19a3f9bbb64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0603be8cd8d87c60d81f52766ae1a137') in 0.006417458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures 1/RoughStone/RoughStoneDisplacementMap.png
+  artifactKey: Guid(7d7bff3f92af8f34f90231a9e58bc087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/RoughStone/RoughStoneDisplacementMap.png using Guid(7d7bff3f92af8f34f90231a9e58bc087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c78019d4f807f9e9118cc0ea8c72619d') in 0.006914208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures 1/DryDirt/DryDirtDisplacementMap.png
+  artifactKey: Guid(2b2d1fbc30901394ea91a24a65d043d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/DryDirt/DryDirtDisplacementMap.png using Guid(2b2d1fbc30901394ea91a24a65d043d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '408360be211399b8ca27fcc95fe256c3') in 0.007913958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures 1/WildGrass/WildGrassAlbedo.png
+  artifactKey: Guid(5dc6d075b21b95449ace215a6cf2f787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WildGrass/WildGrassAlbedo.png using Guid(5dc6d075b21b95449ace215a6cf2f787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2688ca77a8a31ead8d69d01a87cb449') in 0.007787875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Textures 1/WetDirt/WetDirtAmbientOcclusionMap.png
+  artifactKey: Guid(101c5f156fb4c184da9b18eb450418c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WetDirt/WetDirtAmbientOcclusionMap.png using Guid(101c5f156fb4c184da9b18eb450418c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad9edeba71059081139a7ef370e7d523') in 0.009624917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Textures 1/SmoothStone/SmoothStoneAmbientOcclusionMap.png
+  artifactKey: Guid(81ada956c53cc3647946828dcdf7dac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/SmoothStone/SmoothStoneAmbientOcclusionMap.png using Guid(81ada956c53cc3647946828dcdf7dac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b43f6bb1e4e447dd0b0331c5dab67088') in 0.008611667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Textures 1/WoodPlanks/WoodPlanksDisplacementMap.png
+  artifactKey: Guid(196cd1965f39f9f45b2169b753df6fe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WoodPlanks/WoodPlanksDisplacementMap.png using Guid(196cd1965f39f9f45b2169b753df6fe4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '115ca52b406a45d8f2017ca9566d762c') in 0.00894175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures 1/WoodBark/WoodBarkDisplacementMap.png
+  artifactKey: Guid(6d4da26f93ca1574bbd47558366f99ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WoodBark/WoodBarkDisplacementMap.png using Guid(6d4da26f93ca1574bbd47558366f99ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7252b3a234f82760dbf6158153e7dc4') in 0.00820575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures 1/RoughStone/RoughStoneAmbientOcclusionMap.png
+  artifactKey: Guid(e52463cf5f03b884998bcba9049b2ad6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/RoughStone/RoughStoneAmbientOcclusionMap.png using Guid(e52463cf5f03b884998bcba9049b2ad6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fd88dc211ae1d9fd1f3e4f84c4abcb5') in 0.008366958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures 1/DryDirt/DryDirtNormalMap.png
+  artifactKey: Guid(9a11c93040713cd4bbf65d6094d12ebe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/DryDirt/DryDirtNormalMap.png using Guid(9a11c93040713cd4bbf65d6094d12ebe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '223a17ca275735027e8ff5856fd4e99f') in 0.011831333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Textures 1/WoodBark/WoodBarkAlbedo.png
+  artifactKey: Guid(1c63373a6aad19148a31c353b426708c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WoodBark/WoodBarkAlbedo.png using Guid(1c63373a6aad19148a31c353b426708c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddc32f04cf2a9d60f31e800599c98d96') in 0.007577708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Textures 1/ShortGrass
+  artifactKey: Guid(4a75885c1260330409cff46a19bbac5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/ShortGrass using Guid(4a75885c1260330409cff46a19bbac5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57419d10da8c4a44666fd2f0d0f5629a') in 0.001392833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials 1/WildGrass.mat
+  artifactKey: Guid(a34848fa6d080734780eda6574931999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials 1/WildGrass.mat using Guid(a34848fa6d080734780eda6574931999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38a6ccb3b43236f3d6e9e573a83e5b0b') in 0.008361584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Textures 1
+  artifactKey: Guid(9aa8d06b517cab0449a7211a3abd2e94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1 using Guid(9aa8d06b517cab0449a7211a3abd2e94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24264e70d0613eddc18d968050a590ff') in 0.003879791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials 1/NewLayer 1.terrainlayer
+  artifactKey: Guid(2b36bc21fed90449bb83e9e72c61134f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials 1/NewLayer 1.terrainlayer using Guid(2b36bc21fed90449bb83e9e72c61134f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7212679059ee9b1652bed26e5244285') in 0.005863459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Textures 1/SmoothStone/SmoothStoneDisplacementMap.png
+  artifactKey: Guid(8ae1682fb301df2489302f8046f2822b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/SmoothStone/SmoothStoneDisplacementMap.png using Guid(8ae1682fb301df2489302f8046f2822b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c66bc1b8754e33a7a20836922b65445') in 0.008350083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures 1/ShortGrass/ShortGrassSpecularMap.png
+  artifactKey: Guid(fdb70e206ff250243a834a11ba4c267a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/ShortGrass/ShortGrassSpecularMap.png using Guid(fdb70e206ff250243a834a11ba4c267a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69f64ccf2b603155d4458391b609f597') in 0.007769458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures 1/RoughStone/RoughStoneSpecularMap.png
+  artifactKey: Guid(b960f4a581ddc874fadc053c27f13731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/RoughStone/RoughStoneSpecularMap.png using Guid(b960f4a581ddc874fadc053c27f13731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50a421a94449041f9453602972a2fa6e') in 0.00923275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Textures 1/RoughStone/RoughStoneNormalMap.png
+  artifactKey: Guid(84627a4b488604d48a2a97ebb52e48bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/RoughStone/RoughStoneNormalMap.png using Guid(84627a4b488604d48a2a97ebb52e48bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '600762ed3b73b28558c8149912a0934e') in 0.018144292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures 1/ShortGrass/ShortGrassAmbientOcclusionMap.png
+  artifactKey: Guid(59046b4c6de3b004e916df1ca8a922b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/ShortGrass/ShortGrassAmbientOcclusionMap.png using Guid(59046b4c6de3b004e916df1ca8a922b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe92d6b2aafaf2e5d9f20261c337d08e') in 0.010658834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures 1/SmoothStone
+  artifactKey: Guid(410b43ef5bd33b74d8055c37d427b2da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/SmoothStone using Guid(410b43ef5bd33b74d8055c37d427b2da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c89ee572a5c41bf87a6448772dd43347') in 0.0010775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials 1/RoughStone.mat
+  artifactKey: Guid(f34d13499366a0743ac4bcc0fc0b3162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials 1/RoughStone.mat using Guid(f34d13499366a0743ac4bcc0fc0b3162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82037e52024e8d3391630608e798d7ad') in 0.002231166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Textures 1/WoodPlanks/WoodPlanksSpecularMap.png
+  artifactKey: Guid(fe353d43518245a4b9ebdef56b20474b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures 1/WoodPlanks/WoodPlanksSpecularMap.png using Guid(fe353d43518245a4b9ebdef56b20474b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5903645e0cb27b90b8816c4c3ed4269') in 0.011956042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.695163 seconds.
+  path: Assets/Textures/WoodBark
+  artifactKey: Guid(0451b18fbf2e07d40b920602ade33f36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/WoodBark using Guid(0451b18fbf2e07d40b920602ade33f36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5869476384c3d24239501e1a97d7fa0') in 0.001112125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/DryDirt
+  artifactKey: Guid(a1d283c83dac75640908adaf0ccbf265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/DryDirt using Guid(a1d283c83dac75640908adaf0ccbf265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89e00446977b54028ac6ddc15d0df448') in 0.000995666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures/WoodPlanks/WoodPlanksNormalMap.png
+  artifactKey: Guid(5cad53a92bbb64c458804787c2b6525e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/WoodPlanks/WoodPlanksNormalMap.png using Guid(5cad53a92bbb64c458804787c2b6525e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1694ab53d2657196d909dfd47c55e6d') in 0.036220834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/WoodBark/WoodBarkNormalMap.png
+  artifactKey: Guid(42cdccbe82df40d4eb231f92f70aa069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/WoodBark/WoodBarkNormalMap.png using Guid(42cdccbe82df40d4eb231f92f70aa069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f759805b3069f2c9738b5c9027123a29') in 0.015557416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/RoughStone/RoughStoneDisplacementMap.png
+  artifactKey: Guid(7d7bff3f92af8f34f90231a9e58bc087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/RoughStone/RoughStoneDisplacementMap.png using Guid(7d7bff3f92af8f34f90231a9e58bc087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '438b4cdc085c6f4e99c9874eb8271463') in 0.005936333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/ShortGrass/ShortGrassNormalMap.png
+  artifactKey: Guid(9f2bbef63ab3fe842a31d5386550c45b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/ShortGrass/ShortGrassNormalMap.png using Guid(9f2bbef63ab3fe842a31d5386550c45b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '269733405cbe12022c90163fa6946f91') in 0.009121042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/WoodBark/WoodBarkDisplacementMap.png
+  artifactKey: Guid(6d4da26f93ca1574bbd47558366f99ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/WoodBark/WoodBarkDisplacementMap.png using Guid(6d4da26f93ca1574bbd47558366f99ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2eadcc9d4bffffc73150d4fdbf950137') in 0.006942958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/WoodPlanks/WoodPlanksAlbedo.png
+  artifactKey: Guid(dbee807792796824cb08e25874613a50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/WoodPlanks/WoodPlanksAlbedo.png using Guid(dbee807792796824cb08e25874613a50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d18a99df68ddddf5b1b47aee154510e') in 0.005216791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/DryDirt/DryDirtAmbientOcclusionMap.png
+  artifactKey: Guid(9437a27e04a41354899ecf3e31f2afbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/DryDirt/DryDirtAmbientOcclusionMap.png using Guid(9437a27e04a41354899ecf3e31f2afbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '291b1b557a56aa913dfd2b609e32d48f') in 0.005862167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/SmoothStone/SmoothStoneDisplacementMap.png
+  artifactKey: Guid(8ae1682fb301df2489302f8046f2822b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/SmoothStone/SmoothStoneDisplacementMap.png using Guid(8ae1682fb301df2489302f8046f2822b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ca990d4178c24e126e05292e8a91f11') in 0.004769083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/RoughStone
+  artifactKey: Guid(e2aba035f22acf04cbf8345e4dd170c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/RoughStone using Guid(e2aba035f22acf04cbf8345e4dd170c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd921740571f681209a75a58643ee404f') in 0.00094025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/RoughStone/RoughStoneNormalMap.png
+  artifactKey: Guid(84627a4b488604d48a2a97ebb52e48bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/RoughStone/RoughStoneNormalMap.png using Guid(84627a4b488604d48a2a97ebb52e48bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c1b5e1f62e774303227480479abffa6') in 0.007449541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/WetDirt/WetDirtDisplacementMap.png
+  artifactKey: Guid(ab34496e1927c4a4baae84c57ce7831a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/WetDirt/WetDirtDisplacementMap.png using Guid(ab34496e1927c4a4baae84c57ce7831a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e158181f2eed97d625a4b30b16bc85bf') in 0.004330667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.933042 seconds.
+  path: Assets/Materials/SmoothStone.mat
+  artifactKey: Guid(dc4343123c4206f4ca8a2211faa89522) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/SmoothStone.mat using Guid(dc4343123c4206f4ca8a2211faa89522) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4121d970fd555d9ebe85d83a8d8f0445') in 0.005114417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Materials/NewLayer 2.terrainlayer
+  artifactKey: Guid(dc309fde7e92f4a1c876d55ee7e27612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/NewLayer 2.terrainlayer using Guid(dc309fde7e92f4a1c876d55ee7e27612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22ebd6e4cb4dddf5f57a66eb5b600728') in 0.004177917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/WoodPlanks.mat
+  artifactKey: Guid(a0cea2e6c1c5bb24f9b3566064937a8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/WoodPlanks.mat using Guid(a0cea2e6c1c5bb24f9b3566064937a8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e75a898a0271c0289aa67f14306e5bc1') in 0.004783791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

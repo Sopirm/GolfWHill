@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+    <Compile Include="Assets/UNSORTED/Nicrom/Shaders/Wind/Assets/Editor/Scripts/LPVegetation_MaterialInspector.cs" />
+    <Compile Include="Assets/UNSORTED/Nicrom/Shaders/Wind/Assets/Editor/Scripts/TextArea_Editor.cs" />
+    <Compile Include="Assets/UNSORTED/Nicrom/Shaders/Wind/Assets/Editor/Scripts/LPVegetationTransparent_MaterialInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
