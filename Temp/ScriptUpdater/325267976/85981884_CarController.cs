@@ -12,7 +12,6 @@ public class CarController : MonoBehaviour
     public List<WheelCollider> rearWheelColliders;  // Задние WheelCollider
     public List<Transform> frontWheelMeshes;    // Меши передних колес
     public List<Transform> rearWheelMeshes;     // Меши задних колес
-    public Transform centerOfMass; // Центр масс
 
     private Rigidbody rb;
     private InputSystem_Actions inputActions;
@@ -26,15 +25,6 @@ public class CarController : MonoBehaviour
             Debug.LogError("Rigidbody not found on CarController object.");
             enabled = false;
             return;
-        }
-
-        if (centerOfMass != null)
-        {
-            rb.centerOfMass = centerOfMass.localPosition; // Установить центр масс
-        }
-        else
-        {
-            Debug.LogWarning("Center of Mass Transform is not assigned. Car might be unstable.");
         }
 
         inputActions = new InputSystem_Actions();
@@ -100,10 +90,20 @@ public class CarController : MonoBehaviour
         float horizontalInput = moveInput.x;
         float currentSteeringAngle = horizontalInput * steeringAngle;
 
-        // Применяем steerAngle всегда, чтобы колеса поворачивались на месте
-        foreach (var wheelCollider in frontWheelColliders)
+        // Поворот только при движении (как ранее просили)
+        if (Mathf.Abs(verticalInput) > 0.1f || rb.linearVelocity.magnitude > 0.5f)
         {
-            wheelCollider.steerAngle = currentSteeringAngle;
+            foreach (var wheelCollider in frontWheelColliders)
+            {
+                wheelCollider.steerAngle = currentSteeringAngle;
+            }
+        }
+        else
+        {
+            foreach (var wheelCollider in frontWheelColliders)
+            {
+                wheelCollider.steerAngle = 0; // Сброс угла поворота, если машина стоит
+            }
         }
     }
 

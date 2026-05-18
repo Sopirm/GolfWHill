@@ -136,6 +136,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SwitchCamera"",
+                    ""type"": ""Button"",
+                    ""id"": ""a4ef0922-f04f-4bc8-bed6-3a65f0ff2359"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -237,6 +246,17 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""RaycastInteract"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7f34e49b-b80d-467e-ba68-ae40b580a8bf"",
+                    ""path"": ""<Keyboard>/c"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SwitchCamera"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -250,6 +270,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_SpawnObject = m_Player.FindAction("SpawnObject", throwIfNotFound: true);
         m_Player_RaycastInteract = m_Player.FindAction("RaycastInteract", throwIfNotFound: true);
+        m_Player_SwitchCamera = m_Player.FindAction("SwitchCamera", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -335,6 +356,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_SpawnObject;
     private readonly InputAction m_Player_RaycastInteract;
+    private readonly InputAction m_Player_SwitchCamera;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -366,6 +388,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/RaycastInteract".
         /// </summary>
         public InputAction @RaycastInteract => m_Wrapper.m_Player_RaycastInteract;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/SwitchCamera".
+        /// </summary>
+        public InputAction @SwitchCamera => m_Wrapper.m_Player_SwitchCamera;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -407,6 +433,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @RaycastInteract.started += instance.OnRaycastInteract;
             @RaycastInteract.performed += instance.OnRaycastInteract;
             @RaycastInteract.canceled += instance.OnRaycastInteract;
+            @SwitchCamera.started += instance.OnSwitchCamera;
+            @SwitchCamera.performed += instance.OnSwitchCamera;
+            @SwitchCamera.canceled += instance.OnSwitchCamera;
         }
 
         /// <summary>
@@ -433,6 +462,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @RaycastInteract.started -= instance.OnRaycastInteract;
             @RaycastInteract.performed -= instance.OnRaycastInteract;
             @RaycastInteract.canceled -= instance.OnRaycastInteract;
+            @SwitchCamera.started -= instance.OnSwitchCamera;
+            @SwitchCamera.performed -= instance.OnSwitchCamera;
+            @SwitchCamera.canceled -= instance.OnSwitchCamera;
         }
 
         /// <summary>
@@ -508,5 +540,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnRaycastInteract(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "SwitchCamera" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSwitchCamera(InputAction.CallbackContext context);
     }
 }
