@@ -4805,3 +4805,39 @@ Memory consumption went from 168.6 MB to 163.2 MB.
 Total: 10.598584 ms (FindLiveObjects: 0.250875 ms CreateObjectMapping: 0.131333 ms MarkObjects: 9.125667 ms  DeleteObjects: 1.090459 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4338.243521 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(095e275508b4949fcbdc8ff64219126c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations using Guid(095e275508b4949fcbdc8ff64219126c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f04d760e28b1a381afa7a73e9b4ef6b8') in 0.077859583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Animations/RelaxedSuspension.anim
+  artifactKey: Guid(23e75954826214891858dfb90d5ee943) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/RelaxedSuspension.anim using Guid(23e75954826214891858dfb90d5ee943) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d34c03b832a3eaf9e7f832f25ea0576') in 0.038605375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Animations/Pickup.controller
+  artifactKey: Guid(396b160495e194fea9963fc0bb3ad312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Pickup.controller using Guid(396b160495e194fea9963fc0bb3ad312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb6ba7231b7ef9caf393095d050fcb6c') in 0.003396625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Settings/InputSystem_Actions.inputactions
+  artifactKey: Guid(55e71fb7c39fb4e00ac089d20b41b562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/InputSystem_Actions.inputactions using Guid(55e71fb7c39fb4e00ac089d20b41b562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a65ffd617c77ca53c6d50a16c557198f') in 0.105583166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting

@@ -6329,3 +6329,46 @@ Memory consumption went from 168.5 MB to 163.9 MB.
 Total: 11.573542 ms (FindLiveObjects: 0.237458 ms CreateObjectMapping: 0.139167 ms MarkObjects: 9.906125 ms  DeleteObjects: 1.290542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1215.295252 seconds.
+  path: Assets/Animations/New Animation.anim
+  artifactKey: Guid(e0725ff660bda4b2a8bff227864ba00e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/New Animation.anim using Guid(e0725ff660bda4b2a8bff227864ba00e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a92eb1970c5b8ae70753fb5c4f381c0') in 0.1336285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scripts/MainCharacter/PickupAnimatorController.cs
+  artifactKey: Guid(9858661f6696b4636a3c5808f103a9cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/MainCharacter/PickupAnimatorController.cs using Guid(9858661f6696b4636a3c5808f103a9cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6403a38b9944cfa841092640e0ba6ac') in 0.004502042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Settings/InputSystem_Actions.cs
+  artifactKey: Guid(9b4dde5a8dad8462ba27caa0ac27a9d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/InputSystem_Actions.cs using Guid(9b4dde5a8dad8462ba27caa0ac27a9d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cae7cd30b200a36034487788a7d52101') in 0.002873708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animations/Suspension.anim
+  artifactKey: Guid(f3d8a183697ef47089ac57191899800e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Suspension.anim using Guid(f3d8a183697ef47089ac57191899800e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4074406e7f5f82c32c9b75eaddddd69e') in 0.002643125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animations/door.anim
+  artifactKey: Guid(dec609d56a9d543c2aced068cf66a6bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/door.anim using Guid(dec609d56a9d543c2aced068cf66a6bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '536e5bd7b1679b6ce485f18718304aa6') in 0.00344075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
