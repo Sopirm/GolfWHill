@@ -1,0 +1,824 @@
+
+
+	                	
+МИНОБРНАУКИ РОССИИ
+Федеральное государственное бюджетное образовательное учреждение
+ высшего образования
+«МИРЭА – Российский технологический университет»
+РТУ МИРЭА
+
+Институт перспективных технологий и индустриального программирования
+
+Кафедра индустриального программирования
+
+
+ПРАКТИЧЕСКАЯ РАБОТА
+по дисциплине:
+«Программирование виртуальной среды»
+(наименование дисциплины)
+
+
+
+Тема практической работы:
+«Работа с сетями. Создание многопользовательских проектов в Unity. (часть 1)»
+
+Студенты группы      Э_БО-0_-23                 ФИО                
+
+Принял        ___________________ ФИО _________                                     
+
+
+
+Москва 
+2026 г.
+
+Практическая работа
+
+Основы сетевого взаимодействия. Создание LAN-игры
+
+Цель работы - освоить принципы построения многопользовательских проектов в Unity 6, изучение компонентов Netcode for GameObjects, настройка сетевой сцены и сетевого игрока, синхронизация перемещения и состояния объектов между клиентами, запуск проекта в режимах Host и Client, а также подключение игроков через Unity Relay по join code.
+
+Теоретические сведения
+
+В Unity 6 для GameObject/MonoBehaviour-проектов официальным высокоуровневым сетевым решением является Netcode for GameObjects. В документации он описывается как high-level netcode SDK для рабочих процессов на базе GameObject/MonoBehaviour, работающий поверх транспортного слоя. 
+Центральным компонентом сетевого проекта является NetworkManager. Unity описывает его как обязательный компонент NGO и «central netcode hub» проекта. Именно через него настраиваются Player Prefab, список сетевых префабов, transport, tick rate, scene management и другие сетевые параметры. Для client-server topology Unity рекомендует использовать Unity Transport, если нет специфической причины выбирать другой транспорт. 
+Чтобы объект участвовал в сетевом взаимодействии, он должен иметь компонент NetworkObject. Документация Unity отдельно подчёркивает, что для репликации сетевых свойств или использования RPC объекту нужен NetworkObject, а также хотя бы один NetworkBehaviour. Все компоненты типа NetworkTransform, пользовательские NetworkVariable и RPC зависят от наличия NetworkObject. 
+Для синхронизации положения и поворота объекта в пространстве используется NetworkTransform. В текущей ветке NGO Unity описывает два режима authority для client-server topology: server authority и owner authority. Для учебного сетевого игрока удобнее использовать owner authority, когда владелец объекта управляет его перемещением, а остальные клиенты получают уже синхронизированное состояние. 
+Для синхронизации данных и событий между участниками используются NetworkVariable и RPC. В актуальной документации NGO 2.x Unity описывает универсальный RPC-атрибут вида Rpc(SendTo.Server), Rpc(SendTo.NotServer) и другие варианты маршрутизации. Это уже более современный способ, чем старые раздельные конструкции, которые часто встречаются в старых примерах. 
+Для тестирования многопользовательской логики на одном компьютере в Unity 6 используется Multiplayer Play Mode. Это пакет, позволяющий открывать несколько экземпляров редактора на одном устройстве и тем самым ускорять цикл проверки сетевой логики. Для проекта это особенно удобно, потому что позволяет проверить Host и Client без постоянной сборки отдельных билдов. 
+Если проект должен подключать игроков не только локально, но и через интернет, используется Unity Relay. Join code в Relay это короткий код, которым host делится с другими игроками; пока host подключён к Relay-серверу, этот код и allocation остаются действительными. Официальный пример интеграции NGO с Relay показывает типовой процесс: host создаёт allocation, получает join code, передаёт его клиентам, а клиент использует этот код для подключения и запуска StartClient(). 
+Важно различать Lobby и Relay. Relay отвечает именно за сетевое соединение и передачу данных, тогда как Lobby нужен для предварительного объединения игроков в логическую комнату, списка лобби и сценариев ожидания перед стартом матча. 
+Для установки вы можете обратиться к документации Установка Netcode для GameObjects.
+В этой работе вы узнаете, как добавить основные компоненты сетевой игры:
+Компонент NetworkManager
+Объект player
+Сцена
+Сначала создайте компонент NetworkManager:
+1.Щелкните правой кнопкой мыши на вкладке Иерархия, затем выберите Создать пустой, чтобы создать пустой игровой объект.
+
+2.Переименуйте пустой GameObject NetworkManager.
+
+3.Выберите NetworkManager, затем Добавить компонент на вкладке Инспектор.
+
+4.Выберите Netcode > NetworkManager в списке компонентов.
+
+5.На вкладке «Инспектор» найдите раздел Unity Transport и выберите UnityTransport в качестве типа протокола.
+
+
+6.Сохраните сцену, нажав Ctrl/Cmd + S (или выбрав Файл > Сохранить).
+Создайте объект для каждого подключенного игрока
+Примечание
+Когда вы помещаете префаб в слот PlayerPrefab, вы сообщаете библиотеке, что при подключении клиента к игре этот префаб автоматически становится персонажем для подключившегося клиента. Netcode для GameObjects не создаст объект игрока, если в качестве PlayerPrefab не указан какой-либо префаб. См. Объекты игроков.
+В этом разделе вы узнаете, как создать объект, который будет появляться у каждого подключенного игрока.
+1.В редакторе Unity щелкните правой кнопкой мыши на вкладке Иерархия, затем выберите 3D-объект > Капсула.
+2.Назовите объект-капсулу Игроком.
+3.Выбрав проигрыватель, добавьте компонент NetworkObject на вкладке Инспектор, выбрав Добавить компонент > Сетевой код > NetworkObject.
+4.Щелкните правой кнопкой мыши в папке "Ресурсы" на вкладке "Проект", затем выберите "Создать" > "Папка".
+5.Назовите папку Prefabs.
+6.Превратите созданный ранее объект Player в префаб, перетащив его с вкладки Иерархия в папку Префабы.
+
+7.Чтобы удалить игрока из сцены, выберите капсулу игрока на вкладке Сцена, а затем нажмите клавишу Delete (или Cmd + Delete для macOS).
+oВы можете удалить объект Player из сцены, так как присвоили этот сетевой префаб свойству префаба Player в компоненте NetworkManager. Библиотека не поддерживает определение объекта Player как сетевого объекта, размещенного в сцене.
+8.Выберите NetworkManager.
+9.Выбрав NetworkManager, найдите поле PlayerPrefab на вкладке Inspector.
+
+10.Перетащите префаб Player с вкладки Project в слот PlayerPrefab компонента NetworkManager на вкладке Inspector.
+
+11.Добавьте трехмерную плоскость (с центром в 0,0,0) к сцене, щелкнув правой кнопкой мыши на вкладке Иерархия, затем выбрав 3D объект > Плоскость.
+oДобавление самолета позволяет создать визуальную точку отсчета для определения положения префаба игрока, но это необязательно. 
+12.Сохраните сцену, нажав Ctrl/Cmd + S (выбрав Файл > Сохранить).
+Управление сценами и сцены в списке сборки
+Netcode для GameObjects поставляется с интегрированным решением для управления сценами, которое помогает синхронизировать сцены, загружаемые всеми подключенными клиентами. Свойство NetworkManager Включить управление сценами, включенное по умолчанию, определяет, будет ли использоваться интегрированное решение для управления сценами в вашем проекте (или нет). Чтобы интегрированное решение для управления сценами работало должным образом, необходимо добавить все сцены, которые вы хотите синхронизировать, в список сцен для сборки. В этом разделе мы расскажем, как добавить текущую сцену в список сцен для сборки.
+1.Откройте окно настроек сборки, выбрав Файл > Настройки сборки.
+2.Выберите Добавить открытые сцены.
+3.Сцены / SampleScene перечислены в разделе Сцены в сборке. Вы можете закрыть окно настроек сборки.
+Тестируем запуск хоста в редакторе Unity
+Теперь, когда у вас есть NetworkManager, назначенный PlayerPrefab, и вы добавили текущую сцену в сцены для тестирования сборки, вы можете быстро проверить, все ли работает и настроено правильно, запустив режим воспроизведения в Unity Editor. Запуская хост, вы одновременно запускаете NetworkManager в качестве сервера и клиента.
+Вы можете протестировать свой проект Hello World с помощью редактора Unity или утилиты командной строки. Если вы выберете второй вариант, обратитесь к разделу Создание утилиты командной строки. В противном случае следуйте приведенным ниже инструкциям по тестированию с помощью редактора Unity. До подключения первого клиента на сервере отображается только самолет. Затем Netcode для GameObjects создает новый префаб Player для каждого подключенного клиента, но они накладываются друг на друга в режиме игры.
+1.Чтобы запустить сцену, выберите Play в верхней части редактора Unity.
+
+2.Выберите NetworkManager в списке Hierarchy.
+3.Выбрав NetworkManager (на вкладке «Иерархия»), выберите Start Host на вкладке Inspector. Кроме того, вы можете воспользоваться кнопками в игровом интерфейсе.
+
+Если все работает правильно, на вкладке Инспектор появится опция Остановить хост.
+HelloWorldManager.cs скрипт
+Теперь, когда вы убедились, что все настроено правильно, вам нужно иметь возможность запускать NetworkManager как в режиме игры, так и в виде отдельной сборки или в другом экземпляре MPPM. В этом разделе мы расскажем, как создать HelloWorldManager.cs скрипт компонента.
+1.Создайте новый скрипт в папке Scripts с именем HelloWorldManager.cs.
+2.Добавьте этот компонент в GameObject NetworkManager в вашей сцене.
+3.Скопируйте следующий код в скрипт HelloWorldManager.cs:
+using Unity.Netcode;
+using UnityEngine;
+
+namespace HelloWorld
+{
+    /// <summary>
+    /// Add this component to the same GameObject as
+    /// the NetworkManager component.
+    /// </summary>
+    public class HelloWorldManager : MonoBehaviour
+    {
+        private NetworkManager m_NetworkManager;
+
+        private void Awake()
+        {
+            m_NetworkManager = GetComponent<NetworkManager>();
+        }
+
+        private void OnGUI()
+        {
+            GUILayout.BeginArea(new Rect(10, 10, 300, 300));
+            if (!m_NetworkManager.IsClient && !m_NetworkManager.IsServer)
+            {
+                StartButtons();
+            }
+            else
+            {
+                StatusLabels();
+
+                SubmitNewPosition();
+            }
+
+            GUILayout.EndArea();
+        }
+
+        private void StartButtons()
+        {
+            if (GUILayout.Button("Host")) m_NetworkManager.StartHost();
+            if (GUILayout.Button("Client")) m_NetworkManager.StartClient();
+            if (GUILayout.Button("Server")) m_NetworkManager.StartServer();
+        }
+
+        private void StatusLabels()
+        {
+            var mode = m_NetworkManager.IsHost ?
+                "Host" : m_NetworkManager.IsServer ? "Server" : "Client";
+
+            GUILayout.Label("Transport: " +
+                m_NetworkManager.NetworkConfig.NetworkTransport.GetType().Name);
+            GUILayout.Label("Mode: " + mode);
+        }
+
+        private void SubmitNewPosition()
+        {
+            if (GUILayout.Button(m_NetworkManager.IsServer ? "Move" : "Request Position Change"))
+            {
+                if (m_NetworkManager.IsServer && !m_NetworkManager.IsClient)
+                {
+                    foreach (ulong uid in m_NetworkManager.ConnectedClientsIds)
+                        m_NetworkManager.SpawnManager.GetPlayerNetworkObject(uid).GetComponent<HelloWorldPlayer>().Move();
+                }
+                else
+                {
+                    var playerObject = m_NetworkManager.SpawnManager.GetLocalPlayerObject();
+                    var player = playerObject.GetComponent<HelloWorldPlayer>();
+                    player.Move();
+                }
+            }
+        }
+    }
+}
+В своем проекте Hello World вы создали NetworkManager, добавив предварительно созданный компонент NetworkManager в GameObject. Этот компонент позволяет запускать хост, клиент или сервер в режиме игры через окно инспектора. Скрипт HelloWorldManager.cs упрощает и расширяет эту функциональность, создавая меню пользовательского интерфейса в режиме выполнения/игры, которое позволяет выбирать один из трех режимов NetworkManager:
+Хост запускает сервер и присоединяется к нему в качестве клиента.
+Клиент присоединяется к серверу в качестве игрока.
+Сервер запускает игру в качестве сервера без создания экземпляра игрока.
+Скрипт HelloWorldManager.cs создает это меню в рамках StartButtons(). После того как вы нажмете на кнопку, метод StatusLabels() добавит на экран метку, указывающую, какой режим вы выбрали. Это помогает различать окна игрового режима при тестировании многопользовательской игры.
+       private void StartButtons()
+        {
+            if (GUILayout.Button("Host")) NetworkManager.Singleton.StartHost();
+            if (GUILayout.Button("Client")) NetworkManager.Singleton.StartClient();
+            if (GUILayout.Button("Server")) NetworkManager.Singleton.StartServer();
+        }
+
+        private void StatusLabels()
+        {
+            var mode = NetworkManager.Singleton.IsHost ?
+                "Host" : NetworkManager.Singleton.IsServer ? "Server" : "Client";
+
+            GUILayout.Label("Transport: " +
+                NetworkManager.Singleton.NetworkConfig.NetworkTransport.GetType().Name);
+            GUILayout.Label("Mode: " + mode);
+        }
+Как видно из предыдущего фрагмента кода, скрипт HelloWorldManager.cs также использует экземпляр NetworkManager через его синглтон для получения таких свойств, как IsClient, IsServer, и IsLocalClient. Свойства IsClient и IsServer определяют состояние установленного соединения.
+Скрипт HelloWorldManager.cs также добавляет новый метод под названием SubmitNewPosition(), который скрипт HelloWorldPlayer использует для создания простого вызова RPC.
+
+
+
+Задание
+Вариант 1 – При работе с отдельными проектами
+1. Настройка проекта
+1.Создайте новый 3D-проект Unity (2021.3 или новее).
+2.Установите Netcode for GameObjects через Package Manager:
+oWindow -> Package Manager
+oВключите "Show preview packages"
+oНайдите и установите "Netcode for GameObjects"
+3.Импортируйте Samples из установленного пакета (Basic Network Scenes).
+2. Создание базовой сетевой сцены
+1.Создайте новую сцену NetworkScene.
+2.Создайте структуру папок: Scripts/Network, Prefabs/Network.
+3.Настройте Network Manager:
+oСоздайте пустой GameObject NetworkManager.
+oДобавьте компоненты:
+NetworkManager
+UnityTransport (в NetworkManager -> NetworkManagerComponent)
+4.Создайте игрока:
+oСоздайте Capsule, назовите NetworkPlayer.
+oДобавьте компоненты:
+NetworkObject
+NetworkTransform
+NetworkAnimator (если будет анимация)
+oСделайте префаб в папке Prefabs/Network.
+5.Настройте спавн игрока в Network Manager:
+oВыберите NetworkManager.
+oВ NetworkManagerConfig -> PlayerPrefab перетащите префаб NetworkPlayer.
+3. Создание управления игроком
+1.Создайте скрипт NetworkPlayerController:
+using UnityEngine;
+using Unity.Netcode;
+
+public class NetworkPlayerController : NetworkBehaviour
+{
+    [Header("Movement Settings")]
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float rotationSpeed = 180f;
+    [SerializeField] private float jumpForce = 7f;
+    
+    [Header("Network Settings")]
+    [SerializeField] private NetworkVariable<Color> playerColor = new NetworkVariable<Color>(
+        Color.white, 
+        NetworkVariableReadPermission.Everyone, 
+        NetworkVariableWritePermission.Owner
+    );
+    
+    private CharacterController characterController;
+    private Vector3 moveDirection;
+    private float verticalVelocity = 0f;
+    private bool isGrounded = true;
+    
+    private void Start()
+    {
+        characterController = GetComponent<CharacterController>();
+        
+        // Если это локальный игрок
+        if (IsLocalPlayer)
+        {
+            // Назначаем случайный цвет только себе
+            playerColor.Value = Random.ColorHSV(0f, 1f, 0.8f, 1f, 0.8f, 1f);
+            
+            // Настраиваем камеру для локального игрока
+            SetupLocalCamera();
+        }
+        
+        // Подписываемся на изменение цвета
+        playerColor.OnValueChanged += OnColorChanged;
+        
+        // Применяем начальный цвет
+        ApplyPlayerColor(playerColor.Value);
+    }
+    
+    private void SetupLocalCamera()
+    {
+        // Находим главную камеру
+        Camera mainCamera = Camera.main;
+        if (mainCamera != null)
+        {
+            // Делаем камеру дочерней объекту игрока
+            mainCamera.transform.SetParent(transform);
+            mainCamera.transform.localPosition = new Vector3(0, 1.5f, -3);
+            mainCamera.transform.localRotation = Quaternion.identity;
+        }
+    }
+    
+    private void Update()
+    {
+        // Только локальный игрок может управлять собой
+        if (!IsLocalPlayer) return;
+        
+        HandleMovement();
+        HandleActions();
+    }
+    
+    private void HandleMovement()
+    {
+        isGrounded = characterController.isGrounded;
+        
+        // Сброс вертикальной скорости при касании земли
+        if (isGrounded && verticalVelocity < 0)
+            verticalVelocity = -2f;
+        
+        // Получаем ввод
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        
+        // Движение вперед/назад и влево/вправо
+        Vector3 forwardMovement = transform.forward * vertical;
+        Vector3 rightMovement = transform.right * horizontal;
+        Vector3 movement = (forwardMovement + rightMovement).normalized * moveSpeed;
+        
+        moveDirection.x = movement.x;
+        moveDirection.z = movement.z;
+        
+        // Поворот
+        if (horizontal != 0)
+            transform.Rotate(0, horizontal * rotationSpeed * Time.deltaTime, 0);
+        
+        // Прыжок
+        if (isGrounded && Input.GetButtonDown("Jump"))
+            verticalVelocity = jumpForce;
+        
+        // Гравитация
+        verticalVelocity += Physics.gravity.y * Time.deltaTime;
+        moveDirection.y = verticalVelocity;
+        
+        // Применяем движение
+        characterController.Move(moveDirection * Time.deltaTime);
+    }
+    
+    private void HandleActions()
+    {
+        // Изменение цвета по нажатию C
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            ChangeColorServerRpc();
+        }
+        
+        // Спавн объекта по нажатию E
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SpawnObjectServerRpc();
+        }
+    }
+    
+    [ServerRpc]
+    private void ChangeColorServerRpc()
+    {
+        // Сервер меняет цвет и синхронизирует со всеми
+        playerColor.Value = Random.ColorHSV(0f, 1f, 0.8f, 1f, 0.8f, 1f);
+    }
+    
+    [ServerRpc]
+    private void SpawnObjectServerRpc()
+    {
+        // Создаем объект на сервере
+        GameObject newObj = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        newObj.transform.position = transform.position + transform.forward * 2f;
+        newObj.transform.localScale = Vector3.one * 0.5f;
+        
+        // Добавляем сетевой компонент
+        NetworkObject netObj = newObj.AddComponent<NetworkObject>();
+        netObj.Spawn();
+        
+        // Уничтожаем через 5 секунд
+        Destroy(newObj, 5f);
+    }
+    
+    private void OnColorChanged(Color oldColor, Color newColor)
+    {
+        ApplyPlayerColor(newColor);
+    }
+    
+    private void ApplyPlayerColor(Color color)
+    {
+        GetComponent<Renderer>().material.color = color;
+    }
+    
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        Debug.Log($"Player spawned. IsOwner: {IsOwner}, IsServer: {IsServer}, ClientId: {OwnerClientId}");
+    }
+    
+    public override void OnNetworkDespawn()
+    {
+        base.OnNetworkDespawn();
+        playerColor.OnValueChanged -= OnColorChanged;
+    }
+    
+    // Сетевое взаимодействие при столкновении
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!IsServer) return;
+        
+        if (other.CompareTag("Collectible"))
+        {
+            CollectItemClientRpc();
+            Destroy(other.gameObject);
+        }
+    }
+    
+    [ClientRpc]
+    private void CollectItemClientRpc()
+    {
+        Debug.Log($"{gameObject.name} collected an item!");
+    }
+}
+4. Создание UI для управления сетью
+1.Создайте UI Canvas.
+2.Добавьте панель с кнопками:
+o"Host Game" (Хост)
+o"Join Game" (Клиент)
+o"Start Server" (Сервер)
+o"Disconnect"
+3.Создайте скрипт NetworkUI:
+using UnityEngine;
+using Unity.Netcode;
+using UnityEngine.UI;
+
+public class NetworkUI : MonoBehaviour
+{
+    [Header("UI Elements")]
+    [SerializeField] private Button hostButton;
+    [SerializeField] private Button clientButton;
+    [SerializeField] private Button serverButton;
+    [SerializeField] private Button disconnectButton;
+    [SerializeField] private Text statusText;
+    [SerializeField] private InputField ipInputField;
+    [SerializeField] private Text playerCountText;
+    
+    private void Start()
+    {
+        // Подписываемся на события сети
+        NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
+        NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnected;
+        
+        // Настройка кнопок
+        hostButton.onClick.AddListener(StartHost);
+        clientButton.onClick.AddListener(StartClient);
+        serverButton.onClick.AddListener(StartServer);
+        disconnectButton.onClick.AddListener(Disconnect);
+        
+        // Скрыть кнопку отключения по умолчанию
+        disconnectButton.gameObject.SetActive(false);
+        
+        UpdateStatusText("Disconnected");
+    }
+    
+    private void Update()
+    {
+        // Обновляем информацию об игроках
+        if (NetworkManager.Singleton.IsServer || NetworkManager.Singleton.IsClient)
+        {
+            UpdatePlayerCount();
+        }
+    }
+    
+    private void StartHost()
+    {
+        if (NetworkManager.Singleton.StartHost())
+        {
+            Debug.Log("Host started successfully");
+            UpdateStatusText("Hosting...");
+            disconnectButton.gameObject.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError("Failed to start host");
+        }
+    }
+    
+    private void StartClient()
+    {
+        // Получаем IP из поля ввода (по умолчанию localhost)
+        string ip = string.IsNullOrEmpty(ipInputField.text) ? "127.0.0.1" : ipInputField.text;
+        
+        // Настройка транспорта (упрощенно)
+        if (NetworkManager.Singleton.StartClient())
+        {
+            Debug.Log($"Client connecting to {ip}");
+            UpdateStatusText($"Connecting to {ip}...");
+            disconnectButton.gameObject.SetActive(true);
+        }
+    }
+    
+    private void StartServer()
+    {
+        if (NetworkManager.Singleton.StartServer())
+        {
+            Debug.Log("Server started successfully");
+            UpdateStatusText("Server running...");
+            disconnectButton.gameObject.SetActive(true);
+        }
+    }
+    
+    private void Disconnect()
+    {
+        NetworkManager.Singleton.Shutdown();
+        UpdateStatusText("Disconnected");
+        disconnectButton.gameObject.SetActive(false);
+        UpdatePlayerCount();
+    }
+    
+    private void OnClientConnected(ulong clientId)
+    {
+        Debug.Log($"Client connected: {clientId}");
+        UpdateStatusText($"Connected as {(NetworkManager.Singleton.IsHost ? "Host" : "Client")}");
+        UpdatePlayerCount();
+    }
+    
+    private void OnClientDisconnected(ulong clientId)
+    {
+        Debug.Log($"Client disconnected: {clientId}");
+        UpdatePlayerCount();
+        
+        if (!NetworkManager.Singleton.IsServer && !NetworkManager.Singleton.IsClient)
+        {
+            UpdateStatusText("Disconnected");
+            disconnectButton.gameObject.SetActive(false);
+        }
+    }
+    
+    private void UpdateStatusText(string status)
+    {
+        if (statusText != null)
+            statusText.text = $"Status: {status}";
+    }
+    
+    private void UpdatePlayerCount()
+    {
+        if (playerCountText != null)
+        {
+            if (NetworkManager.Singleton.IsServer || NetworkManager.Singleton.IsClient)
+            {
+                int playerCount = NetworkManager.Singleton.ConnectedClients.Count;
+                playerCountText.text = $"Players: {playerCount}";
+            }
+            else
+            {
+                playerCountText.text = "Players: 0";
+            }
+        }
+    }
+    
+    private void OnDestroy()
+    {
+        if (NetworkManager.Singleton != null)
+        {
+            NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
+            NetworkManager.Singleton.OnClientDisconnectCallback -= OnClientDisconnected;
+        }
+    }
+}
+5. Тестирование LAN-игры
+1.Запуск хоста и клиента на одном компьютере:
+oВ Unity нажмите Play
+oНажмите "Host Game"
+oВ сборке игры: File -> Build and Run (два экземпляра)
+oВ первом экземпляре нажать "Host Game"
+oВо втором экземпляре нажать "Join Game"
+2.Проверка функционала:
+oДвижение игроков должно синхронизироваться
+oНажатие C должно менять цвет у всех игроков
+oНажатие E должно создавать сферу у всех игроков
+
+Вариант 1 – При работе с одним проектом
+1. Подготовка проекта
+Создайте новый 3D-проект в Unity 6. В качестве базовой сцены можно использовать простое окружение: Plane как пол и несколько Cube как препятствия. Главная задача убедиться, что несколько игроков одновременно появляются на сцене и видят перемещение друг друга.
+2. Установка пакетов
+Откройте Window > Package Manager и установите следующие пакеты:
+com.unity.netcode.gameobjects 
+com.unity.transport 
+Дополнительно для работы с интернет-подключением и join code потребуются сервисные пакеты Unity:
+Unity Services Core 
+Authentication 
+Relay 
+Если вы хотите тестировать несколько участников прямо в редакторе, установите также Multiplayer Play Mode. Установка NGO через Package Manager в Unity описана в официальной документации прямо через Add package by name.
+3. Создание объекта NetworkManager
+В сцене создайте пустой объект NetworkManager. Добавьте к нему компоненты:
+NetworkManager 
+UnityTransport 
+Именно NetworkManager будет центральной точкой конфигурации сетевого проекта, а UnityTransport будет использоваться как транспорт по умолчанию, что и рекомендуется Unity для NGO в client-server топологии. 
+4. Создание сетевого игрока
+Создайте объект Capsule и назовите его NetworkPlayer. Добавьте к нему компоненты:
+NetworkObject 
+NetworkTransform 
+пользовательский скрипт NetworkPlayer 
+В компоненте NetworkTransform установите режим authority так, чтобы перемещение контролировалось владельцем объекта. Для учебного игрока также достаточно синхронизировать позицию по X и Z, а Y оставить при необходимости, если игрок не прыгает.
+После этого перетащите объект NetworkPlayer в папку Prefabs, чтобы создать prefab. Затем в NetworkManager укажите этот префаб в поле Player Prefab. Именно Player Prefab будет автоматически создаваться для каждого подключившегося клиента. Unity отдельно указывает, что PlayerPrefab в NetworkManager — это объект, который будет instantiated как player object. 
+5. Скрипт сетевого игрока
+Создайте скрипт NetworkPlayer.cs и вставьте следующий код.
+ Откройте его в редакторе кода и замените содержимое следующим кодом.
+
+
+
+Листинг 1. 
+using Unity.Netcode;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+[RequireComponent(typeof(NetworkObject))]
+public class NetworkPlayer : NetworkBehaviour
+{
+    [SerializeField] private float moveSpeed = 4f;
+    [SerializeField] private Renderer playerRenderer;
+
+    private InputSystem_Actions inputActions;
+    private Vector2 moveInput;
+
+    private readonly NetworkVariable<int> colorIndex =
+        new(0, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server);
+
+    void Awake()
+    {
+        inputActions = new InputSystem_Actions();
+
+        inputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
+        inputActions.Player.Move.canceled += ctx => moveInput = Vector2.zero;
+    }
+
+    public override void OnNetworkSpawn()
+    {
+        if (IsServer)
+        {
+            colorIndex.Value = Random.Range(0, 4);
+        }
+
+        ApplyColor(colorIndex.Value);
+        colorIndex.OnValueChanged += OnColorChanged;
+    }
+
+    public override void OnNetworkDespawn()
+    {
+        colorIndex.OnValueChanged -= OnColorChanged;
+    }
+
+    void OnEnable()
+    {
+        inputActions.Enable();
+    }
+
+    void OnDisable()
+    {
+        inputActions.Disable();
+    }
+
+    void Update()
+    {
+        if (!IsOwner)
+            return;
+
+        Vector3 move = new Vector3(moveInput.x, 0f, moveInput.y);
+        transform.position += move * moveSpeed * Time.deltaTime;
+    }
+
+    private void OnColorChanged(int previousValue, int newValue)
+    {
+        ApplyColor(newValue);
+    }
+
+    private void ApplyColor(int index)
+    {
+        if (playerRenderer == null)
+            return;
+
+        switch (index)
+        {
+            case 0: playerRenderer.material.color = Color.red; break;
+            case 1: playerRenderer.material.color = Color.blue; break;
+            case 2: playerRenderer.material.color = Color.green; break;
+            case 3: playerRenderer.material.color = Color.yellow; break;
+            default: playerRenderer.material.color = Color.white; break;
+        }
+    }
+}
+
+В этом примере локальный владелец объекта двигает только собственного игрока через проверку IsOwner. Перемещение затем синхронизируется через NetworkTransform, а простое состояние, индекс цвета, хранится в NetworkVariable. В данном примере вы можете заметить и локальный контроль, и автоматическую сетевую репликацию состояния.
+6. Подготовка Input System
+По аналогии с предыдущими работами с Input System используйте уже созданный Input Action Asset и action map Player. В ней должно быть действие Move типа Value с типом Vector2, привязанное к клавишам W, A, S, D. Подход с InputSystem_Actions, подпиской в Awake() и включением/выключением через OnEnable() / OnDisable() у вас уже использовался в прошлых методичках и хорошо подходит здесь. 
+7. Создание интерфейса запуска
+Создайте Canvas. На нём разместите:
+кнопку Start Host Local 
+кнопку Start Client Local 
+кнопку Start Host Relay 
+кнопку Start Client Relay 
+поле ввода Join Code 
+текстовое поле Status Text 
+Интерфейс здесь чтобы вручную запускать разные режимы подключения и наблюдать разницу между локальным запуском и подключением через Relay.
+8. Скрипт запуска сети
+Создайте скрипт NetworkLauncher.cs и поместите его на объект NetworkManager.
+Листинг 2. 
+using System.Threading.Tasks;
+using TMPro;
+using Unity.Netcode;
+using Unity.Netcode.Transports.UTP;
+using Unity.Services.Authentication;
+using Unity.Services.Core;
+using Unity.Services.Relay;
+using Unity.Services.Relay.Models;
+using UnityEngine;
+
+public class NetworkLauncher : MonoBehaviour
+{
+    [SerializeField] private TMP_InputField joinCodeInput;
+    [SerializeField] private TMP_Text statusText;
+
+    async void Start()
+    {
+        await InitializeServicesAsync();
+    }
+
+    public void StartHostLocal()
+    {
+        bool result = NetworkManager.Singleton.StartHost();
+        statusText.text = result ? "Локальный Host запущен." : "Не удалось запустить Host.";
+    }
+
+    public void StartClientLocal()
+    {
+        bool result = NetworkManager.Singleton.StartClient();
+        statusText.text = result ? "Локальный Client запущен." : "Не удалось запустить Client.";
+    }
+
+    public async void StartHostRelay()
+    {
+        await InitializeServicesAsync();
+
+        var transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
+
+        Allocation allocation = await RelayService.Instance.CreateAllocationAsync(3);
+        string joinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
+
+        transport.SetRelayServerData(AllocationUtils.ToRelayServerData(allocation, "dtls"));
+
+        bool result = NetworkManager.Singleton.StartHost();
+        statusText.text = result
+            ? $"Relay Host запущен. Join Code: {joinCode}"
+            : "Не удалось запустить Relay Host.";
+    }
+
+    public async void StartClientRelay()
+    {
+        await InitializeServicesAsync();
+
+        string joinCode = joinCodeInput.text.Trim().ToUpper();
+
+        if (string.IsNullOrEmpty(joinCode))
+        {
+            statusText.text = "Введите join code.";
+            return;
+        }
+
+        var transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
+        JoinAllocation allocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
+
+        transport.SetRelayServerData(AllocationUtils.ToRelayServerData(allocation, "dtls"));
+
+        bool result = NetworkManager.Singleton.StartClient();
+        statusText.text = result
+            ? "Client подключён через Relay."
+            : "Не удалось подключить Client через Relay.";
+    }
+
+    private async Task InitializeServicesAsync()
+    {
+        if (UnityServices.State == ServicesInitializationState.Uninitialized)
+            await UnityServices.InitializeAsync();
+
+        if (!AuthenticationService.Instance.IsSignedIn)
+            await AuthenticationService.Instance.SignInAnonymouslyAsync();
+    }
+}
+
+тот сценарий соответствует официальной логике интеграции Relay с NGO: инициализация Unity Services, анонимный sign-in, создание allocation на стороне host, получение join code, конфигурация UnityTransport через Relay и затем запуск StartHost() / StartClient(). В официальном примере Unity для NGO + Relay показывается именно такой порядок действий. 
+9. Подключение ссылок в Inspector
+На объекте NetworkManager в компоненте NetworkLauncher задайте ссылки:
+в Join Code Input перетащите поле ввода; 
+в Status Text перетащите текст статуса. 
+Затем настройте события OnClick() у кнопок:
+Start Host Local > NetworkLauncher.StartHostLocal 
+Start Client Local > NetworkLauncher.StartClientLocal 
+Start Host Relay > NetworkLauncher.StartHostRelay 
+Start Client Relay > NetworkLauncher.StartClientRelay 
+10. Локальная проверка проекта
+Сначала проверьте проект без Relay. Это самый простой этап отладки. Если установлен Multiplayer Play Mode, откройте несколько экземпляров редактора и в одном запустите Host, а в другом Client. Unity описывает Multiplayer Play Mode именно как средство запуска нескольких editor instances на одном устройстве, что делает его удобным для такой проверки. 
+При корректной настройке после запуска должны наблюдаться следующие эффекты:
+на сцене создаются два игрока; 
+каждый участник управляет только собственным объектом; 
+перемещение одного игрока видно другому; 
+каждому игроку назначается сетевое состояние, например цвет. 
+11. Подготовка Relay
+Чтобы использовать Relay, проект должен быть привязан к Unity Cloud, а в Dashboard должны быть активированы соответствующие сервисы. Для базового сценария достаточно Authentication и Relay. Unity отдельно отмечает, что join code выдаётся после создания allocation, а действителен он, пока host подключён к Relay-серверу. 
+12. Проверка подключения через Relay
+Запустите один экземпляр проекта в режиме Start Host Relay. После этого в статусе должен появиться join code.
+Во втором экземпляре введите этот код в поле Join Code и нажмите Start Client Relay.
+При успешной работе системы второй участник подключится к host через Relay. Этот режим уже не требует ручной работы с IP-адресом или порт-форвардингом, что и является одним из ключевых практических преимуществ Relay. В архитектурном описании Unity Boss Room также отмечено, что при использовании Relay клиентам не нужно находиться в одной локальной сети и не требуется port forwarding. 
+Итоговое задание
+Создайте простой многопользовательский проект в Unity 6, в котором два и более игрока могут подключаться к одной сцене, видеть друг друга и перемещаться в общем пространстве. В проекте обязательно должны использоваться:
+NetworkManager 
+UnityTransport 
+NetworkObject 
+NetworkTransform 
+хотя бы одна NetworkVariable 
+запуск в режиме Host/Client 
+подключение через Relay по join code
+
+
+
+Контрольные вопросы:
+1.Какая архитектура сети используется в Unity Netcode?
+2.Что такое NetworkIdentity и для чего он нужен?
+3.В чем разница между ServerRpc и ClientRpc?
+4.Как определить, является ли текущий экземпляр локальным игроком?
+5.Какие методы используются для запуска хоста, сервера и клиента?
+6.Что такое NetworkVariable и как она синхронизируется?
+7.Как правильно уничтожить сетевой объект?
+8.Почему проверку на IsServer важно делать в ServerRpc методах?
+9.Как ограничить управление объектом только его владельцем?
+10.Какие события жизненного цикла NetworkObject вы знаете?
