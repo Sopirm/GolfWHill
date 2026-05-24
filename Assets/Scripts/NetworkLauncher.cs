@@ -1,26 +1,28 @@
 using System;
-using System.Threading.Tasks;
 using TMPro;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
-using Unity.Networking.Transport.Relay;
-using Unity.Services.Authentication;
-using Unity.Services.Core;
-using Unity.Services.Relay;
-using Unity.Services.Relay.Models;
 using UnityEngine;
 
 public class NetworkLauncher : MonoBehaviour
 {
     private const string LocalAddress = "127.0.0.1";
     private const ushort LocalPort = 7777;
+    private const string DefaultLobbyName = "Golf Lobby";
+    private const int DefaultLobbyMaxPlayers = 4;
 
     [SerializeField] private TMP_InputField joinCodeInput;
+    [SerializeField] private TMP_InputField lobbyCodeInput;
+    [SerializeField] private TMP_InputField lobbyNameInput;
     [SerializeField] private TMP_Text statusText;
 
-    async void Start()
+    private async void Start()
     {
-        await InitializeServicesAsync();
+        bool initialized = await AuthenticationManager.EnsureInitializedAsync();
+        if (!initialized)
+        {
+            statusText.text = "Unity Services не удалось инициализировать.";
+        }
     }
 
     public void StartHostLocal()
@@ -55,53 +57,99 @@ public class NetworkLauncher : MonoBehaviour
 
     public async void StartHostRelay()
     {
-        await InitializeServicesAsync();
-
-        ResetCustomDriverConstructor();
-        var transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-
-        Allocation allocation = await RelayService.Instance.CreateAllocationAsync(3);
-        string joinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
-
-        transport.SetRelayServerData(new RelayServerData(allocation, "dtls"));
-
-        bool result = NetworkManager.Singleton.StartHost();
-        statusText.text = result
-            ? $"Relay Host запущен. Join Code: {joinCode}"
-            : "Не удалось запустить Relay Host.";
+        string relayJoinCode = await RelayManager.Instance.CreateRelayAsync(3);
+        statusText.text = string.IsNullOrEmpty(relayJoinCode)
+            ? "Не удалось запустить Relay Host."
+            : $"Relay Host запущен. Join Code: {relayJoinCode}";
     }
 
     public async void StartClientRelay()
     {
-        await InitializeServicesAsync();
-
-        string joinCode = joinCodeInput.text.Trim().ToUpper();
-
-        if (string.IsNullOrEmpty(joinCode))
+        string lobbyCode = ReadInput(lobbyCodeInput).ToUpper();
+        if (!string.IsNullOrEmpty(lobbyCode))
         {
-            statusText.text = "Введите join code.";
+            var lobby = await LobbyManager.Instance.JoinLobbyByCodeAsync(lobbyCode);
+            statusText.text = lobby == null
+                ? "Не удалось войти в lobby."
+                : $"Вход в lobby выполнен: {lobby.Name}";
             return;
         }
 
-        ResetCustomDriverConstructor();
-        var transport = NetworkManager.Singleton.GetComponent<UnityTransport>();
-        JoinAllocation allocation = await RelayService.Instance.JoinAllocationAsync(joinCode);
+        string joinCode = ReadInput(joinCodeInput).ToUpper();
 
-        transport.SetRelayServerData(new RelayServerData(allocation, "dtls"));
+        if (string.IsNullOrEmpty(joinCode))
+        {
+            statusText.text = "Введите lobby code или relay join code.";
+            return;
+        }
 
-        bool result = NetworkManager.Singleton.StartClient();
+        bool result = await RelayManager.Instance.JoinRelayAsync(joinCode);
         statusText.text = result
             ? "Client подключён через Relay."
             : "Не удалось подключить Client через Relay.";
     }
 
-    private async Task InitializeServicesAsync()
+    public async void CreateLobby()
     {
-        if (UnityServices.State == ServicesInitializationState.Uninitialized)
-            await UnityServices.InitializeAsync();
+        string lobbyName = ReadInput(lobbyNameInput);
+        if (string.IsNullOrEmpty(lobbyName))
+        {
+            lobbyName = DefaultLobbyName;
+        }
 
-        if (!AuthenticationService.Instance.IsSignedIn)
-            await AuthenticationService.Instance.SignInAnonymouslyAsync();
+        var lobby = await LobbyManager.Instance.CreateLobbyAsync(lobbyName, DefaultLobbyMaxPlayers, false, true);
+        if (lobby == null)
+        {
+            statusText.text = "Не удалось создать lobby.";
+            return;
+        }
+
+        string relayJoinCode = LobbyManager.Instance.GetRelayJoinCode();
+        statusText.text = string.IsNullOrWhiteSpace(relayJoinCode)
+            ? $"Lobby создано. Lobby Code: {lobby.LobbyCode}"
+            : $"Lobby создано. Lobby Code: {lobby.LobbyCode}, Relay: {relayJoinCode}";
+    }
+
+    public async void QuickJoinLobby()
+    {
+        var lobby = await LobbyManager.Instance.QuickJoinLobbyAsync();
+        statusText.text = lobby == null
+            ? "Не удалось быстро войти в lobby."
+            : $"Вход в lobby выполнен: {lobby.Name}";
+    }
+
+    public async void JoinLobbyByCode()
+    {
+        string lobbyCode = ReadLobbyCode();
+        if (string.IsNullOrEmpty(lobbyCode))
+        {
+            statusText.text = "Введите lobby code.";
+            return;
+        }
+
+        var lobby = await LobbyManager.Instance.JoinLobbyByCodeAsync(lobbyCode);
+        statusText.text = lobby == null
+            ? "Не удалось войти в lobby."
+            : $"Вход в lobby выполнен: {lobby.Name}";
+    }
+
+    public async void LeaveLobby()
+    {
+        await LobbyManager.Instance.LeaveLobbyAsync();
+        statusText.text = "Вы вышли из lobby.";
+    }
+
+    public void CopyLobbyCode()
+    {
+        string lobbyCode = LobbyManager.Instance.CurrentLobbyCode;
+        if (string.IsNullOrWhiteSpace(lobbyCode))
+        {
+            statusText.text = "Lobby code пока недоступен.";
+            return;
+        }
+
+        GUIUtility.systemCopyBuffer = lobbyCode;
+        statusText.text = $"Lobby code скопирован: {lobbyCode}";
     }
 
     private void PrepareTransportForLocalConnection()
@@ -125,5 +173,21 @@ public class NetworkLauncher : MonoBehaviour
         // Local editor tools can override the transport driver and leave UTP in an incompatible state.
         UnityTransport.s_DriverConstructor = null;
 #endif
+    }
+
+    private string ReadLobbyCode()
+    {
+        string lobbyCode = ReadInput(lobbyCodeInput).ToUpper();
+        if (!string.IsNullOrEmpty(lobbyCode))
+        {
+            return lobbyCode;
+        }
+
+        return ReadInput(joinCodeInput).ToUpper();
+    }
+
+    private static string ReadInput(TMP_InputField inputField)
+    {
+        return inputField == null ? string.Empty : inputField.text.Trim();
     }
 }

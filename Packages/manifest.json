@@ -12,7 +12,7 @@
     "com.unity.render-pipelines.universal": "17.3.0",
     "com.unity.services.authentication": "3.6.1",
     "com.unity.services.core": "1.17.0",
-    "com.unity.services.relay": "1.2.0",
+    "com.unity.services.multiplayer": "1.2.0",
     "com.unity.test-framework": "1.6.0",
     "com.unity.timeline": "1.8.10",
     "com.unity.transport": "2.7.3",
