@@ -70,6 +70,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/Scripts/ColliderTest/TriggerZoneHandler.cs" />
     <Compile Include="Assets/Scripts/Mechanics/BalanceTester.cs" />
+    <Compile Include="Assets/Scripts/UI/MenuFallbackCameraController.cs" />
     <Compile Include="Assets/Settings/InputSystem_Actions.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
