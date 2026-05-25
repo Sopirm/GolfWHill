@@ -52,13 +52,24 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+    <Compile Include="Assets/Scripts/UI/AchievementPopup.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/OrbFloatMotion.cs" />
+    <Compile Include="Assets/Scripts/UI/AchievementUIItem.cs" />
+    <Compile Include="Assets/Scripts/Support/PlayerMetaProgress.cs" />
+    <Compile Include="Assets/Scripts/Support/VehicleProgressTracker.cs" />
+    <Compile Include="Assets/Scripts/UI/DailyRewardUI.cs" />
+    <Compile Include="Assets/Scripts/Support/AuxiliaryStatsResetter.cs" />
     <Compile Include="Assets/Scripts/ColliderTest/ConsoleMessage.cs" />
     <Compile Include="Assets/Scripts/AI/AgentMover.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/AbilitySystem.cs" />
+    <Compile Include="Assets/Scripts/UI/AchievementToolkitPanelController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets/Scripts/Support/DailyRewardSystem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/Scripts/ColliderTest/TriggerZoneHandler.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/BalanceTester.cs" />
     <Compile Include="Assets/Settings/InputSystem_Actions.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
@@ -67,19 +78,26 @@
     <Compile Include="Assets/Scripts/ColliderTest/ObjectSpawner.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/UNSORTED/Nicrom/Shaders/Wind/Assets/Scripts/TextArea.cs" />
+    <Compile Include="Assets/Scripts/UI/PlayerMetaProgressUI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/Scripts/Support/DailyRewardManager.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/FeedbackSystem.cs" />
     <Compile Include="Assets/UNSORTED/Pack_Pickup/Scripts/CarControl.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/Scripts/ColliderTest/RaycastInteractor.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/EnergyOrbSpawner.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Scripts/NetworkLauncher.cs" />
     <Compile Include="Assets/Scripts/Network/RelayManager.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/BalanceConfig.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
+    <Compile Include="Assets/Scripts/Support/AchievementSystem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/EnergyPickup.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
@@ -89,6 +107,9 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/Scripts/AI/MovingObstacle.cs" />
     <Compile Include="Assets/Scripts/UI/UIActionHandler.cs" />
+    <Compile Include="Assets/Scripts/Support/GameEvents.cs" />
+    <Compile Include="Assets/Scripts/UI/CanvasToggleButton.cs" />
+    <Compile Include="Assets/Scripts/UI/AchievementUI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
     <Compile Include="Assets/Scripts/ColliderTest/CollisionReporter.cs" />
@@ -97,13 +118,17 @@
     <Compile Include="Assets/Scripts/MainCharacter/PickupAnimatorController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/Scripts/Support/AuxiliarySystemsBootstrap.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
     <Compile Include="Assets/Scripts/ColliderTest/FPSCounter.cs" />
+    <Compile Include="Assets/Scripts/UI/DailyRewardUIItem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/UNSORTED/Pack_Pickup/Scripts/CameraControl.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/EnergySystem.cs" />
     <Compile Include="Assets/Scripts/NetworkPlayer.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/EnergyDebugInput.cs" />
     <Compile Include="Assets/Scripts/ColliderTest/PhysicsImpulse.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +145,8 @@
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/UI Toolkit/Achievements/AchievementsPanel.uxml" />
+    <None Include="Assets/UI Toolkit/Achievements/AchievementsPanel.uss" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/UNSORTED/ithappy/Cartoon_City_Free/Render_Pipeline_Convert/Render_Pipeline_Instructions_Unity_6.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
@@ -139,6 +166,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/Docs/ControlQuestions.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
   </ItemGroup>
@@ -679,6 +707,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library/PackageCache/com.unity.services.wire@9a73acde80cc/Plugins/websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -705,10 +737,6 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Library/PackageCache/com.unity.services.wire@9a73acde80cc/Plugins/websocket-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -1203,16 +1231,12 @@
       <HintPath>/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    <Reference Include="Unity.Services.Multiplayer.Multiplay.Authoring.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Multiplayer.Multiplay.Authoring.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Netcode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Netcode.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Services.Multiplayer.Multiplay.Authoring.Core">
-      <HintPath>Library/ScriptAssemblies/Unity.Services.Multiplayer.Multiplay.Authoring.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI.Analytics">
@@ -1255,6 +1279,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1287,12 +1315,12 @@
       <HintPath>Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
-      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Services.Multiplayer.Multiplay.Authoring.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Services.Multiplayer.Multiplay.Authoring.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
@@ -1359,12 +1387,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.Services.Multiplayer.Editor.Matchmaker.Authoring.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -1435,6 +1463,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Multiplayer">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Multiplayer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1445,10 +1477,6 @@
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Services.Multiplayer">
-      <HintPath>Library/ScriptAssemblies/Unity.Services.Multiplayer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">

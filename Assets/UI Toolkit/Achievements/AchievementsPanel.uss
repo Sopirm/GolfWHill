@@ -1,0 +1,221 @@
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 18, 24, 0.6);
+    padding: 24px;
+}
+
+.panel-scroll {
+    width: 760px;
+    max-width: 92%;
+    height: 82%;
+    max-height: 82%;
+}
+
+.panel-scroll > .unity-scroll-view__content-container {
+    flex-grow: 1;
+}
+
+.panel {
+    flex-direction: column;
+    min-height: 100%;
+    background-color: rgb(240, 237, 228);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 18px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(31, 62, 61);
+    border-right-color: rgb(31, 62, 61);
+    border-top-color: rgb(31, 62, 61);
+    border-bottom-color: rgb(31, 62, 61);
+}
+
+.header-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-shrink: 0;
+}
+
+.panel-title {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: rgb(31, 62, 61);
+}
+
+.close-button {
+    width: 110px;
+    height: 34px;
+    background-color: rgb(31, 62, 61);
+    color: rgb(248, 246, 239);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.section {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+}
+
+.section-title {
+    font-size: 16px;
+    -unity-font-style: bold;
+    color: rgb(79, 92, 74);
+    margin-bottom: 8px;
+}
+
+.meta-grid {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.meta-card {
+    flex-grow: 1;
+    margin-right: 8px;
+    padding: 10px;
+    background-color: rgb(255, 251, 241);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(183, 176, 156);
+    border-right-color: rgb(183, 176, 156);
+    border-top-color: rgb(183, 176, 156);
+    border-bottom-color: rgb(183, 176, 156);
+    min-height: 96px;
+}
+
+.meta-card:last-child {
+    margin-right: 0;
+}
+
+.meta-label {
+    font-size: 12px;
+    color: rgb(116, 121, 98);
+}
+
+.meta-value {
+    font-size: 22px;
+    -unity-font-style: bold;
+    color: rgb(31, 62, 61);
+    margin-top: 4px;
+}
+
+.stats-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 251, 241);
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.stats-label {
+    color: rgb(116, 121, 98);
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.stats-value {
+    -unity-font-style: bold;
+    color: rgb(31, 62, 61);
+    margin-right: 12px;
+    margin-bottom: 4px;
+}
+
+.list-section {
+    min-height: 420px;
+}
+
+.achievement-list {
+    min-height: 380px;
+    background-color: rgb(255, 251, 241);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 8px;
+}
+
+.achievement-card {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 12px;
+    background-color: rgb(245, 241, 229);
+    border-left-width: 4px;
+    border-left-color: rgb(160, 142, 95);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.achievement-card-unlocked {
+    border-left-color: rgb(48, 136, 92);
+    background-color: rgb(234, 247, 238);
+}
+
+.achievement-title {
+    font-size: 17px;
+    -unity-font-style: bold;
+    color: rgb(31, 62, 61);
+}
+
+.achievement-description {
+    font-size: 12px;
+    color: rgb(91, 100, 83);
+    margin-top: 4px;
+}
+
+.achievement-progress {
+    font-size: 12px;
+    color: rgb(79, 92, 74);
+    margin-top: 8px;
+}
+
+.progress-track {
+    height: 10px;
+    margin-top: 6px;
+    background-color: rgb(212, 207, 191);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.progress-fill {
+    height: 10px;
+    background-color: rgb(31, 62, 61);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.achievement-reward {
+    margin-top: 8px;
+    font-size: 12px;
+    color: rgb(126, 94, 34);
+    -unity-font-style: bold;
+}

@@ -496,6 +496,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 406654488547587606, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7002463408283678783}
+    - targetCorrespondingSourceObject: {fileID: 406654488547587606, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5341551325594543182}
   m_SourcePrefab: {fileID: 100100000, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
 --- !u!4 &1369502810860638038 stripped
 Transform:
@@ -519,7 +522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 677241065
+  GlobalObjectIdHash: 2671335799
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -545,5 +548,79 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NetworkPlayer
   ShowTopMostFoldoutHeaderGroup: 1
-  moveSpeed: 4
+  motorForce: 1000
+  steeringAngle: 30
+  brakeForce: 3000
+  spawnSpacing: 8
+  frontWheelColliders:
+  - {fileID: 5866063616302420827}
+  - {fileID: 5866063615853096887}
+  rearWheelColliders:
+  - {fileID: 5866063614267933522}
+  - {fileID: 5866063615741030766}
+  frontWheelMeshes:
+  - {fileID: 2998639837712837151}
+  - {fileID: 6956614479631444084}
+  rearWheelMeshes:
+  - {fileID: 5782121811734933031}
+  - {fileID: 8685377458332629305}
+  centerOfMass: {fileID: 5866063614343066400}
   playerRenderer: {fileID: 0}
+--- !u!114 &5341551325594543182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750390764808902124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a668221e4ed4095ad556806e9ad20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VehicleProgressTracker
+  minDistanceStep: 0.25
+--- !u!4 &2998639837712837151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3779459283876841957, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5782121811734933031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5607016845652708829, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &5866063614267933522 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5514210230620496040, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5866063614343066400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5514210230411350234, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &5866063615741030766 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5514210231286698644, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &5866063615853096887 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5514210231182756941, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &5866063616302420827 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 5514210230758666401, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6956614479631444084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9035563600134540174, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8685377458332629305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7306723099379276483, guid: e2c4287a936a99c4d9988378e62d0060, type: 3}
+  m_PrefabInstance: {fileID: 2156689009441334266}
+  m_PrefabAsset: {fileID: 0}

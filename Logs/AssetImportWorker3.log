@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-23T21:43:39Z
+Date:                    2026-05-25T20:41:30Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-23T21:43:39.166853Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-25T20:41:30.575303Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker3
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-58240
+63508
 -licensingIpc
 LicenseClient-sopirm
 -job-worker-count
@@ -72,9 +72,9 @@ Successfully changed project path to: /Users/sopirm/ProgramProjects/GolfWHill
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8304193664]  Target information:
 
-Player connection [8304193664]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1632725481 [EditorId] 1632725481 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8304193664]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1348733014 [EditorId] 1348733014 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8304193664]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 1632725481 [EditorId] 1632725481 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8304193664]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 1348733014 [EditorId] 1348733014 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8304193664] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8304193664] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -110,44 +110,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56610
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000407 seconds.
-- Loaded All Assemblies, in  0.224 seconds
+Registered in 0.000177 seconds.
+- Loaded All Assemblies, in  0.218 seconds
 Native extension for OSXStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.298 seconds
-Domain Reload Profiling: 522ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.296 seconds
+Domain Reload Profiling: 514ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (91ms)
-		LoadAssemblies (83ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (89ms)
-				TypeCache.ScanAssembly (80ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (82ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (298ms)
+	FinalizeReload (297ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (267ms)
+		SetupLoadedEditorAssemblies (269ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (115ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -156,16 +156,18 @@ Domain Reload Profiling: 522ms
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              b5c0b9264d684e389416d9d7b1b6c0c3
-  Correlation Id:          0002ab54d116f4a102fbc8b92c516e57
-  External correlation Id: 7719184079416617937
+  Session Id:              7272dc3596974b1f8cd1b7fca10300bd
+  Correlation Id:          82dd5b539f186a92e15f04a264ed5265
+  External correlation Id: 2135032633702821202
   Machine Id:              ddpRgiPHpQ1VYkTtLACzcj+6MRk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.00s, handshake: 1.12s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-23T21:43:40.288888Z"
-[Licensing::Module] Licensing Background thread has ended after 1.12s
-Begin MonoManager ReloadAssembly
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.00s, handshake: 1.16s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-25T20:41:31.736489Z"
+[Licensing::Module] Licensing Background thread has ended after 1.16s
+[Licensing::Module] Licensing is initialized (took 0.07s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 10170591166266-UnityPersXXXX
@@ -173,10 +175,10 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.535 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -204,35 +206,35 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.658 seconds
-Domain Reload Profiling: 1193ms
-	BeginReloadAssembly (65ms)
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1267ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (427ms)
-		LoadAssemblies (282ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (248ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
+		AnalyzeDomain (185ms)
 			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (108ms)
-			BuildScriptInfoCaches (35ms)
+				TypeCache.ScanAssembly (110ms)
+			BuildScriptInfoCaches (44ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (658ms)
+	FinalizeReload (685ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (570ms)
+		SetupLoadedEditorAssemblies (603ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (116ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (106ms)
 			ProcessInitializeOnLoadAttributes (411ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -244,22 +246,63 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7612 unused Assets / (5.2 MB). Loaded Objects now: 8447.
-Memory consumption went from 160.5 MB to 155.3 MB.
-Total: 26.431416 ms (FindLiveObjects: 4.725291 ms CreateObjectMapping: 0.176334 ms MarkObjects: 14.069500 ms  DeleteObjects: 7.459875 ms)
+Unloading 9436 unused Assets / (5.2 MB). Loaded Objects now: 10272.
+Memory consumption went from 169.1 MB to 164.0 MB.
+Total: 17.145083 ms (FindLiveObjects: 3.941375 ms CreateObjectMapping: 0.226958 ms MarkObjects: 10.810250 ms  DeleteObjects: 2.166166 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 80238.173148 seconds.
-  path: Assets/Prefabs/Pickup Blue.prefab
-  artifactKey: Guid(a2723ccdc131c43d795d211e299da534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/Pickup Blue.prefab using Guid(a2723ccdc131c43d795d211e299da534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f57026ad4218a8a51e97488a6708a3d') in 0.066259541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 201
+  Time since last request: 103456.519444 seconds.
+  path: Assets/Scripts/UI/DailyRewardUI.cs
+  artifactKey: Guid(5bbcb1b9333d74501858d1dbc544ef50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/UI/DailyRewardUI.cs using Guid(5bbcb1b9333d74501858d1dbc544ef50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f54905103541313e61ce918019caedf8') in 0.026476083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scripts/Mechanics/AbilitySystem.cs
+  artifactKey: Guid(47911e47915bf4dd79857a4ce7630651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Mechanics/AbilitySystem.cs using Guid(47911e47915bf4dd79857a4ce7630651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9dcf9847e4b2256b41ad7aabd4a682c') in 0.001212125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/Support/AchievementSystem.cs
+  artifactKey: Guid(a60e54cb034ad479e8d778cfbae90ef9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Support/AchievementSystem.cs using Guid(a60e54cb034ad479e8d778cfbae90ef9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2659e50ab23ad1ff1f6fbc4dc2867be8') in 0.001575459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Docs/AuxiliaryMechanicsSetup.md
+  artifactKey: Guid(54cab16cc35ec4482834102fe0d56fab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Docs/AuxiliaryMechanicsSetup.md using Guid(54cab16cc35ec4482834102fe0d56fab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6237c66c1f63bf12eb212b71b00cc27') in 0.001647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Scripts/Support/GameEvents.cs
+  artifactKey: Guid(7dd832af262bd4b61b91aa938985c36a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Support/GameEvents.cs using Guid(7dd832af262bd4b61b91aa938985c36a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce91c85afc2c70bf48dce57312647b75') in 0.002180917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Mechanics/EnergyOrbSpawner.cs
+  artifactKey: Guid(172773847e19b4a17b533f847fa016cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Mechanics/EnergyOrbSpawner.cs using Guid(172773847e19b4a17b533f847fa016cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10d6870b553fa1154e28753264d0d010') in 0.001486917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -38,6 +38,8 @@ public class NetworkPlayer : NetworkBehaviour
     private AudioListener[] audioListeners;
     private Rigidbody rb;
     private Vector2 localMoveInput;
+    private int currentCameraIndex;
+    private bool switchCameraRequested;
 
     private void Awake()
     {
@@ -60,6 +62,7 @@ public class NetworkPlayer : NetworkBehaviour
 
         inputActions.Player.Move.performed += OnMovePerformed;
         inputActions.Player.Move.canceled += OnMoveCanceled;
+        inputActions.Player.SwitchCamera.performed += OnSwitchCameraPerformed;
     }
 
     public override void OnNetworkSpawn()
@@ -103,6 +106,7 @@ public class NetworkPlayer : NetworkBehaviour
     {
         if (IsOwner)
         {
+            HandleCameraSwitchInput();
             ConfigureLocalPlayerPresentation();
         }
     }
@@ -149,6 +153,16 @@ public class NetworkPlayer : NetworkBehaviour
         {
             SubmitInputServerRpc(localMoveInput);
         }
+    }
+
+    private void OnSwitchCameraPerformed(InputAction.CallbackContext context)
+    {
+        if (!IsOwner)
+        {
+            return;
+        }
+
+        switchCameraRequested = true;
     }
 
     [Rpc(SendTo.Server)]
@@ -231,13 +245,27 @@ public class NetworkPlayer : NetworkBehaviour
     {
         for (int i = 0; i < playerCameras.Length; i++)
         {
-            playerCameras[i].gameObject.SetActive(IsOwner && i == 0);
+            bool shouldEnable = IsOwner && i == currentCameraIndex;
+            playerCameras[i].gameObject.SetActive(shouldEnable);
         }
 
-        foreach (var listener in audioListeners)
+        for (int i = 0; i < audioListeners.Length; i++)
         {
-            listener.enabled = IsOwner;
+            audioListeners[i].enabled = IsOwner && i == currentCameraIndex;
         }
+    }
+
+    private void HandleCameraSwitchInput()
+    {
+        if (!switchCameraRequested || playerCameras == null || playerCameras.Length <= 1)
+        {
+            return;
+        }
+
+        switchCameraRequested = false;
+        currentCameraIndex = (currentCameraIndex + 1) % playerCameras.Length;
+        ConfigureLocalPlayerPresentation();
+        Debug.Log($"Локальный игрок переключил камеру на: {playerCameras[currentCameraIndex].name}");
     }
 
     private void PublishServerState()

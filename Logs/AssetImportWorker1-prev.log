@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-20T18:57:46Z
+Date:                    2026-05-24T21:05:11Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-20T18:57:46.691014Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm" at "2026-05-24T21:05:11.973455Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49347
+56097
 -licensingIpc
 LicenseClient-sopirm
 -job-worker-count
@@ -72,9 +72,9 @@ Successfully changed project path to: /Users/sopirm/ProgramProjects/GolfWHill
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8304193664]  Target information:
 
-Player connection [8304193664]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1735207376 [EditorId] 1735207376 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8304193664]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2117757974 [EditorId] 2117757974 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8304193664]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 1735207376 [EditorId] 1735207376 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8304193664]  * "[IP] 198.18.0.1 [Port] 0 [Flags] 2 [Guid] 2117757974 [EditorId] 2117757974 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-Maks.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8304193664] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8304193664] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -89,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -110,53 +110,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56943
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56182
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              413c48a589c44794a281fb36657dde87
-  Correlation Id:          f8f70b3cb845199ea9ec09c88ed261eb
-  External correlation Id: 4503668021240206631
-  Machine Id:              ddpRgiPHpQ1VYkTtLACzcj+6MRk=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.00s, handshake: 0.42s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-20T18:57:47.114321Z"
-[Licensing::Module] Licensing Background thread has ended after 0.42s
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000553 seconds.
-- Loaded All Assemblies, in  0.214 seconds
+Registered in 0.000298 seconds.
+- Loaded All Assemblies, in  0.212 seconds
 Native extension for OSXStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.215 seconds
-Domain Reload Profiling: 429ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0.261 seconds
+Domain Reload Profiling: 473ms
+	BeginReloadAssembly (77ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (18ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (17ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (82ms)
-		LoadAssemblies (87ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (76ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (81ms)
-			TypeCache.Refresh (79ms)
-				TypeCache.ScanAssembly (71ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (82ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (216ms)
+	FinalizeReload (261ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (191ms)
+		SetupLoadedEditorAssemblies (234ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -166,6 +157,17 @@ Domain Reload Profiling: 429ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              fb7f29685bd04bf5a06e832d250af5f3
+  Correlation Id:          6dc5526dabb508c6d353f8413b8ae7e2
+  External correlation Id: 624903243419900883
+  Machine Id:              ddpRgiPHpQ1VYkTtLACzcj+6MRk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sopirm" (connect: 0.00s, validation: 0.00s, handshake: 1.18s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sopirm-notifications" at "2026-05-24T21:05:13.151972Z"
+[Licensing::Module] Licensing Background thread has ended after 1.18s
+[Licensing::Module] Licensing is initialized (took 0.11s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 10170591166266-UnityPersXXXX
@@ -173,10 +175,10 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.400 seconds
+- Loaded All Assemblies, in  0.570 seconds
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -204,35 +206,35 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.570 seconds
-Domain Reload Profiling: 970ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  0.687 seconds
+Domain Reload Profiling: 1257ms
+	BeginReloadAssembly (182ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (12ms)
+		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (300ms)
-		LoadAssemblies (200ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (205ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (93ms)
-				TypeCache.ScanAssembly (82ms)
-			BuildScriptInfoCaches (28ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (107ms)
+			BuildScriptInfoCaches (39ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (570ms)
+	FinalizeReload (687ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (476ms)
+		SetupLoadedEditorAssemblies (613ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (367ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -245,39 +247,55 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.8f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7445 unused Assets / (5.6 MB). Loaded Objects now: 8283.
-Memory consumption went from 164.2 MB to 158.7 MB.
-Total: 11.501292 ms (FindLiveObjects: 0.594625 ms CreateObjectMapping: 0.141500 ms MarkObjects: 9.492916 ms  DeleteObjects: 1.272084 ms)
+Unloading 9420 unused Assets / (5.8 MB). Loaded Objects now: 10256.
+Memory consumption went from 169.2 MB to 163.4 MB.
+Total: 14.249000 ms (FindLiveObjects: 0.715500 ms CreateObjectMapping: 0.165500 ms MarkObjects: 11.240459 ms  DeleteObjects: 2.127041 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 880.620137 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(b1552b34204c77d499754e3784944037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(b1552b34204c77d499754e3784944037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e2550f69e973c959539c8837c5802cb') in 0.001980459 seconds
+  Time since last request: 92491.313276 seconds.
+  path: Assets/Scripts/Mechanics/EnergyPickup.cs
+  artifactKey: Guid(8cb8bc3f99e574b39959bec652c062d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Mechanics/EnergyPickup.cs using Guid(8cb8bc3f99e574b39959bec652c062d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4b8a67b3748f1b2331e0c092383bc76') in 0.026408375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5913.617365 seconds.
-  path: Assets/Scenes/Main_Multiplayer.unity
-  artifactKey: Guid(e217764831f0d4fc6aaaa4151585dcfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main_Multiplayer.unity using Guid(e217764831f0d4fc6aaaa4151585dcfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c642359e280e4c5cacdd87d6432a21ee') in 0.051796584 seconds
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scripts/Network/RelayManager.cs
+  artifactKey: Guid(4a05618eabd154198946e6fc02948723) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Network/RelayManager.cs using Guid(4a05618eabd154198946e6fc02948723) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3992dd165d32fbd25d592aefb487700') in 0.002467709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Docs/ControlQuestions.txt
+  artifactKey: Guid(4f38773c6db834a6294291f629b6b6ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Docs/ControlQuestions.txt using Guid(4f38773c6db834a6294291f629b6b6ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f5a67b31dafe62f1410741313e982b5') in 0.002046416 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/Mechanics/BalanceConfig.cs
+  artifactKey: Guid(c87637f1370a342d28cd4b2458549386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Mechanics/BalanceConfig.cs using Guid(c87637f1370a342d28cd4b2458549386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62367716b41b4c27309375c9239f1c2e') in 0.00122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-Thread 0x177b1b000 may have been prematurely finalized
+Thread 0x17c307000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.459 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.597 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -304,181 +322,54 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.780 seconds
-Domain Reload Profiling: 1242ms
-	BeginReloadAssembly (149ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+- Finished resetting the current domain, in  0.858 seconds
+Domain Reload Profiling: 1458ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (11ms)
-	LoadAllAssembliesAndSetupDomain (280ms)
-		LoadAssemblies (176ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (231ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (108ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (781ms)
+	FinalizeReload (858ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (544ms)
+		SetupLoadedEditorAssemblies (548ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (372ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7444 unused Assets / (4.9 MB). Loaded Objects now: 8302.
-Memory consumption went from 176.2 MB to 171.3 MB.
-Total: 12.521291 ms (FindLiveObjects: 0.321167 ms CreateObjectMapping: 0.194125 ms MarkObjects: 10.940041 ms  DeleteObjects: 1.065833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7434 unused Assets / (4.0 MB). Loaded Objects now: 8303.
-Memory consumption went from 164.4 MB to 160.4 MB.
-Total: 79.430666 ms (FindLiveObjects: 0.662542 ms CreateObjectMapping: 0.153416 ms MarkObjects: 77.342458 ms  DeleteObjects: 1.272000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7439 unused Assets / (4.0 MB). Loaded Objects now: 8308.
-Memory consumption went from 164.4 MB to 160.4 MB.
-Total: 61.913750 ms (FindLiveObjects: 0.366875 ms CreateObjectMapping: 0.132041 ms MarkObjects: 60.171584 ms  DeleteObjects: 1.242917 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7586 unused Assets / (4.2 MB). Loaded Objects now: 8455.
-Memory consumption went from 164.6 MB to 160.4 MB.
-Total: 16.920333 ms (FindLiveObjects: 0.326167 ms CreateObjectMapping: 0.125875 ms MarkObjects: 15.495000 ms  DeleteObjects: 0.972917 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7586 unused Assets / (4.4 MB). Loaded Objects now: 8455.
-Memory consumption went from 164.6 MB to 160.2 MB.
-Total: 39.928125 ms (FindLiveObjects: 0.402584 ms CreateObjectMapping: 0.169084 ms MarkObjects: 36.770666 ms  DeleteObjects: 2.585333 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 6875.694700 seconds.
-  path: Assets/Scripts/NetworkLauncher.cs
-  artifactKey: Guid(123495bc92a0a4b459f41911862d4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkLauncher.cs using Guid(123495bc92a0a4b459f41911862d4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54addd3b2f4cfe111b5d48b8663f6db6') in 0.004794167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7586 unused Assets / (4.0 MB). Loaded Objects now: 8455.
-Memory consumption went from 164.6 MB to 160.6 MB.
-Total: 13.486417 ms (FindLiveObjects: 1.506167 ms CreateObjectMapping: 0.304000 ms MarkObjects: 10.327333 ms  DeleteObjects: 1.348750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 86.631584 seconds.
-  path: Assets/Scripts/NetworkLauncher.cs
-  artifactKey: Guid(123495bc92a0a4b459f41911862d4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NetworkLauncher.cs using Guid(123495bc92a0a4b459f41911862d4d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7242c96a80c43e36d414dd8cd71bd908') in 0.000385333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 241.405771 seconds.
-  path: Assets/Prefabs/Pickup Blue.prefab
-  artifactKey: Guid(a2723ccdc131c43d795d211e299da534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/Pickup Blue.prefab using Guid(a2723ccdc131c43d795d211e299da534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5a07c1b815d373294bf00ebb87db39a') in 0.084409916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 204
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scenes/Main_Multiplayer.unity
-  artifactKey: Guid(e217764831f0d4fc6aaaa4151585dcfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main_Multiplayer.unity using Guid(e217764831f0d4fc6aaaa4151585dcfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67aed2d0f58561dea72b2f47c7e66780') in 0.006737084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7594 unused Assets / (4.2 MB). Loaded Objects now: 8463.
-Memory consumption went from 164.8 MB to 160.6 MB.
-Total: 37.149417 ms (FindLiveObjects: 0.543500 ms CreateObjectMapping: 0.600000 ms MarkObjects: 34.644375 ms  DeleteObjects: 1.361292 ms)
+Unloading 9418 unused Assets / (4.6 MB). Loaded Objects now: 10275.
+Memory consumption went from 206.2 MB to 201.5 MB.
+Total: 18.884416 ms (FindLiveObjects: 0.407709 ms CreateObjectMapping: 0.176750 ms MarkObjects: 15.910750 ms  DeleteObjects: 2.388458 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting

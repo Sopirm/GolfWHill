@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="AchievementsPanel.uss" />
+    <ui:VisualElement name="achievement-overlay" class="overlay">
+        <ui:ScrollView name="achievement-window-scroll" class="panel-scroll" mode="Vertical">
+            <ui:VisualElement class="panel">
+                <ui:VisualElement class="header-row">
+                    <ui:Label text="Достижения" class="panel-title" />
+                    <ui:Button name="close-button" text="Закрыть" class="close-button" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="section">
+                    <ui:Label text="Метапрогресс" class="section-title" />
+                    <ui:VisualElement class="meta-grid">
+                        <ui:VisualElement class="meta-card">
+                            <ui:Label text="Уровень" class="meta-label" />
+                            <ui:Label name="level-value" text="1" class="meta-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="meta-card">
+                            <ui:Label text="XP" class="meta-label" />
+                            <ui:Label name="xp-value" text="0/100" class="meta-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="meta-card">
+                            <ui:Label text="Монеты" class="meta-label" />
+                            <ui:Label name="currency-value" text="0" class="meta-value" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="section">
+                    <ui:Label text="Статистика достижений" class="section-title" />
+                    <ui:VisualElement class="stats-row">
+                        <ui:Label text="Всего:" class="stats-label" />
+                        <ui:Label name="total-value" text="0" class="stats-value" />
+                        <ui:Label text="Открыто:" class="stats-label" />
+                        <ui:Label name="unlocked-value" text="0" class="stats-value" />
+                        <ui:Label text="Прогресс:" class="stats-label" />
+                        <ui:Label name="completion-value" text="0%" class="stats-value" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="section list-section">
+                    <ui:Label text="Список достижений" class="section-title" />
+                    <ui:VisualElement name="achievement-list" class="achievement-list" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>
