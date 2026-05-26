@@ -9,6 +9,16 @@
                 </ui:VisualElement>
 
                 <ui:VisualElement class="section">
+                    <ui:Label text="Меню панели" class="section-title" />
+                    <ui:VisualElement class="menu-info-card">
+                        <ui:Label text="Платформа" class="menu-info-label" />
+                        <ui:Label name="platform-value" text="PC" class="menu-info-value" />
+                        <ui:Label text="Управление" class="menu-info-label menu-info-spaced" />
+                        <ui:Label name="control-hint-value" text="PC режим: WASD для движения, C для камеры." class="menu-info-hint" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="section">
                     <ui:Label text="Метапрогресс" class="section-title" />
                     <ui:VisualElement class="meta-grid">
                         <ui:VisualElement class="meta-card">

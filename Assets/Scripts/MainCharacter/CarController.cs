@@ -55,6 +55,7 @@ public class CarController : MonoBehaviour
 
     void FixedUpdate()
     {
+        UpdatePlatformMoveInput();
         ApplyMotorForce();
         ApplySteering();
         UpdateWheelMeshes();
@@ -129,5 +130,15 @@ public class CarController : MonoBehaviour
 
         wheelMesh.position = pos;
         wheelMesh.rotation = rot;
+    }
+
+    void UpdatePlatformMoveInput()
+    {
+        if (PlatformInputManager.Instance == null || !PlatformInputManager.Instance.IsMobileInputActive)
+        {
+            return;
+        }
+
+        moveInput = PlatformInputManager.Instance.GetMoveInput();
     }
 }

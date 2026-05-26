@@ -27,6 +27,11 @@ public class RaycastInteractor : MonoBehaviour
 
     void Update()
     {
+        if (PlatformInputManager.Instance != null && PlatformInputManager.Instance.ConsumeInteractPressed())
+        {
+            interactRequested = true;
+        }
+
         if (!interactRequested)
             return;
 

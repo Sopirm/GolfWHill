@@ -40,6 +40,7 @@ public class NetworkPlayer : NetworkBehaviour
     private Vector2 localMoveInput;
     private int currentCameraIndex;
     private bool switchCameraRequested;
+    private Vector2 lastPlatformMoveInput;
 
     private void Awake()
     {
@@ -106,6 +107,7 @@ public class NetworkPlayer : NetworkBehaviour
     {
         if (IsOwner)
         {
+            UpdatePlatformMovementInput();
             HandleCameraSwitchInput();
             ConfigureLocalPlayerPresentation();
         }
@@ -257,6 +259,11 @@ public class NetworkPlayer : NetworkBehaviour
 
     private void HandleCameraSwitchInput()
     {
+        if (PlatformInputManager.Instance != null && PlatformInputManager.Instance.ConsumeSwitchCameraPressed())
+        {
+            switchCameraRequested = true;
+        }
+
         if (!switchCameraRequested || playerCameras == null || playerCameras.Length <= 1)
         {
             return;
@@ -266,6 +273,32 @@ public class NetworkPlayer : NetworkBehaviour
         currentCameraIndex = (currentCameraIndex + 1) % playerCameras.Length;
         ConfigureLocalPlayerPresentation();
         Debug.Log($"Локальный игрок переключил камеру на: {playerCameras[currentCameraIndex].name}");
+    }
+
+    private void UpdatePlatformMovementInput()
+    {
+        if (PlatformInputManager.Instance == null || !PlatformInputManager.Instance.IsMobileInputActive)
+        {
+            return;
+        }
+
+        Vector2 platformMoveInput = PlatformInputManager.Instance.GetMoveInput();
+        if (platformMoveInput == lastPlatformMoveInput)
+        {
+            return;
+        }
+
+        lastPlatformMoveInput = platformMoveInput;
+        localMoveInput = platformMoveInput;
+
+        if (IsOwner && IsServer)
+        {
+            driveInput.Value = localMoveInput;
+        }
+        else if (IsOwner)
+        {
+            SubmitInputServerRpc(localMoveInput);
+        }
     }
 
     private void PublishServerState()

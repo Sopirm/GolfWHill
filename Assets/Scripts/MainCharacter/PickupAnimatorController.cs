@@ -44,6 +44,11 @@ public class PickupAnimatorController : MonoBehaviour
 
     void Update()
     {
+        if (PlatformInputManager.Instance != null && PlatformInputManager.Instance.ConsumeToggleDoorPressed())
+        {
+            toggleDoorRequested = true;
+        }
+
         // Управление анимацией двери
         if (toggleDoorRequested)
         {

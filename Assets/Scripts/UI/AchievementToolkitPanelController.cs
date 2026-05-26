@@ -10,8 +10,11 @@ public class AchievementToolkitPanelController : MonoBehaviour
     [SerializeField] private bool startOpened;
 
     private UIDocument uiDocument;
+    private AdaptiveUIDocument adaptiveUIDocument;
     private VisualElement overlay;
     private ScrollView windowScroll;
+    private Label platformValue;
+    private Label controlHintValue;
     private Label levelValue;
     private Label xpValue;
     private Label currencyValue;
@@ -25,6 +28,7 @@ public class AchievementToolkitPanelController : MonoBehaviour
     private void Awake()
     {
         uiDocument = GetComponent<UIDocument>();
+        adaptiveUIDocument = GetComponent<AdaptiveUIDocument>();
 
         if (playerMetaProgress == null)
         {
@@ -69,6 +73,8 @@ public class AchievementToolkitPanelController : MonoBehaviour
         VisualElement root = uiDocument.rootVisualElement;
         overlay = root.Q<VisualElement>("achievement-overlay");
         windowScroll = root.Q<ScrollView>("achievement-window-scroll");
+        platformValue = root.Q<Label>("platform-value");
+        controlHintValue = root.Q<Label>("control-hint-value");
         levelValue = root.Q<Label>("level-value");
         xpValue = root.Q<Label>("xp-value");
         currencyValue = root.Q<Label>("currency-value");
@@ -125,7 +131,21 @@ public class AchievementToolkitPanelController : MonoBehaviour
     {
         RefreshMetaProgress();
         RefreshStats();
+        RefreshMenuInfo();
         RebuildAchievementList();
+    }
+
+    private void RefreshMenuInfo()
+    {
+        if (platformValue != null)
+        {
+            platformValue.text = adaptiveUIDocument != null ? adaptiveUIDocument.GetPlatformDisplayName() : "PC";
+        }
+
+        if (controlHintValue != null)
+        {
+            controlHintValue.text = GetControlHintText();
+        }
     }
 
     private void RefreshMetaProgress()
@@ -268,5 +288,24 @@ public class AchievementToolkitPanelController : MonoBehaviour
     private void HandleLevelChanged(int level)
     {
         RefreshMetaProgress();
+    }
+
+    private string GetControlHintText()
+    {
+        if (adaptiveUIDocument != null)
+        {
+            string platform = adaptiveUIDocument.GetPlatformDisplayName();
+            if (platform.Contains("Android"))
+            {
+                return "Мобильный режим: используйте джойстик и кнопки Cam / Use / Door / Brake.";
+            }
+
+            if (platform.Contains("WebGL"))
+            {
+                return "WebGL режим: WASD для движения, C для камеры, правая кнопка мыши для взаимодействия.";
+            }
+        }
+
+        return "PC режим: WASD для движения, C для камеры, G для двери, ПКМ для взаимодействия.";
     }
 }

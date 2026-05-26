@@ -37,6 +37,11 @@ public class CameraSwitcher : MonoBehaviour
 
     void Update()
     {
+        if (PlatformInputManager.Instance != null && PlatformInputManager.Instance.ConsumeSwitchCameraPressed())
+        {
+            switchCameraRequested = true;
+        }
+
         if (switchCameraRequested)
         {
             switchCameraRequested = false;
